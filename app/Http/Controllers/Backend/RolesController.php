@@ -1,50 +1,77 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Http\Controllers\Backend;
 
-use App\User;
 use App\Http\Controllers\Controller;
-use Illuminate\Contracts\Support\Renderable;
-use Illuminate\Http\RedirectResponse;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
 
 class RolesController extends Controller
 {
-    public function index(): Renderable
-    {
-        $this->checkAuthorization(auth()->user(), ['role.view']);
+    public $user;
 
-        return view('backend.pages.roles.index', [
-            'roles' => Role::all(),
-        ]);
+
+    public function __construct()
+    {
+        $this->middleware(function ($request, $next) {
+            $this->user = Auth::guard('admin')->user();
+            return $next($request);
+        });
+    }
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        if (is_null($this->user) || !$this->user->can('role.view')) {
+            abort(403, 'Sorry !! You are Unauthorized to view any role !');
+        }
+
+        $roles = Role::all();
+        return view('backend.pages.roles.index', compact('roles'));
     }
 
-    public function create(): Renderable
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
     {
-        $this->checkAuthorization(auth()->user(), ['role.create']);
-
-        return view('backend.pages.roles.create', [
-            'all_permissions' => Permission::all(),
-            'permission_groups' => User::getpermissionGroups(),
-        ]);
+        if (is_null($this->user) || !$this->user->can('role.create')) {
+            abort(403, 'Sorry !! You are Unauthorized to create any role !');
+        }
+        $all_permissions  = Permission::all();
+        $permission_groups = User::getpermissionGroups();
+        return view('backend.pages.roles.create', compact('all_permissions', 'permission_groups'));
     }
 
-    public function store(Request $request): RedirectResponse
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
     {
-        $this->checkAuthorization(auth()->user(), ['role.create']);
+        if (is_null($this->user) || !$this->user->can('role.create')) {
+            abort(403, 'Sorry !! You are Unauthorized to create any role !');
+        }
 
-        // Validation Data.
+        // Validation Data
         $request->validate([
             'name' => 'required|max:100|unique:roles'
         ], [
             'name.requried' => 'Please give a role name'
         ]);
 
-        // Process Data.
+        // Process Data
         $role = Role::create(['name' => $request->name, 'guard_name' => 'admin']);
 
         // $role = DB::table('roles')->where('name', $request->name)->first();
@@ -54,24 +81,51 @@ class RolesController extends Controller
             $role->syncPermissions($permissions);
         }
 
-        session()->flash('success', 'Role has been created.');
-        return redirect()->route('admin.roles.index');
+        session()->flash('success', 'Role has been created !!');
+        return back();
     }
 
-    public function edit(int $id): Renderable
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
     {
-        $this->checkAuthorization(auth()->user(), ['role.edit']);
-
-        return view('backend.pages.roles.edit', [
-            'role' => Role::findById($id, 'admin'),
-            'all_permissions' => Permission::all(),
-            'permission_groups' => User::getpermissionGroups(),
-        ]);
+        //
     }
 
-    public function update(Request $request, int $id): RedirectResponse
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
     {
-        $this->checkAuthorization(auth()->user(), ['role.edit']);
+        if (is_null($this->user) || !$this->user->can('role.edit')) {
+            abort(403, 'Sorry !! You are Unauthorized to edit any role !');
+        }
+
+        $role = Role::findById($id, 'admin');
+        $all_permissions = Permission::all();
+        $permission_groups = User::getpermissionGroups();
+        return view('backend.pages.roles.edit', compact('role', 'all_permissions', 'permission_groups'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        if (is_null($this->user) || !$this->user->can('role.edit')) {
+            abort(403, 'Sorry !! You are Unauthorized to edit any role !');
+        }
 
         // Validation Data
         $request->validate([
@@ -89,22 +143,29 @@ class RolesController extends Controller
             $role->syncPermissions($permissions);
         }
 
-        session()->flash('success', 'Role has been updated.');
+        session()->flash('success', 'Role has been updated !!');
         return back();
     }
 
-    public function destroy(int $id): RedirectResponse
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
     {
-        $this->checkAuthorization(auth()->user(), ['role.delete']);
-
-        $role = Role::findById($id, 'admin');
-        if (!$role) {
-            session()->flash('error', 'Role not found.');
-            return back();
+        if (is_null($this->user) || !$this->user->can('role.delete')) {
+            abort(403, 'Sorry !! You are Unauthorized to delete any role !');
         }
 
-        $role->delete();
-        session()->flash('success', 'Role has been deleted.');
-        return redirect()->route('admin.roles.index');
+
+        $role = Role::findById($id, 'admin');
+        if (!is_null($role)) {
+            $role->delete();
+        }
+
+        session()->flash('success', 'Role has been deleted !!');
+        return back();
     }
 }

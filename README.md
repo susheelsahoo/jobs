@@ -1,27 +1,11 @@
-# Laravel Role Permission Management System - Laravel `11.x`
+# Laravel Role Permission Management System - Laravel 7.x
 
 A project which manage Role, Permissions and every actions of your Laravel application. A complete solution for Role based Access Control in Laravel.
 
-**Demo:** http://localhost:8000
-```
-Username - superadmin
-password - 12345678
-```
-
 ## Requirements:
-- Laravel `7.x` | `9.7` | `11.x`
-- Spatie role permission package  `^6.4`
+- Laravel `7.x`
+- Spatie role permission package  `3.1.3`
 
-## Versions:
-- Laravel `7.x` & PHP -`7.x`
-    - Tag - https://github.com/ManiruzzamanAkash/laravel-role/releases/tag/Laravel7.x
-    - Branch - https://github.com/ManiruzzamanAkash/laravel-role/tree/Laravel7.x
-
-- Laravel `9.7` & PHP - `8.x`
-    - Tag - https://github.com/ManiruzzamanAkash/laravel-role/releases/tag/Laravel9.x
-
-- Laravel `11.x`
-    - Tag - https://github.com/ManiruzzamanAkash/laravel-role/releases/tag/Laravel11.x
 
 ## Project Setup
 Git clone -
@@ -29,7 +13,7 @@ Git clone -
 git clone https://github.com/ManiruzzamanAkash/laravel-role.git
 ```
 
-Go to project folder -
+Go to folder -
 ```console
 cd laravel-role
 ```
@@ -53,10 +37,7 @@ Migrate Database with seeder -
 php artisan migrate --seed
 ```
 
-Run Project -
-```php
-php artisan serve
-```
+Run Project - `php artisan serve`
 
 Since, there is any problem to seeder, Please import the .sql file directly - https://github.com/ManiruzzamanAkash/laravel-role/blob/master/database/sql/laravel_role.sql
 
@@ -78,8 +59,7 @@ https://devsenv.com/tutorials/laravel-role-permission-management-system-full-exa
 
 
 
-### Login & Dashboard Page
-![alt text][adminLoginImage]
+### Dashboard Page
 ![alt text][dashboardImage]
 
 ### Role Pages
@@ -97,6 +77,8 @@ Admin Create
 ![alt text][adminCreateImage]
 
 ### Other Pages
+Login Page
+![alt text][adminLoginImage]
 Custom Error Pages
 ![alt text][errorPageImage]
 Dynamic Sidebar Manage

@@ -83,8 +83,6 @@ class RolePermissionSeeder extends Seeder
                     // profile Permissions
                     'profile.view',
                     'profile.edit',
-                    'profile.delete',
-                    'profile.update',
                 ]
             ],
         ];
@@ -101,47 +99,24 @@ class RolePermissionSeeder extends Seeder
         //     }
         // }
 
-        // Do same for the admin guard for tutorial purposes.
-        $admin = Admin::where('username', 'superadmin')->first();
-        $roleSuperAdmin = $this->maybeCreateSuperAdminRole($admin);
+        // Do same for the admin guard for tutorial purposes
+        $roleSuperAdmin = Role::create(['name' => 'superadmin', 'guard_name' => 'admin']);
 
         // Create and Assign Permissions
         for ($i = 0; $i < count($permissions); $i++) {
             $permissionGroup = $permissions[$i]['group_name'];
             for ($j = 0; $j < count($permissions[$i]['permissions']); $j++) {
-                $permissionExist = Permission::where('name', $permissions[$i]['permissions'][$j])->first();
-                if (is_null($permissionExist)) {
-                    $permission = Permission::create(
-                        [
-                            'name' => $permissions[$i]['permissions'][$j],
-                            'group_name' => $permissionGroup,
-                            'guard_name' => 'admin'
-                        ]
-                    );
-                    $roleSuperAdmin->givePermissionTo($permission);
-                    $permission->assignRole($roleSuperAdmin);
-                }
+                // Create Permission
+                $permission = Permission::create(['name' => $permissions[$i]['permissions'][$j], 'group_name' => $permissionGroup, 'guard_name' => 'admin']);
+                $roleSuperAdmin->givePermissionTo($permission);
+                $permission->assignRole($roleSuperAdmin);
             }
         }
 
         // Assign super admin role permission to superadmin user
+        $admin = Admin::where('username', 'superadmin')->first();
         if ($admin) {
             $admin->assignRole($roleSuperAdmin);
         }
-    }
-
-    private function maybeCreateSuperAdminRole($admin): Role
-    {
-        if (is_null($admin)) {
-            $roleSuperAdmin = Role::create(['name' => 'superadmin', 'guard_name' => 'admin']);
-        } else {
-            $roleSuperAdmin = Role::where('name', 'superadmin')->where('guard_name', 'admin')->first();
-        }
-
-        if (is_null($roleSuperAdmin)) {
-            $roleSuperAdmin = Role::create(['name' => 'superadmin', 'guard_name' => 'admin']);
-        }
-
-        return $roleSuperAdmin;
     }
 }

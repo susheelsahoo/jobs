@@ -1,40 +1,71 @@
 <?php
 
-declare(strict_types=1);
-
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Admin;
-use Illuminate\Contracts\Support\Renderable;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\Permission;
 
 class AdminsController extends Controller
 {
-    public function index(): Renderable
+    public $user;
+
+    public function __construct()
     {
-        $this->checkAuthorization(auth()->user(), ['admin.view']);
+        $this->middleware(function ($request, $next) {
+            $this->user = Auth::guard('admin')->user();
+            return $next($request);
+        });
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        if (is_null($this->user) || !$this->user->can('admin.view')) {
+            abort(403, 'Sorry !! You are Unauthorized to view any admin !');
+        }
 
         $admins = Admin::all();
         return view('backend.pages.admins.index', compact('admins'));
     }
 
-    public function create(): Renderable
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
     {
-        $this->checkAuthorization(auth()->user(), ['admin.create']);
+        if (is_null($this->user) || !$this->user->can('admin.create')) {
+            abort(403, 'Sorry !! You are Unauthorized to create any admin !');
+        }
 
-        $roles = Role::all();
+        $roles  = Role::all();
         return view('backend.pages.admins.create', compact('roles'));
     }
 
-    public function store(Request $request): RedirectResponse
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
     {
-        $this->checkAuthorization(auth()->user(), ['admin.create']);
+        if (is_null($this->user) || !$this->user->can('admin.create')) {
+            abort(403, 'Sorry !! You are Unauthorized to create any admin !');
+        }
 
-        // Validation Data.
+        // Validation Data
         $request->validate([
             'name' => 'required|max:50',
             'email' => 'required|max:100|email|unique:admins',
@@ -42,7 +73,7 @@ class AdminsController extends Controller
             'password' => 'required|min:6|confirmed',
         ]);
 
-        // Create New Admin.
+        // Create New Admin
         $admin = new Admin();
         $admin->name = $request->name;
         $admin->username = $request->username;
@@ -54,33 +85,61 @@ class AdminsController extends Controller
             $admin->assignRole($request->roles);
         }
 
-        session()->flash('success', __('Admin has been created.'));
+        session()->flash('success', 'Admin has been created !!');
         return redirect()->route('admin.admins.index');
     }
 
-    public function edit(int $id): Renderable
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
     {
-        $this->checkAuthorization(auth()->user(), ['admin.edit']);
-
-        return view('backend.pages.admins.edit', [
-            'admin' => Admin::find($id),
-            'roles' => Role::all(),
-        ]);
+        //
     }
 
-    public function update(Request $request, int $id): RedirectResponse
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
     {
-        $this->checkAuthorization(auth()->user(), ['admin.edit']);
+        if (is_null($this->user) || !$this->user->can('admin.edit')) {
+            abort(403, 'Sorry !! You are Unauthorized to edit any admin !');
+        }
 
-        // Create New Admin.
+        $admin = Admin::find($id);
+        $roles  = Role::all();
+        return view('backend.pages.admins.edit', compact('admin', 'roles'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        if (is_null($this->user) || !$this->user->can('admin.edit')) {
+            abort(403, 'Sorry !! You are Unauthorized to edit any admin !');
+        }
+
+        // Create New Admin
         $admin = Admin::find($id);
 
-        // Validation Data.
+        // Validation Data
         $request->validate([
             'name' => 'required|max:50',
             'email' => 'required|max:100|email|unique:admins,email,' . $id,
             'password' => 'nullable|min:6|confirmed',
         ]);
+
 
         $admin->name = $request->name;
         $admin->email = $request->email;
@@ -95,22 +154,28 @@ class AdminsController extends Controller
             $admin->assignRole($request->roles);
         }
 
-        session()->flash('success', 'Admin has been updated.');
+        session()->flash('success', 'Admin has been updated !!');
         return back();
     }
 
-    public function destroy(int $id): RedirectResponse
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
     {
-        $this->checkAuthorization(auth()->user(), ['admin.delete']);
-
-        $admin = Admin::find($id);
-        if (!$admin) {
-            session()->flash('error', 'Admin not found.');
-            return back();
+        if (is_null($this->user) || !$this->user->can('admin.delete')) {
+            abort(403, 'Sorry !! You are Unauthorized to delete any admin !');
         }
 
-        $admin->delete();
-        session()->flash('success', 'Admin has been deleted.');
+        $admin = Admin::find($id);
+        if (!is_null($admin)) {
+            $admin->delete();
+        }
+
+        session()->flash('success', 'Admin has been deleted !!');
         return back();
     }
 }
