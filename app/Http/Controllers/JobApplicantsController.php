@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\jobApplicants;
+use App\Models\jobApplicants;
 use Illuminate\Http\Request;
 
 class JobApplicantsController extends Controller
@@ -26,7 +26,7 @@ class JobApplicantsController extends Controller
     public function create()
     {
         $jobs = '';
-        return view('frontend.pages.jobs.index', compact('jobs'));
+        return view('frontend.pages.jobs.create', compact('jobs'));
     }
 
     /**
@@ -37,7 +37,24 @@ class JobApplicantsController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->name);
+
+        // $request->validate([
+        //     'name' => 'required|max:50',
+        //     'email' => 'required|max:100|email|unique:users',
+        //     'password' => 'required|min:6|confirmed',
+        // ]);
+
+        // Create New User
+        $jobApplicants = new jobApplicants();
+        $jobApplicants->registration_number = $request->registration_number;
+        $jobApplicants->job_id = '0';
+        $jobApplicants->position = $request->position;
+        $jobApplicants->status = '1';
+        $jobApplicants->save();
+
+
+        session()->flash('success', 'User has been created !!');
+        return redirect()->route('jobs.index');
     }
 
     /**

@@ -35,8 +35,8 @@ Job Application
 <div class="mid-bg py-4">
     <div class="container">
         <form action="{{ route('jobs.store') }}" method="POST">
+            @csrf
             <div class="row  ">
-
                 <div class=" col-md-12 right-section   mb-4 ">
                     <div class="text-right text-danger mb-3"> '<span class="font-weight-bold">*</span>' Fields are Mandatory</div>
                     <div class="card rounded-0 shadow-sm border-0">
@@ -47,7 +47,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Post Applied for</label>
-                                        <input class="form-control" name="position" type="text" placeholder="Accountant" readonly>
+                                        <input class="form-control" name="position" type="text" value="Accountant" readonly>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Prefered Location 1 <span class="text-danger">*</span></label>
