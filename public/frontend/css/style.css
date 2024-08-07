@@ -4,7 +4,7 @@ body {font-family: 'Roboto', sans-serif;color: #333333;font-size: 15px;}
 .theme-bg {	background: #853282;}
 .theme-color {	color: #853282;}
 .main-heading {	font-size: 30px;}
-ul {list-style-type: none;	padding-left: 0px;}
+ul {list-style-type: square;	padding-left: 20px;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {	margin-bottom: 0px;	font-weight: 400;}
 p {	line-height: 23px;		-webkit-font-smoothing: antialiased;	-moz-osx-font-smoothing: grayscale;}
 a, a:hover{text-decoration: none;}
@@ -36,6 +36,7 @@ nav.navbar {background: #303c4c;}
 /* start slider */
 
 .slider {background-color: #2782af;	margin-top: 101px;	position: relative;	height: 100%;}
+.main-margin {margin-top: 112px;	position: relative;	height: 100%;}
 .slider-inner-banner {object-fit: cover;height: 100%;width: 100%;min-height: 500px;	background-image: url(../images/slide1.jpg);background-size: cover;	background-repeat: no-repeat;}
 .search-box {position: absolute;	background: rgba(45, 28, 50, 0.71);	display: flex;	flex-direction: column;	height: 100%;	justify-content: center;	align-items: center;	width: 100%;	padding: 0 0px;}
 .font-13 {font-size: 13px;}
@@ -73,7 +74,7 @@ nav.navbar {background: #303c4c;}
 .review-box  h5{font-size: 14px;}
 
 /* end mid home*/
-
+.padding-t1 {padding-top: 3px;}
 
 /*STarT LOgin*/
 

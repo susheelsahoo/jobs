@@ -22,7 +22,15 @@ Auth::routes();
 
 // Route::get('/', 'HomeController@index')->name('index');
 Route::get('/login', 'HomeController@redirectAdmin')->name('login');
-Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
+// Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
+Route::get('/', 'JobApplicantsController@intro', ['names' => 'intro']);
+Route::get('/landing', 'JobApplicantsController@landing')->name('jobs.landing');
+Route::get('/career', 'JobApplicantsController@career')->name('jobs.career');
+Route::get('/rules', 'JobApplicantsController@rules')->name('jobs.rules');
+// Route::get('/termsCondition', 'JobApplicantsController@termsCondition')->name('jobs.rules');
+Route::get('/apply-now', 'JobApplicantsController@applyNow')->name('jobs.applyNow');
+Route::post('/store', 'JobApplicantsController@store')->name('jobs.store');
+Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jobs.thankYou');
 /**
  * Admin routes
  */
