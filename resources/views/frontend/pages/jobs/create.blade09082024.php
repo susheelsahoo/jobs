@@ -34,7 +34,7 @@ Job Application
 
 <div class="mid-bg py-4">
     <div class="container">
-        <form action="{{ route('jobs.store') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('jobs.store') }}" method="POST">
             @csrf
             <div class="row  ">
                 <div class=" col-md-12 right-section   mb-4 ">
