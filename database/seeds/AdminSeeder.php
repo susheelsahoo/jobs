@@ -23,5 +23,16 @@ class AdminSeeder extends Seeder
             $admin->password = Hash::make('12345678');
             $admin->save();
         }
+
+        $admin = Admin::where('username', 'manager')->first();
+
+        if (is_null($admin)) {
+            $admin           = new Admin();
+            $admin->name     = "Manager";
+            $admin->email    = "info@vigilantindia.com";
+            $admin->username = "manager";
+            $admin->password = Hash::make('Vigi#2024');
+            $admin->save();
+        }
     }
 }
