@@ -1,9 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\SendEmail;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,15 +22,6 @@ Auth::routes();
 
 // Route::get('/', 'HomeController@index')->name('index');
 Route::get('/login', 'HomeController@redirectAdmin')->name('login');
-Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
-
-Route::get('send-mail', function () {
-    $details = ['body' => 'This is for testing email using smtp','from'=> 'jobs@vigilantindia.com','subject'=> 'New Application for : Accountant'];
-    Mail::to('ashwini.burgeon@gmail.com')->send(new SendEmail($details));
-    dd("Email is Sent.");
-});
-
-
 // Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
 Route::get('/', 'JobApplicantsController@intro', ['names' => 'intro']);
 Route::get('/landing', 'JobApplicantsController@landing')->name('jobs.landing');
@@ -50,9 +38,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('/', 'Backend\DashboardController@index')->name('admin.dashboard');
     Route::resource('roles', 'Backend\RolesController', ['names' => 'admin.roles']);
     Route::resource('users', 'Backend\UsersController', ['names' => 'admin.users']);
-    Route::resource('careers', 'Backend\CareersController', ['names' => 'admin.careers']);
     Route::resource('admins', 'Backend\AdminsController', ['names' => 'admin.admins']);
-    Route::resource('jobsapplication', 'Backend\JobApplicationController', ['names' => 'admin.jobsapplication']);
 
 
     // Login Routes
