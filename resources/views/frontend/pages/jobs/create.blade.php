@@ -131,12 +131,12 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Name <span class="text-danger">*</span> (as per Aadhaar Card) :</label>
-                                        <input type="text" name="applicant_name" value="susheel Sahoo" placeholder="Applicant Name" class="form-control">
+                                        <input type="text" name="applicant_name" required placeholder="Applicant Name" class="form-control">
 
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Aadhaar Card No. <span class="text-danger">*</span> :</label>
-                                        <input type="number" name="aadhaar_card_no" value="98765432198765" placeholder="Aadhaar Card Number" class="form-control">
+                                        <input type="number" name="aadhaar_card_no" required placeholder="Aadhaar Card Number" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -144,12 +144,12 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> PAN Card No. <span class="text-danger">*</span> : </label>
-                                        <input type="text" name="pan_card_no" value="GUMPS8778C" placeholder="PAN Card Number" class="form-control">
+                                        <input type="text" name="pan_card_no" required placeholder="PAN Card Number" class="form-control">
 
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Date of Birth ( as per AADHAR CARD ) <span class="text-danger">*</span> : </label>
-                                        <input type="date" name="dob" value="2024-01-01" aria-label="Last name" placeholder="Date of Birth" class="form-control">
+                                        <input type="date" name="dob" required aria-label="Last name" placeholder="Date of Birth" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ Job Application
                                         <div class="input-group   ">
                                             <input type="text" name="birth_place" class="form-control  " placeholder="Birth Place">
                                             <div class="input-group-append btn-sm p-0">
-                                                <select id="birth_state" name="birth_state" class="form-control">
+                                                <select id="birth_state" name="birth_state" class="form-control" required>
                                                     <option value="">--State--</option>
                                                     <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -170,7 +170,7 @@ Job Application
                                                     <option value="Chhattisgarh">Chhattisgarh</option>
                                                     <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
                                                     <option value="Daman and Diu">Daman and Diu</option>
-                                                    <option selected value="Delhi">Delhi</option>
+                                                    <option value="Delhi">Delhi</option>
                                                     <option value="Goa">Goa</option>
                                                     <option value="Gujarat">Gujarat</option>
                                                     <option value="Haryana">Haryana</option>
@@ -204,11 +204,11 @@ Job Application
                                         <label for="inputState"> Gender <span class="text-danger">*</span> : </label>
                                         <div class="row">
                                             <div class="col-5 col-md-4 mt-1">
-                                                <input type="radio" id="male" name="gender" value="male">
+                                                <input type="radio" id="male" name="gender" value="male" required>
                                                 <label for="male">Male</label>
                                             </div>
                                             <div class="col-7 col-md-4 mt-1">
-                                                <input type="radio" id="Female" name="gender" value="Female">
+                                                <input type="radio" id="Female" name="gender" value="Female" required>
                                                 <label for="female">Female</label>
                                             </div>
                                         </div>
@@ -222,7 +222,7 @@ Job Application
                                         <label for="inputState">Physically Challenged <span class="text-danger">*</span> :</label>
                                         <div class="input-group ">
                                             <div class="input-group-append btn-sm p-0 w-100">
-                                                <select id="inputState" name="physically_challenged" class="form-control col-4">
+                                                <select id="inputState" name="physically_challenged" class="form-control col-4" required>
                                                     <option value="no">No</option>
                                                     <option value="yes">Yes</option>
                                                 </select>
@@ -271,7 +271,7 @@ Job Application
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Nationality <span class="text-danger">*</span> : </label>
-                                        <select name="nationality" class="form-control">
+                                        <select name="nationality" class="form-control" required>
                                             <option value="">-- select one --</option>
                                             <option value="afghan">Afghan</option>
                                             <option value="albanian">Albanian</option>
@@ -473,12 +473,12 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Address <span class="text-danger">*</span>( with PIN Code ) :</label>
-                                        <input type="text" name="address" value="Noida extention" aria-label="Last name" placeholder="Address" class="form-control">
+                                        <input type="text" name="address" required aria-label="Last name" placeholder="Address" class="form-control">
 
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">City<span class="text-danger">*</span> :</label>
-                                        <input type="text" name="city" value="Noida" aria-label="Last name" placeholder="City" class="form-control">
+                                        <input type="text" name="city" required aria-label="Last name" placeholder="City" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -486,7 +486,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="state">State <span class="text-danger">*</span> :</label>
-                                        <select id="state" name="state" class="form-control">
+                                        <select id="state" name="state" class="form-control" required>
                                             <option value="AP">Andhra Pradesh</option>
                                             <option value="AR">Arunachal Pradesh</option>
                                             <option value="AS">Assam</option>
@@ -527,7 +527,7 @@ Job Application
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="marital_status">Marital Status <span class="text-danger">*</span> :</label>
-                                        <select id="marital_status" name="marital_status" class="form-control">
+                                        <select id="marital_status" name="marital_status" class="form-control" required>
                                             <option>Single </option>
                                             <option>Married </option>
                                             <option>Separated </option>
@@ -541,7 +541,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="father_name">Father's Name <span class="text-danger">*</span>(as per Aadhaar Card) :</label>
-                                        <input type="text" name="father_name" value="NR Sahu" aria-label="Last name" placeholder="Father's Name" class="form-control">
+                                        <input type="text" name="father_name" required aria-label="Last name" placeholder="Father's Name" class="form-control">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="husband_wife">Husband / Wife Name(as per Aadhaar Card) :</label>
@@ -553,15 +553,15 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-4">
                                         <label for="phone_number">Phone Number <span class="text-danger">*</span>:</label>
-                                        <input type="number" name="phone_number" value="9876543211" placeholder="Phone Number" class="form-control">
+                                        <input type="number" name="phone_number" required placeholder="Phone Number" class="form-control">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="contact_number1">Contact Number_1 :</label>
-                                        <input type="number" name="contact_number1" value="987654321" placeholder=" Contact Number_1" class="form-control">
+                                        <input type="number" name="contact_number1" placeholder=" Contact Number_1" class="form-control">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="contact_number2">Contact Number_2 :</label>
-                                        <input type="number" name="contact_number2" value="987654321" placeholder=" Contact Number_2" class="form-control">
+                                        <input type="number" name="contact_number2" placeholder=" Contact Number_2" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -569,16 +569,16 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-4">
                                         <label for="email">E-Mail address<span class="text-danger">*</span>:</label>
-                                        <input type="text" name="email" value="susheelcs24@gmail.com" placeholder="E-Mail address" class="form-control">
+                                        <input type="text" name="email" required placeholder="E-Mail address" class="form-control">
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="uan_number">Previous UAN Number :</label>
-                                        <input type="text" name="uan_number" value="98765665" placeholder=" Previous UAN Number" class="form-control">
+                                        <input type="text" name="uan_number" placeholder=" Previous UAN Number" class="form-control">
 
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="esi_number">Previous ESIC Number :</label>
-                                        <input type="text" name="esi_number" value="ESI91919" placeholder="Previous ESIC Number" class="form-control">
+                                        <input type="text" name="esi_number" placeholder="Previous ESIC Number" class="form-control">
                                     </div>
                                 </div>
                             </div>
@@ -597,7 +597,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Registration No. : </label>
-                                        <input class="form-control" name="registration_number" value="EP01010" type="text" placeholder="Registration No">
+                                        <input class="form-control" name="registration_number" type="text" placeholder="Registration No">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Date of Registration : </label>
@@ -609,11 +609,11 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Name of registered Faculty/Council : </label>
-                                        <input class="form-control" name="name_of_registered_faculty" value="HS999" type="text" placeholder="Name of registered Faculty/Council">
+                                        <input class="form-control" name="name_of_registered_faculty" type="text" placeholder="Name of registered Faculty/Council">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Name of Degree : </label>
-                                        <input class="form-control" name="degree" value="Btech" type="text" placeholder="Name of Degree  ">
+                                        <input class="form-control" name="degree" type="text" placeholder="Name of Degree  ">
                                     </div>
                                     <div class="form-group col-md-12 mt-3">
                                         <label for="inputState">Uttarakhand Medical/Nursing/Paramedical/Pharmacy Council/Faculty Registration Certificate : </label>
@@ -715,7 +715,7 @@ Job Application
                             <div class="clearfix"></div>
                             <div class="heading2 pb-2 border-bottom mb-4"> Professional Experience Details <span class="text-danger h6">( Latest Experience at the Top )
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" name="professional_exp" value="no" class="custom-control-input" id="customCheck1">
+                                        <input type="checkbox" name="professional_exp" class="custom-control-input" id="customCheck1">
                                         <label class="custom-control-label padding-t1 text-primary" for="customCheck1 ">Not Working Presently</label>
                                     </div>
                                 </span>
