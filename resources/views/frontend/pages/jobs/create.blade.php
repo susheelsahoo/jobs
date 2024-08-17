@@ -596,8 +596,8 @@ Job Application
                             <div class="mt-3">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <label for="inputState">Registration No. : </label>
-                                        <input class="form-control" name="registration_number" type="text" placeholder="Registration No">
+                                        <label for="inputState">Registration No. <span class="text-danger">*</span>:</label>
+                                        <input class="form-control" name="registration_number" type="text" placeholder="Registration No" required>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Date of Registration : </label>
@@ -715,8 +715,8 @@ Job Application
                             <div class="clearfix"></div>
                             <div class="heading2 pb-2 border-bottom mb-4"> Professional Experience Details <span class="text-danger h6">( Latest Experience at the Top )
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" name="professional_exp" class="custom-control-input" id="customCheck1">
-                                        <label class="custom-control-label padding-t1 text-primary" for="customCheck1 ">Not Working Presently</label>
+                                        <input type="checkbox" id="professional_exp" name="professional_exp" value="Not Working Presently">
+                                        <label for="professional_exp"> Not Working Presently</label>
                                     </div>
                                 </span>
                             </div>
@@ -770,7 +770,7 @@ Job Application
                                             </table>
                                         </div>
                                         <div class="mt-3">
-                                            Total Experience (Years, Month) :- <span class="text-info">0</span> Years <span class="text-info">0</span> Months
+                                            <!-- Total Experience (Years, Month) :- <span class="text-info">0</span> Years <span class="text-info">0</span> Months -->
                                         </div>
                                     </div>
                                 </div>

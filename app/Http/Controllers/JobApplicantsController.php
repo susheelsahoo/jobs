@@ -157,20 +157,20 @@ class JobApplicantsController extends Controller
             $exp_latter = $fileName;
         }
 
-        if ($request->file('exp_latter')) {
-            $prefered_location =  str_replace(" ", "_", $request->prefered_location_1);
-            $position =  str_replace(" ", "_", $request->position);
-            $phone = str_replace(" ", "_", $request->phone_number);
-            $this_path = 'app/public/upload/' . $prefered_location . '/' . $position . '/' . $phone;
-            if (!file_exists(storage_path($this_path))) {
-                mkdir(storage_path($this_path));
-            }
-            $file = $request->file('exp_latter')->getClientOriginalName();
-            $filename = pathinfo($file, PATHINFO_FILENAME);
-            $fileName  = str_replace(" ", "_", $filename) . '_' . time() . '.' . $request->file('exp_latter')->getClientOriginalExtension();
-            $request->file('exp_latter')->move($this_path, $fileName);
-            $exp_latter = $fileName;
-        }
+        // if ($request->file('exp_latter')) {
+        //     $prefered_location =  str_replace(" ", "_", $request->prefered_location_1);
+        //     $position =  str_replace(" ", "_", $request->position);
+        //     $phone = str_replace(" ", "_", $request->phone_number);
+        //     $this_path = 'app/public/upload/' . $prefered_location . '/' . $position . '/' . $phone;
+        //     if (!file_exists(storage_path($this_path))) {
+        //         mkdir(storage_path($this_path));
+        //     }
+        //     $file = $request->file('exp_latter')->getClientOriginalName();
+        //     $filename = pathinfo($file, PATHINFO_FILENAME);
+        //     $fileName  = str_replace(" ", "_", $filename) . '_' . time() . '.' . $request->file('exp_latter')->getClientOriginalExtension();
+        //     $request->file('exp_latter')->move($this_path, $fileName);
+        //     $exp_latter = $fileName;
+        // }
 
         if ($request->file('registration_certificate')) {
             $prefered_location =  str_replace(" ", "_", $request->prefered_location_1);
@@ -186,6 +186,8 @@ class JobApplicantsController extends Controller
             $request->file('registration_certificate')->move($this_path, $fileName);
             $registration_certificate = $fileName;
         }
+
+
 
         $jobApplicants = new jobApplicants();
         $jobApplicants->position  = $request->position ?? null;
@@ -271,8 +273,8 @@ class JobApplicantsController extends Controller
             'from' => 'jobs@vigilantindia.com',
             'subject' => 'New Application received for : ' . $request->position
         ];
-        Mail::to('info@vigilantindia.com')->send(new SendEmail($details));
 
+        Mail::to('info@vigilantindia.com')->send(new SendEmail($details));
         session()->flash('success', 'Application has been saved successfully !!');
 
         return redirect()->route('jobs.thankYou');
