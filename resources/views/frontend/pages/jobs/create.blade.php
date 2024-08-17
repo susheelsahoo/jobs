@@ -54,7 +54,7 @@ Job Application
                                         <select id="inputState" name="prefered_location_1" class="form-control">
                                             <option value="--Select--">--Select--</option>
                                             <option value="All">All</option>
-                                            <option value="ACCALM-Almora" Selected>ACCALM-Almora</option>
+                                            <option value="ACCALM-Almora">ACCALM-Almora</option>
                                             <option value="ACCBAG-Bageshwar">ACCBAG-Bageshwar</option>
                                             <option value="ACCCHA-Chamoli">ACCCHA-Chamoli</option>
                                             <option value="ACCCHM-Champawat">ACCCHM-Champawat</option>
@@ -80,7 +80,7 @@ Job Application
                                             <option value="--Select--">--Select--</option>
                                             <option value="All">All</option>
                                             <option value="ACCALM-Almora">ACCALM-Almora</option>
-                                            <option value="ACCBAG-Bageshwar" Selected>ACCBAG-Bageshwar</option>
+                                            <option value="ACCBAG-Bageshwar">ACCBAG-Bageshwar</option>
                                             <option value="ACCCHA-Chamoli">ACCCHA-Chamoli</option>
                                             <option value="ACCCHM-Champawat">ACCCHM-Champawat</option>
                                             <option value="ACCDEH-Dehradun">ACCDEH-Dehradun</option>
@@ -101,7 +101,7 @@ Job Application
                                             <option value="All">All</option>
                                             <option value="ACCALM-Almora">ACCALM-Almora</option>
                                             <option value="ACCBAG-Bageshwar">ACCBAG-Bageshwar</option>
-                                            <option value="ACCCHA-Chamoli" Selected>ACCCHA-Chamoli</option>
+                                            <option value="ACCCHA-Chamoli">ACCCHA-Chamoli</option>
                                             <option value="ACCCHM-Champawat">ACCCHM-Champawat</option>
                                             <option value="ACCDEH-Dehradun">ACCDEH-Dehradun</option>
                                             <option value="ACCHAR-Haridwar">ACCHAR-Haridwar</option>
@@ -131,12 +131,12 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Name <span class="text-danger">*</span> (as per Aadhaar Card) :</label>
-                                        <input type="text" name="applicant_name" required placeholder="Applicant Name" class="form-control">
+                                        <input type="text" name="applicant_name" placeholder="Applicant Name" class="form-control" required>
 
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Aadhaar Card No. <span class="text-danger">*</span> :</label>
-                                        <input type="number" name="aadhaar_card_no" required placeholder="Aadhaar Card Number" class="form-control">
+                                        <input type="number" name="aadhaar_card_no" placeholder="Aadhaar Card Number" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
@@ -144,12 +144,12 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> PAN Card No. <span class="text-danger">*</span> : </label>
-                                        <input type="text" name="pan_card_no" required placeholder="PAN Card Number" class="form-control">
+                                        <input type="text" name="pan_card_no" placeholder="PAN Card Number" class="form-control" required>
 
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Date of Birth ( as per AADHAR CARD ) <span class="text-danger">*</span> : </label>
-                                        <input type="date" name="dob" required aria-label="Last name" placeholder="Date of Birth" class="form-control">
+                                        <input type="date" name="dob" aria-label="Last name" placeholder="Date of Birth" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
@@ -473,12 +473,12 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Address <span class="text-danger">*</span>( with PIN Code ) :</label>
-                                        <input type="text" name="address" required aria-label="Last name" placeholder="Address" class="form-control">
+                                        <input type="text" name="address" aria-label="Last name" placeholder="Address" class="form-control" required>
 
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">City<span class="text-danger">*</span> :</label>
-                                        <input type="text" name="city" required aria-label="Last name" placeholder="City" class="form-control">
+                                        <input type="text" name="city" aria-label="Last name" placeholder="City" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
@@ -541,7 +541,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="father_name">Father's Name <span class="text-danger">*</span>(as per Aadhaar Card) :</label>
-                                        <input type="text" name="father_name" required aria-label="Last name" placeholder="Father's Name" class="form-control">
+                                        <input type="text" name="father_name" aria-label="Last name" placeholder="Father's Name" class="form-control" required>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="husband_wife">Husband / Wife Name(as per Aadhaar Card) :</label>
@@ -553,7 +553,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-4">
                                         <label for="phone_number">Phone Number <span class="text-danger">*</span>:</label>
-                                        <input type="number" name="phone_number" required placeholder="Phone Number" class="form-control">
+                                        <input type="number" name="phone_number" placeholder="Phone Number" class="form-control" required>
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="contact_number1">Contact Number_1 :</label>
@@ -569,7 +569,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-4">
                                         <label for="email">E-Mail address<span class="text-danger">*</span>:</label>
-                                        <input type="text" name="email" required placeholder="E-Mail address" class="form-control">
+                                        <input type="text" name="email" placeholder="E-Mail address" class="form-control" required>
                                     </div>
                                     <div class="form-group col-md-4">
                                         <label for="uan_number">Previous UAN Number :</label>
