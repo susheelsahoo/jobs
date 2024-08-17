@@ -51,7 +51,7 @@ Job Application
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Prefered Location 1 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_1" class="form-control">
+                                        <select id="inputState" name="prefered_location_1" class="form-control" required>
                                             <option value="--Select--">--Select--</option>
                                             <option value="All">All</option>
                                             <option value="ACCALM-Almora">ACCALM-Almora</option>
@@ -76,7 +76,7 @@ Job Application
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Prefered Location 2 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_2" class="form-control">
+                                        <select id="inputState" name="prefered_location_2" class="form-control" required>
                                             <option value="--Select--">--Select--</option>
                                             <option value="All">All</option>
                                             <option value="ACCALM-Almora">ACCALM-Almora</option>
@@ -96,7 +96,7 @@ Job Application
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Prefered Location 3 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_3" class="form-control">
+                                        <select id="inputState" name="prefered_location_3" class="form-control" required>
                                             <option value="--Select--">--Select--</option>
                                             <option value="All">All</option>
                                             <option value="ACCALM-Almora">ACCALM-Almora</option>
