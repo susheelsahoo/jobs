@@ -16,108 +16,68 @@
                  <ul class="metismenu" id="menu">
 
                      @if ($usr->can('dashboard.view'))
-                     <li class="active">
-                         <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a>
-                         <ul class="collapse">
-                             <li class="{{ Route::is('admin.dashboard') ? 'active' : '' }}"><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
-                         </ul>
+                     <li class="{{ Route::is('admin.dashboard') ? 'active' : '' }}">
+                         <a href="{{ route('admin.dashboard') }}">Dashboard</a>
                      </li>
                      @endif
                      @if ($usr->can('job_applicant.view'))
-                     <li class="active">
-                         <a href="javascript:void(0)" aria-expanded="true"><i class="ti-job_applicant"></i><span>job_applicant</span></a>
-                         <ul class="collapse">
-                             <li class="{{ Route::is('admin.job_applicant') ? 'active' : '' }}"><a href="{{ route('admin.job_applicant') }}">jobs Applications</a></li>
+                     <li class="{{ Route::is('admin.jobsapplication.index') ? 'active' : '' }}">
+                         <a href="{{ route('admin.jobsapplication.index') }}">jobs Applications</a>
+                     </li>
+
+                     @endif
+                     @if ($usr->can('careers.create') || $usr->can('careers.view') || $usr->can('careers.edit') || $usr->can('careers.delete'))
+                     <li>
+                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-tasks"></i><span>
+                                 Careers
+                             </span></a>
+                         <ul class="collapse {{ Route::is('admin.careers.create') || Route::is('admin.careers.index') || Route::is('admin.careers.edit') || Route::is('admin.careers.show') ? 'in' : '' }}">
+                             @if ($usr->can('careers.view'))
+                             <li class="{{ Route::is('admin.careers.index')  || Route::is('admin.careers.edit') ? 'active' : '' }}"><a href="{{ route('admin.careers.index') }}">All Careers</a></li>
+                             @endif
+                             @if ($usr->can('careers.create'))
+                             <li class="{{ Route::is('admin.careers.create')  ? 'active' : '' }}"><a href="{{ route('admin.careers.create') }}">Create Careers</a></li>
+                             @endif
+                         </ul>
+                     </li>
+                     @endif
+                     @if ($usr->can('role.create') || $usr->can('role.view') || $usr->can('role.edit') || $usr->can('role.delete'))
+                     <li>
+                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-tasks"></i><span>
+                                 Roles & Permissions
+                             </span></a>
+                         <ul class="collapse {{ Route::is('admin.roles.create') || Route::is('admin.roles.index') || Route::is('admin.roles.edit') || Route::is('admin.roles.show') ? 'in' : '' }}">
+                             @if ($usr->can('role.view'))
+                             <li class="{{ Route::is('admin.roles.index')  || Route::is('admin.roles.edit') ? 'active' : '' }}"><a href="{{ route('admin.roles.index') }}">All Roles</a></li>
+                             @endif
+                             @if ($usr->can('role.create'))
+                             <li class="{{ Route::is('admin.roles.create')  ? 'active' : '' }}"><a href="{{ route('admin.roles.create') }}">Create Role</a></li>
+                             @endif
                          </ul>
                      </li>
                      @endif
 
-                     @if ($usr->can('careers.create') || $usr->can('careers.view') || $usr->can('careers.edit') || $usr->can('careers.delete'))
+                     @if ($usr->can('admin.create') || $usr->can('admin.view') || $usr->can('admin.edit') || $usr->can('admin.delete'))
                      <li>
                          <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-user"></i><span>
-                                 Careers
+                                 Admins
                              </span></a>
-                         <ul class="collapse {{ Route::is('admin.careers.create') || Route::is('admin.careers.index') || Route::is('admin.careers.edit') || Route::is('admin.careers.show') ? 'in' : '' }}">
+                         <ul class="collapse {{ Route::is('admin.admins.create') || Route::is('admin.admins.index') || Route::is('admin.admins.edit') || Route::is('admin.admins.show') ? 'in' : '' }}">
 
-                             <<<<<<< HEAD @if ($usr->can('careers.view'))
-                                 <li class="{{ Route::is('admin.careers.index')  || Route::is('admin.careers.edit') ? 'active' : '' }}"><a href="{{ route('admin.careers.index') }}">All Careers</a></li>
-                                 @endif
-                                 =======
+                             @if ($usr->can('admin.view'))
+                             <li class="{{ Route::is('admin.admins.index')  || Route::is('admin.admins.edit') ? 'active' : '' }}"><a href="{{ route('admin.admins.index') }}">All Admins</a></li>
+                             @endif
 
-                                 @if ($usr->can('admin.create') || $usr->can('admin.view') || $usr->can('admin.edit') || $usr->can('admin.delete'))
-                                 <li>
-                                     <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-user"></i><span>
-                                             Admins
-                                         </span></a>
-                                     <ul class="collapse {{ Route::is('admin.admins.create') || Route::is('admin.admins.index') || Route::is('admin.admins.edit') || Route::is('admin.admins.show') ? 'in' : '' }}">
-
-                                         @if ($usr->can('admin.view'))
-                                         <li class="{{ Route::is('admin.admins.index')  || Route::is('admin.admins.edit') ? 'active' : '' }}"><a href="{{ route('admin.admins.index') }}">All Admins</a></li>
-                                         @endif
-                                         >>>>>>> afe7ff40e4bc10ba82999839fdbd2a870c59889b
-
-                                         @if ($usr->can('careers.create'))
-                                         <li class="{{ Route::is('admin.careers.create')  ? 'active' : '' }}"><a href="{{ route('admin.careers.create') }}">Create Careers</a></li>
-                                         @endif
-                                     </ul>
-                                 </li>
-                                 @endif
-
-                                 <<<<<<< HEAD @if ($usr->can('role.create') || $usr->can('role.view') || $usr->can('role.edit') || $usr->can('role.delete'))
-                                     <li>
-                                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-tasks"></i><span>
-                                                 Roles & Permissions
-                                             </span></a>
-                                         <ul class="collapse {{ Route::is('admin.roles.create') || Route::is('admin.roles.index') || Route::is('admin.roles.edit') || Route::is('admin.roles.show') ? 'in' : '' }}">
-                                             @if ($usr->can('role.view'))
-                                             <li class="{{ Route::is('admin.roles.index')  || Route::is('admin.roles.edit') ? 'active' : '' }}"><a href="{{ route('admin.roles.index') }}">All Roles</a></li>
-                                             @endif
-                                             @if ($usr->can('role.create'))
-                                             <li class="{{ Route::is('admin.roles.create')  ? 'active' : '' }}"><a href="{{ route('admin.roles.create') }}">Create Role</a></li>
-                                             @endif
-                                         </ul>
-                                     </li>
-                                     @endif
-
-
-                                     @if ($usr->can('admin.create') || $usr->can('admin.view') || $usr->can('admin.edit') || $usr->can('admin.delete'))
-                                     <li>
-                                         <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-user"></i><span>
-                                                 Admins
-                                             </span></a>
-                                         <ul class="collapse {{ Route::is('admin.admins.create') || Route::is('admin.admins.index') || Route::is('admin.admins.edit') || Route::is('admin.admins.show') ? 'in' : '' }}">
-
-                                             @if ($usr->can('admin.view'))
-                                             <li class="{{ Route::is('admin.admins.index')  || Route::is('admin.admins.edit') ? 'active' : '' }}"><a href="{{ route('admin.admins.index') }}">All Admins</a></li>
-                                             @endif
-
-                                             @if ($usr->can('admin.create'))
-                                             <li class="{{ Route::is('admin.admins.create')  ? 'active' : '' }}"><a href="{{ route('admin.admins.create') }}">Create Admin</a></li>
-                                             @endif
-                                         </ul>
-                                     </li>
-                                     @endif
-
+                             @if ($usr->can('admin.create'))
+                             <li class="{{ Route::is('admin.admins.create')  ? 'active' : '' }}"><a href="{{ route('admin.admins.create') }}">Create Admin</a></li>
+                             @endif
                          </ul>
+                     </li>
+                     @endif
+
+                 </ul>
              </nav>
          </div>
      </div>
  </div>
  <!-- sidebar menu area end -->
- =======
- @if ($usr->can('jobsapplication.index'))
- <li>
-     <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-newspaper-o"></i><span> Job Application </span></a>
-     <ul class="collapse Route::is('admin.jobsapplication.index') ? 'in' : '' }}">
-         <li class="{{ Route::is('admin.jobsapplication.index')  ? 'active' : '' }}"><a href="{{ route('admin.jobsapplication.index') }}">All Applications</a></li>
-     </ul>
- </li>
- @endif
-
- </ul>
- </nav>
- </div>
- </div>
- </div>
- <!-- sidebar menu area end -->
- >>>>>>> afe7ff40e4bc10ba82999839fdbd2a870c59889b

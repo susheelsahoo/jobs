@@ -42,12 +42,12 @@ Job Application
                     <div class="card rounded-0 shadow-sm border-0">
                         <div class="card-body ">
                             <div class="clearfix"></div>
-                            <div class="heading2 pb-2 border-bottom mb-4">Post Applied</div>
+                            <div class="heading2 pb-2 border-bottom mb-4">Post Applied </div>
                             <div class="mt-3">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Post Applied for</label>
-                                        <input class="form-control" name="position" type="text" value="Accountant" readonly>
+                                        <input class="form-control" name="position" type="text" value="{{ $jobName }}" readonly>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Prefered Location 1 <span class="text-danger">*</span></label>
@@ -196,8 +196,6 @@ Job Application
                                                     <option value="Uttar Pradesh">Uttar Pradesh</option>
                                                     <option value="Uttarakhand">Uttarakhand</option>
                                                     <option value="West Bengal">West Bengal</option>
-
-
                                                 </select>
                                             </div>
                                         </div>
@@ -206,16 +204,12 @@ Job Application
                                         <label for="inputState"> Gender <span class="text-danger">*</span> : </label>
                                         <div class="row">
                                             <div class="col-5 col-md-4 mt-1">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" value="male" name="gender" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadio1"> Male </label>
-                                                </div>
+                                                <input type="radio" id="male" name="gender" value="male">
+                                                <label for="male">Male</label>
                                             </div>
                                             <div class="col-7 col-md-4 mt-1">
-                                                <div class="custom-control custom-radio">
-                                                    <input type="radio" value="female" name="gender" class="custom-control-input">
-                                                    <label class="custom-control-label" for="customRadio2"> Female</label>
-                                                </div>
+                                                <input type="radio" id="Female" name="gender" value="Female">
+                                                <label for="female">Female</label>
                                             </div>
                                         </div>
 

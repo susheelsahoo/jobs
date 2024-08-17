@@ -25,7 +25,7 @@ Career Create - Admin Panel
                 <h4 class="page-title pull-left">Career Create</h4>
                 <ul class="breadcrumbs pull-left">
                     <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
-                    <li><a href="{{ route('admin.career.index') }}">All Users</a></li>
+                    <li><a href="{{ route('admin.careers.index') }}">All Users</a></li>
                     <li><span>Create Career</span></li>
                 </ul>
             </div>
@@ -46,7 +46,7 @@ Career Create - Admin Panel
                     <h4 class="header-title">Create New Role</h4>
                     @include('backend.layouts.partials.messages')
 
-                    <form action="{{ route('admin.career.store') }}" method="POST">
+                    <form action="{{ route('admin.careers.store') }}" method="POST">
                         @csrf
                         <div class="form-row">
                             <div class="form-group col-md-6 col-sm-12">

@@ -28,7 +28,7 @@ Route::get('/login', 'HomeController@redirectAdmin')->name('login');
 Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
 
 Route::get('send-mail', function () {
-    $details = ['body' => 'This is for testing email using smtp','from'=> 'jobs@vigilantindia.com','subject'=> 'New Application for : Accountant'];
+    $details = ['body' => 'This is for testing email using smtp', 'from' => 'jobs@vigilantindia.com', 'subject' => 'New Application for : Accountant'];
     Mail::to('ashwini.burgeon@gmail.com')->send(new SendEmail($details));
     dd("Email is Sent.");
 });
@@ -38,9 +38,9 @@ Route::get('send-mail', function () {
 Route::get('/', 'JobApplicantsController@intro', ['names' => 'intro']);
 Route::get('/landing', 'JobApplicantsController@landing')->name('jobs.landing');
 Route::get('/career', 'JobApplicantsController@career')->name('jobs.career');
-Route::get('/rules', 'JobApplicantsController@rules')->name('jobs.rules');
+Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jobs.rules');
 // Route::get('/termsCondition', 'JobApplicantsController@termsCondition')->name('jobs.rules');
-Route::get('/apply-now', 'JobApplicantsController@applyNow')->name('jobs.applyNow');
+Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jobs.applyNow');
 Route::post('/store', 'JobApplicantsController@store')->name('jobs.store');
 Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jobs.thankYou');
 /**

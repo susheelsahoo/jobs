@@ -73,7 +73,7 @@ Job Application
                                     <p>
 
                                         <button type="button" class="btn btn-secondary">Back</button>
-                                        <a href="{{ route('jobs.applyNow') }}" class="btn btn-primary">Continue</a>
+                                        <a href="{{ route('jobs.applyNow', ['job_id' => $jobName]) }}" class="btn btn-primary">Continue</a>
                                     </p>
 
                                 </div>
