@@ -25,26 +25,32 @@ Job Application
                                 <div class=" col-md-12">
                                     <ul class="">
 
-                                        <li>The posts are temporary and contractual in nature.</li>
-                                        <li>The number of posts indicated is provisional.</li>
-
+                                        <li>M/s M. S. Vigilant Security, Placement and Detective Services Pvt. Ltd is under a
+                                            contract to recruit and manage HR for National Health Mission, Uttarakhand.</li>
+                                        <li>The posts are temporary and outsourced in nature under National Health Mission
+                                            – Uttarakhand.
+                                        </li>
+                                        <li>The number of posts indicated is provisional and can be
+                                            increased/decreased/cancelled at any point of time.
+                                        </li>
                                         <li>Only Indian Nationals can apply.
                                         </li>
                                         <li>No interim correspondence will be entertained.</li>
-                                        <li>The qualification prescribed is the minimum requirement
-                                            and possession of the same does not automatically make the candidates
-                                            eligible to be called for the selection process/ interview.</li>
-                                        <li>CANVASSING IN ANY FORM WILL RESULT IN DISQUALIFICATION OF APPLICATION.</li>
+                                        <li>The qualifications and experience prescribed is the minimum requirement and
+                                            possession of the same does not automatically make the candidates eligible to be
+                                            called for the selection process/ interview. </li>
+                                        <li>CANVASSING IN ANY FORM WILL RESULT IN DISQUALIFICATION OF APPLICATION. </li>
                                     </ul>
                                     <p class="mt-3">
-                                        It is for the candidate to ensure that he/ she fulfills the eligibility criteria and
-                                        comply with the requirements and adheres to the
-                                        instructions contained in this advertisement as well as in the application form.
-                                        Candidates are, therefore, urged to carefully read the advertisement and complete
-                                        the application form and submit the same as per instructions given in this regard.
+                                        It is for the candidate to ensure that he/ she fulfills the eligibility criteria and comply with
+                                        the requirements and adheres to the instructions contained herein as well as in the
+                                        application form. Candidates are, therefore, urged to carefully read the information in
+                                        advertisement/ portal/ website and complete the application form and submit the same as
+                                        per instructions given in this regard.
+
                                     </p>
                                     <p class="mt-3 mb-0">
-                                        For any query mail on <a href="mailto:someone@example.com">google.com</a>
+                                        For any query mail on <a href="mailto:info@vigilantindia.com">info@vigilantindia.com</a>
                                     <div class="text-info">(10:00 AM to 6:00 PM on working days.)</div>
                                     </p>
                                     <p><a href="{{ route('jobs.landing') }}" class="btn btn-primary">Continue</a></p>
