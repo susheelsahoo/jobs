@@ -4,7 +4,11 @@
     <div class="top-bar w-100">
         <div class="container">
             <div class="d-flex justify-content-between top-link">
-                <div class=" d-inline-flex align-items-center "> <a class="d-block d-sm-none" href="tel:9871134514"><i class="fa fa-phone"></i></a> <a class="d-none d-sm-block" href="#"> <i class="fa fa-phone"></i> +91-9871134514 </a> <span class="px-2">| </span> <a class="d-none d-sm-block" href="mailto:google.com"><i class="fa fa-envelope"></i> info@google.com</a> <a class="d-block d-sm-none" href="#"><i class="fa fa-envelope"></i> </a> </div>
+                <div class=" d-inline-flex align-items-center ">
+                    <a class="d-none d-sm-block" href="tel:1800-419-5131"><i class="fa fa-phone"></i>1800-419-5131</a>
+                    <span class="px-2">| </span>
+                    <a class="d-none d-sm-block" href="mailto:info@vigilantindia.com"><i class="fa fa-envelope"></i> info@vigilantindia.com</a>
+                </div>
                 <div class="float-right"><a href="#">Sign In</a></div>
             </div>
         </div>

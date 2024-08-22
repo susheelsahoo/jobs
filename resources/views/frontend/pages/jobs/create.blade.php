@@ -156,6 +156,38 @@ Job Application
                             <div class="mt-3">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
+                                        <label for="inputState">Physically Challenged <span class="text-danger">*</span> :</label>
+                                        <div class="input-group ">
+                                            <div class="input-group-append btn-sm p-0 w-100">
+                                                <select id="inputState" name="physically_challenged" class="form-control col-4" required>
+                                                    <option value="no">No</option>
+                                                    <option value="yes">Yes</option>
+                                                </select>
+                                                <input type="text" name="physically_challenged_details" class="form-control col-8" placeholder="If Yes Kindly Mention ">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputState"> Gender <span class="text-danger">*</span> : </label>
+                                        <div class="row">
+                                            <div class="col-5 col-md-4 mt-1">
+                                                <input type="radio" id="male" name="gender" value="male" required>
+                                                <label for="male">Male</label>
+                                            </div>
+                                            <div class="col-7 col-md-4 mt-1">
+                                                <input type="radio" id="Female" name="gender" value="Female" required>
+                                                <label for="female">Female</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-none">
+                                <div class="form-row">
+
+                                    <div class="form-group col-md-6">
                                         <label for="inputState"> Place of Birth ( Place & State) <span class="text-danger">*</span> : </label>
                                         <div class="input-group   ">
                                             <input type="text" name="birth_place" class="form-control  " placeholder="Birth Place">
@@ -201,37 +233,6 @@ Job Application
                                         </div>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <label for="inputState"> Gender <span class="text-danger">*</span> : </label>
-                                        <div class="row">
-                                            <div class="col-5 col-md-4 mt-1">
-                                                <input type="radio" id="male" name="gender" value="male" required>
-                                                <label for="male">Male</label>
-                                            </div>
-                                            <div class="col-7 col-md-4 mt-1">
-                                                <input type="radio" id="Female" name="gender" value="Female" required>
-                                                <label for="female">Female</label>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-3">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState">Physically Challenged <span class="text-danger">*</span> :</label>
-                                        <div class="input-group ">
-                                            <div class="input-group-append btn-sm p-0 w-100">
-                                                <select id="inputState" name="physically_challenged" class="form-control col-4" required>
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
-                                                </select>
-                                                <input type="text" name="physically_challenged_details" class="form-control col-8" placeholder="If Yes Kindly Mention ">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="form-group col-md-6">
                                         <label for="inputState">Religion :</label>
                                         <div class="input-group ">
                                             <div class="input-group-append btn-sm p-0 w-100">
@@ -251,7 +252,7 @@ Job Application
                             </div>
                             <div class="mt-3">
                                 <div class="form-row">
-                                    <div class="form-group col-md-6">
+                                    <div class="form-group col-md-6 d-none">
                                         <label for="caste_category">Caste Category :</label>
                                         <div class="input-group ">
                                             <div class="input-group-append btn-sm p-0 w-100">
@@ -844,7 +845,7 @@ Job Application
                                                         </td>
                                                         <!-- <td><img src="../html/images/review1.jpg" alt="..." class="img-thumbnail"></td> -->
                                                     </tr>
-                                                    <tr>
+                                                    <tr class="d-none">
                                                         <td>
                                                             Upload: Signature<span class="text-danger">*</span>
                                                             <div class="text-danger font-13">maximum file size 300 KB & Image File Format(.png, .jpg, .jpeg, .bmp, .gif)</div>

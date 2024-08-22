@@ -8,13 +8,14 @@
                      <dl>
                          <dt><i class="fa fa-map-marker" aria-hidden="true"></i></dt>
                          <dd>Address Details <br>
-                             New Delhi 110093, India</dd>
+                             M.S. VIGILANT SECURITY PLACEMENT & DETECTIVE SERVICES (PVT.) LTD.
+                             P-23, old Double Storey, lajpat nagar –IV, New Delhi -110024.</dd>
                          <dt><i class="fa fa-phone" aria-hidden="true"></i></dt>
-                         <dd>+91-1111111</dd>
+                         <dd>1800-419-5131</dd>
                          <dt><i class="fa fa-fax" aria-hidden="true"></i></dt>
-                         <dd>+91-11-1111 1111</dd>
+                         <dd>+91-11-40348159</dd>
                          <dt><i class="fa fa-envelope" aria-hidden="true"></i></dt>
-                         <dd><a href="mailto:google.com">google.com</a></dd>
+                         <dd><a href="mailto:info@vigilantindia.com">info@vigilantindia.com</a></dd>
                      </dl>
                  </div>
              </div>

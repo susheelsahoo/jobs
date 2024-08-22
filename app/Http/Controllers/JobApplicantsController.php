@@ -28,6 +28,8 @@ class JobApplicantsController extends Controller
     }
     public function rules($jobName)
     {
+        // return redirect()->route('jobs.maintenance');
+
         $jobName = htmlentities($jobName);
         return view('frontend.pages.jobs.rules', compact('jobName'));
     }
@@ -44,6 +46,7 @@ class JobApplicantsController extends Controller
      */
     public function store(Request $request)
     {
+
         // Create New User
         // $jobApplicants = new jobApplicants();
         // $jobApplicants->registration_number = $request->registration_number;
@@ -285,6 +288,12 @@ class JobApplicantsController extends Controller
         return view('frontend.pages.jobs.thankyou', compact('jobs'));
     }
 
+    public function maintenance()
+    {
+        dd('sssssssssssssssssssssss');
+        $jobs = '';
+        return view('frontend.pages.jobs.maintenance', compact('jobs'));
+    }
 
 
 
