@@ -37,6 +37,7 @@ Job Application
                                         <li>Incomplete application or application received without proper information will not be considered.</li>
                                         <li>Before submitting application please study and be ready with below mentioned documents as you have to fill the form at one go.
                                             <ul class="mt-2">
+                                                <li><b>Candidates are required to upload self attested documents.</b></li>
                                                 <li>Soft copy of Passport Size Photograph <span class="text-primary">( Max Size : 300KB ) - Image File Format(.png, .jpg, .jpeg, .bmp, .gif)</span></li>
                                                 <li>Latest Updated Resume in PDF or Word format <span class="text-primary"> ( Max Size : 2048KB ) to upload.</span></li>
                                                 <li>Certificate of class 10th as proof of age <span class="text-primary">(Max Size : 2048KB )</span> to upload. </li>
