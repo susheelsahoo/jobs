@@ -47,9 +47,10 @@
     <article>
         <h1>We&rsquo;ll be back soon!</h1>
         <div>
-            <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:#">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
+            <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:info@vigilantindia.com">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
             <p>&mdash; The Team</p>
 
+            <center><a href="https://vigilantindia.com/">Back To Home</a></center>
         </div>
         <div style="display: flex; flex-direction: row; justify-content: space-between;">
             <p class="day"></p>
@@ -60,7 +61,7 @@
     </article>
     <script>
         const countDown = () => {
-            const countDay = new Date('December 28, 2022 00:00:00');
+            const countDay = new Date('{{$startDateTime}}');
             const now = new Date();
             const counter = countDay - now;
             const second = 1000;

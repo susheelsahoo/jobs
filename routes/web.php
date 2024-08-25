@@ -43,7 +43,7 @@ Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jobs.rules
 Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jobs.applyNow');
 Route::post('/store', 'JobApplicantsController@store')->name('jobs.store');
 Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jobs.thankYou');
-Route::get('/maintenance', 'JobApplicantsController@maintenance ')->name('jobs.maintenance');
+Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('jobs.tempDown');
 /**
  * Admin routes
  */

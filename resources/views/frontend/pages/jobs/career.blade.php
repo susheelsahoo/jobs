@@ -88,13 +88,16 @@ Job Application
                                             </thead>
                                             <tbody>
                                                 @foreach ($jobs as $jobs)
+                                                <?php
+                                                $positionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $jobs['positionName'])
+                                                ?>
                                                 <tr>
                                                     <td>{{$jobs['SNo']}}</td>
-                                                    <td>{{$jobs['positionName']}}</td>
+                                                    <td>{{$positionName}}</td>
                                                     <td>{{$jobs['qualifications']}}</td>
                                                     <td>{{$jobs['remuneration']}}</td>
                                                     <td>
-                                                        <a href="{{ route('jobs.rules', ['job_id' => $jobs['positionName']]) }}" class="btn btn-primary">Apply</a>
+                                                        <a href="{{ route('jobs.rules', ['job_id' => $positionName]) }}" class="btn btn-primary">Apply</a>
 
                                                     </td>
 

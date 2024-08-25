@@ -6,6 +6,7 @@ use App\Models\jobApplicants;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendEmail;
+use Carbon\Carbon;
 use File;
 
 class JobApplicantsController extends Controller
@@ -26,13 +27,38 @@ class JobApplicantsController extends Controller
         $jobs = json_decode($contents, true);
         return view('frontend.pages.jobs.career', compact('jobs'));
     }
+
     public function rules($jobName)
     {
-        // return redirect()->route('jobs.maintenance');
+        // Define the start and end dates
+        $startDate = Carbon::create('2024-08-27');
+        $endDate = Carbon::create('2024-09-10');
 
+        $startDateTime = Carbon::create('2024-08-27 10:00:00');
+
+        // Get the current date-time
+        $current = Carbon::now();
+
+        // Sanitize the job name for safe output
         $jobName = htmlentities($jobName);
-        return view('frontend.pages.jobs.rules', compact('jobName'));
+
+        // Check if the current date is within the specified date range
+        if ($current->between($startDate, $endDate)) {
+            // Check if the current time is between 10:00 AM and 6:00 PM
+            $startTime = Carbon::createFromTime(10, 0); // 10:00 AM
+            $endTime = Carbon::createFromTime(18, 0);   // 6:00 PM
+
+            $startDateTime = Carbon::now()->addDay()->setTime(10, 0, 0);
+            if ($current->between($startTime, $endTime)) {
+                // Current time is within 10:00 AM to 6:00 PM
+                return view('frontend.pages.jobs.rules', compact('jobName', 'startDateTime'));
+            }
+        }
+        // Default to showing the rules page if the time is outside the specified range
+
+        return view('frontend.pages.jobs.maintenance', compact('jobName', 'startDateTime'));
     }
+
     public function applyNow($jobName)
     {
         $jobName = htmlentities($jobName);
@@ -288,7 +314,7 @@ class JobApplicantsController extends Controller
         return view('frontend.pages.jobs.thankyou', compact('jobs'));
     }
 
-    public function maintenance()
+    public function tempDown()
     {
         dd('sssssssssssssssssssssss');
         $jobs = '';
