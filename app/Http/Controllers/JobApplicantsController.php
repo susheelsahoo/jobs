@@ -31,14 +31,14 @@ class JobApplicantsController extends Controller
     public function rules($jobName)
     {
         // Define the start and end dates
-        $startDate = Carbon::create('2024-08-27');
+        $startDate = Carbon::create('2024-08-25');
         $endDate = Carbon::create('2024-09-10');
 
         $startDateTime = Carbon::create('2024-08-27 10:00:00');
 
         // Get the current date-time
         $current = Carbon::now();
-
+        dd($current);
         // Sanitize the job name for safe output
         $jobName = htmlentities($jobName);
 
