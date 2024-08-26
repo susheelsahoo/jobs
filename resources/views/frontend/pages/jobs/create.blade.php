@@ -53,20 +53,14 @@ Job Application
                                         <label for="inputState">Prefered Location 1 <span class="text-danger">*</span></label>
                                         <select id="inputState" name="prefered_location_1" class="form-control" required>
                                             <option value="--Select--">--Select--</option>
-                                            <option value="All">All</option>
-                                            <option value="ACCALM-Almora">ACCALM-Almora</option>
-                                            <option value="ACCBAG-Bageshwar">ACCBAG-Bageshwar</option>
-                                            <option value="ACCCHA-Chamoli">ACCCHA-Chamoli</option>
-                                            <option value="ACCCHM-Champawat">ACCCHM-Champawat</option>
-                                            <option value="ACCDEH-Dehradun">ACCDEH-Dehradun</option>
-                                            <option value="ACCHAR-Haridwar">ACCHAR-Haridwar</option>
-                                            <option value="ACCNAI-Nainital">ACCNAI-Nainital</option>
-                                            <option value="ACCPAU-Pauri Garhwal">ACCPAU-Pauri Garhwal</option>
-                                            <option value="ACCPIT-Pithoragarh">ACCPIT-Pithoragarh</option>
-                                            <option value="ACCRUD-Rudraprayag">ACCRUD-Rudraprayag</option>
-                                            <option value="ACCTEH-Tehri Garhwal">ACCTEH-Tehri Garhwal</option>
-                                            <option value="ACCUDH-Udham Singh Nagar">ACCUDH-Udham Singh Nagar</option>
-                                            <option value="ACCUTT-Uttarkashi">ACCUTT-Uttarkashi</option>
+                                            <option value="UTTARKASHI">UTTARKASHI</option>
+                                            <option value="NAINITAL">NAINITAL</option>
+                                            <option value="UDHAM SINGH NAGAR">UDHAM SINGH NAGAR</option>
+                                            <option value="Champawat">Champawat</option>
+                                            <option value="CHAMOLI">CHAMOLI</option>
+                                            <option value="ALMORA">ALMORA</option>
+                                            <option value="BAGESHWAR">BAGESHWAR</option>
+                                            <option value="DEHRADUN">DEHRADUN</option>
 
                                         </select>
                                     </div>
@@ -78,40 +72,36 @@ Job Application
                                         <label for="inputState">Prefered Location 2 <span class="text-danger">*</span></label>
                                         <select id="inputState" name="prefered_location_2" class="form-control" required>
                                             <option value="--Select--">--Select--</option>
-                                            <option value="All">All</option>
-                                            <option value="ACCALM-Almora">ACCALM-Almora</option>
-                                            <option value="ACCBAG-Bageshwar">ACCBAG-Bageshwar</option>
-                                            <option value="ACCCHA-Chamoli">ACCCHA-Chamoli</option>
-                                            <option value="ACCCHM-Champawat">ACCCHM-Champawat</option>
-                                            <option value="ACCDEH-Dehradun">ACCDEH-Dehradun</option>
-                                            <option value="ACCHAR-Haridwar">ACCHAR-Haridwar</option>
-                                            <option value="ACCNAI-Nainital">ACCNAI-Nainital</option>
-                                            <option value="ACCPAU-Pauri Garhwal">ACCPAU-Pauri Garhwal</option>
-                                            <option value="ACCPIT-Pithoragarh">ACCPIT-Pithoragarh</option>
-                                            <option value="ACCRUD-Rudraprayag">ACCRUD-Rudraprayag</option>
-                                            <option value="ACCTEH-Tehri Garhwal">ACCTEH-Tehri Garhwal</option>
-                                            <option value="ACCUDH-Udham Singh Nagar">ACCUDH-Udham Singh Nagar</option>
-                                            <option value="ACCUTT-Uttarkashi">ACCUTT-Uttarkashi</option>
+
+
+
+
+
+
+
+
+                                            <option value="UTTARKASHI">UTTARKASHI</option>
+                                            <option value="NAINITAL">NAINITAL</option>
+                                            <option value="UDHAM SINGH NAGAR">UDHAM SINGH NAGAR</option>
+                                            <option value="Champawat">Champawat</option>
+                                            <option value="CHAMOLI">CHAMOLI</option>
+                                            <option value="ALMORA">ALMORA</option>
+                                            <option value="BAGESHWAR">BAGESHWAR</option>
+                                            <option value="DEHRADUN">DEHRADUN</option>
                                         </select>
                                     </div>
-                                    <div class="form-group col-md-6">
+                                    <div class="form-group col-md-6 d-none">
                                         <label for="inputState">Prefered Location 3 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_3" class="form-control" required>
+                                        <select id="inputState" name="prefered_location_3" class="form-control">
                                             <option value="--Select--">--Select--</option>
-                                            <option value="All">All</option>
-                                            <option value="ACCALM-Almora">ACCALM-Almora</option>
-                                            <option value="ACCBAG-Bageshwar">ACCBAG-Bageshwar</option>
-                                            <option value="ACCCHA-Chamoli">ACCCHA-Chamoli</option>
-                                            <option value="ACCCHM-Champawat">ACCCHM-Champawat</option>
-                                            <option value="ACCDEH-Dehradun">ACCDEH-Dehradun</option>
-                                            <option value="ACCHAR-Haridwar">ACCHAR-Haridwar</option>
-                                            <option value="ACCNAI-Nainital">ACCNAI-Nainital</option>
-                                            <option value="ACCPAU-Pauri Garhwal">ACCPAU-Pauri Garhwal</option>
-                                            <option value="ACCPIT-Pithoragarh">ACCPIT-Pithoragarh</option>
-                                            <option value="ACCRUD-Rudraprayag">ACCRUD-Rudraprayag</option>
-                                            <option value="ACCTEH-Tehri Garhwal">ACCTEH-Tehri Garhwal</option>
-                                            <option value="ACCUDH-Udham Singh Nagar">ACCUDH-Udham Singh Nagar</option>
-                                            <option value="ACCUTT-Uttarkashi">ACCUTT-Uttarkashi</option>
+                                            <option value="UTTARKASHI">UTTARKASHI</option>
+                                            <option value="NAINITAL">NAINITAL</option>
+                                            <option value="UDHAM SINGH NAGAR">UDHAM SINGH NAGAR</option>
+                                            <option value="Champawat">Champawat</option>
+                                            <option value="CHAMOLI">CHAMOLI</option>
+                                            <option value="ALMORA">ALMORA</option>
+                                            <option value="BAGESHWAR">BAGESHWAR</option>
+                                            <option value="DEHRADUN">DEHRADUN</option>
 
                                         </select>
                                     </div>
@@ -155,38 +145,6 @@ Job Application
                             </div>
                             <div class="mt-3">
                                 <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState">Physically Challenged <span class="text-danger">*</span> :</label>
-                                        <div class="input-group ">
-                                            <div class="input-group-append btn-sm p-0 w-100">
-                                                <select id="inputState" name="physically_challenged" class="form-control col-4" required>
-                                                    <option value="no">No</option>
-                                                    <option value="yes">Yes</option>
-                                                </select>
-                                                <input type="text" name="physically_challenged_details" class="form-control col-8" placeholder="If Yes Kindly Mention ">
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState"> Gender <span class="text-danger">*</span> : </label>
-                                        <div class="row">
-                                            <div class="col-5 col-md-4 mt-1">
-                                                <input type="radio" id="male" name="gender" value="male" required>
-                                                <label for="male">Male</label>
-                                            </div>
-                                            <div class="col-7 col-md-4 mt-1">
-                                                <input type="radio" id="Female" name="gender" value="Female" required>
-                                                <label for="female">Female</label>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-3 d-none">
-                                <div class="form-row">
-
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Place of Birth ( Place & State) <span class="text-danger">*</span> : </label>
                                         <div class="input-group   ">
@@ -233,6 +191,42 @@ Job Application
                                         </div>
                                     </div>
                                     <div class="form-group col-md-6">
+                                        <label for="inputState"> Gender <span class="text-danger">*</span> : </label>
+                                        <div class="row">
+                                            <div class="col-5 col-md-4 mt-1">
+                                                <input type="radio" id="male" name="gender" value="male" required>
+                                                <label for="male">Male</label>
+                                            </div>
+                                            <div class="col-7 col-md-4 mt-1">
+                                                <input type="radio" id="Female" name="gender" value="Female" required>
+                                                <label for="female">Female</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3 ">
+                                <div class="form-row d-none">
+                                    <div class="form-group col-md-6 d-none">
+                                        <label for="caste_category">Caste Category :</label>
+                                        <div class="input-group ">
+                                            <div class="input-group-append btn-sm p-0 w-100">
+                                                <select id="caste_category" name="caste_category" class="form-control col-4">
+                                                    <option>GEN</option>
+                                                    <option>EWS</option>
+                                                    <option>OBC</option>
+                                                    <option>MBC</option>
+                                                    <option>SC</option>
+                                                    <option>ST</option>
+                                                    <option>Minority</option>
+                                                    <option>Other</option>
+                                                </select>
+                                                <input type="text" name="caste_category_other" class="form-control col-8" placeholder="If Other Kindly Mention ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-6">
                                         <label for="inputState">Religion :</label>
                                         <div class="input-group ">
                                             <div class="input-group-append btn-sm p-0 w-100">
@@ -252,24 +246,7 @@ Job Application
                             </div>
                             <div class="mt-3">
                                 <div class="form-row">
-                                    <div class="form-group col-md-6 d-none">
-                                        <label for="caste_category">Caste Category :</label>
-                                        <div class="input-group ">
-                                            <div class="input-group-append btn-sm p-0 w-100">
-                                                <select id="caste_category" name="caste_category" class="form-control col-4">
-                                                    <option>GEN</option>
-                                                    <option>EWS</option>
-                                                    <option>OBC</option>
-                                                    <option>MBC</option>
-                                                    <option>SC</option>
-                                                    <option>ST</option>
-                                                    <option>Minority</option>
-                                                    <option>Other</option>
-                                                </select>
-                                                <input type="text" name="caste_category_other" class="form-control col-8" placeholder="If Other Kindly Mention ">
-                                            </div>
-                                        </div>
-                                    </div>
+
                                     <div class="form-group col-md-6">
                                         <label for="inputState"> Nationality <span class="text-danger">*</span> : </label>
                                         <select name="nationality" class="form-control" required>
@@ -468,6 +445,19 @@ Job Application
                                             <option value="zimbabwean">Zimbabwean</option>
                                         </select>
                                     </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputState">Physically Challenged <span class="text-danger">*</span> :</label>
+                                        <div class="input-group ">
+                                            <div class="input-group-append btn-sm p-0 w-100">
+                                                <select id="inputState" name="physically_challenged" class="form-control col-4" required>
+                                                    <option value="no">No</option>
+                                                    <option value="yes">Yes</option>
+                                                </select>
+                                                <input type="text" name="physically_challenged_details" class="form-control col-8" placeholder="If Yes Kindly Mention ">
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                             <div class="mt-3">
@@ -552,32 +542,25 @@ Job Application
                             </div>
                             <div class="mt-3">
                                 <div class="form-row">
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-6">
                                         <label for="phone_number">Phone Number <span class="text-danger">*</span>:</label>
                                         <input type="number" name="phone_number" placeholder="Phone Number" class="form-control" required>
                                     </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="contact_number1">Contact Number_1 :</label>
-                                        <input type="number" name="contact_number1" placeholder=" Contact Number_1" class="form-control">
+                                    <div class="form-group col-md-6">
+                                        <label for="email">E-Mail address<span class="text-danger">*</span>:</label>
+                                        <input type="text" name="email" placeholder="E-Mail address" class="form-control" required>
                                     </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="contact_number2">Contact Number_2 :</label>
-                                        <input type="number" name="contact_number2" placeholder=" Contact Number_2" class="form-control">
-                                    </div>
+
                                 </div>
                             </div>
                             <div class="mt-3">
                                 <div class="form-row">
-                                    <div class="form-group col-md-4">
-                                        <label for="email">E-Mail address<span class="text-danger">*</span>:</label>
-                                        <input type="text" name="email" placeholder="E-Mail address" class="form-control" required>
-                                    </div>
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-6">
                                         <label for="uan_number">Previous UAN Number :</label>
                                         <input type="text" name="uan_number" placeholder=" Previous UAN Number" class="form-control">
 
                                     </div>
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-6">
                                         <label for="esi_number">Previous ESIC Number :</label>
                                         <input type="text" name="esi_number" placeholder="Previous ESIC Number" class="form-control">
                                     </div>

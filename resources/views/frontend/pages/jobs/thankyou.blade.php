@@ -40,7 +40,7 @@ Job Application
                                 </div>
                                 <div class="text-center">
                                     <h1>Thank You !</h1>
-                                    <p>Lorem ipsum dolor sitx. Lorem ipsum dolor sit, </p>
+                                    <p>As per Eligibility, requirement of the post and approvals by the department</p>
                                     <a href="{{ route('jobs.landing') }}" class="btn btn-primary">Back Home</a>
                                 </div>
                             </div>
