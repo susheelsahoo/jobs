@@ -34,181 +34,496 @@ Job Application
                                             <strong>Requirement in District UTTARKASHI/NAINITAL/UDHAM SINGH NAGAR/BAGESHWAR/DEHRADUN/ALMORA/CHAMOLI/Champawat </strong>
                                         </p>
                                         <table class="table table-bordered">
+
                                             <thead>
-                                                <th>S.No </th>
-                                                <th>Program </th>
-                                                <th>Name Of the Post </th>
-                                                <th>No Of Post </th>
+                                                <tr>
+                                                    <th>S.N.</th>
+                                                    <th>Name of the post</th>
+                                                    <th>Vacant</th>
+                                                </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>1</td>
-                                                    <td>MH</td>
-                                                    <td>ANM - Sub Centre (NEW IN 22-24)</td>
-                                                    <td>142</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>ASHA</td>
-                                                    <td>ASHA - Block Level - Coordinator</td>
+                                                    <th>1</th>
+                                                    <td>Accountants - RNTCP</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>3</td>
-
-                                                    <td>BPMU</td>
-                                                    <td>Block Programme Manager</td>
-                                                    <td>2</td>
+                                                    <th>2</th>
+                                                    <td>ANM</td>
+                                                    <td>134</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>4</td>
-                                                    <td>ASHA</td>
+                                                    <th>3</th>
+                                                    <td>ASHA Block Level - Coordinator</td>
+                                                    <td>6</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>4</th>
                                                     <td>ASHA - District Level - Mobilizer</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>5</td>
-                                                    <td>CH</td>
-                                                    <td>Data Entry Operators (SNCU) in 22-24</td>
+                                                    <th>5</th>
+                                                    <td>Audiologist &amp; spccch thcmpist - DEIC</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
+                                                    <th>6</th>
+                                                    <td>Audiomctrician/ Audiologist - NPPCD</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>7</th>
+                                                    <td>Audiometric Assistant</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>8</th>
+                                                    <td>Audiometrieian/ Audiologist - NPPCD</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>9</th>
+                                                    <td>Block Accounts Manager</td>
                                                     <td>6</td>
-                                                    <td>IDSP</td>
-                                                    <td>District Epidemiologist</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>10</th>
+                                                    <td>Block Program Manager</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>7</td>
-                                                    <td>FEDS</td>
-                                                    <td>Drug W/housing - DEO </td>
-                                                    <td>1</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>8</td>
-                                                    <td>FEDS</td>
-                                                    <td>District Logistic Manager</td>
-                                                    <td>1</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>9</td>
-                                                    <td>NTEP</td>
-                                                    <td>Senior Treatment Lab Supervisor (STLS)1</td>
-                                                    <td>1</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>10</td>
-                                                    <td>NTEP</td>
-                                                    <td>Senior Treatment Supervisor</td>
+                                                    <th>11</th>
+                                                    <td>Block Programme Manager</td>
                                                     <td>2</td>
-
                                                 </tr>
                                                 <tr>
-                                                    <td>11</td>
-                                                    <td>NPPCD</td>
-                                                    <td>Audiometric Assistant - NPPCD </td>
-                                                    <td>1</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>12</td>
-                                                    <td>BLOOD BANK</td>
+                                                    <th>12</th>
                                                     <td>Blood Bank Technician</td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>13</td>
-                                                    <td>NMHP</td>
-                                                    <td>Community Nurse – NMHP</td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>14</td>
-                                                    <td>FP</td>
-                                                    <td>Counsellor - Family Planning</td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>15</td>
-                                                    <td>NOHP</td>
-                                                    <td>Dental Hygienist - NOHP</td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>16</td>
-                                                    <td>NPHCE</td>
-                                                    <td>Multi Rehabilitation Worker</td>
-                                                    <td>6</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>17</td>
-                                                    <td>MH</td>
-                                                    <td> OT Technician (in 22-24) </td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>18</td>
-                                                    <td>RBSK</td>
-                                                    <td>ANM - RBSK</td>
                                                     <td>4</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>19</td>
-                                                    <td>RBSK</td>
-                                                    <td>MO RBSK - AYUSH</td>
+                                                    <th>13</th>
+                                                    <td>Community Nurse </td>
                                                     <td>5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>20</td>
-                                                    <td>RBSK</td>
-                                                    <td>Staff Nurse - RBSK</td>
+                                                    <th>14</th>
+                                                    <td>Computer Assistant -RI</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>21</td>
-                                                    <td>MH</td>
-                                                    <td>Staff Nurses - HDU </td>
-                                                    <td>6</td>
+                                                    <th>15</th>
+                                                    <td>Counsellor - Family Planning</td>
+                                                    <td>5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>22</td>
-                                                    <td>CH</td>
-                                                    <td>Staff Nurses - NBSU/ SNCU</td>
-                                                    <td>7</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>23</td>
-                                                    <td>NPCDCS</td>
-                                                    <td>Staff Nurses - NPCDCS </td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>24</td>
-                                                    <td>NRCP</td>
-                                                    <td>Staff Nurses - NRCP for DH </td>
-                                                    <td>1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>25</td>
-                                                    <td>MH</td>
-                                                    <td>Staff Nurses - PHC/ CHC/ DH/ FRU </td>
-                                                    <td>4</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>26</td>
-                                                    <td>HSS</td>
-                                                    <td>Staff Nurses - MH (22-24) </td>
+                                                    <th>16</th>
+                                                    <td>Counsellor - RKSK</td>
                                                     <td>12</td>
                                                 </tr>
                                                 <tr>
-                                                    <td colspan="3">total</td>
-                                                    <td>80</td>
+                                                    <th>17</th>
+                                                    <td>Counsellor-npcb-(22-24)</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>18</th>
+                                                    <td>Data Entry Onerators (SNCU) in 22-24</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>19</th>
+                                                    <td>Data Entry Operator Drug Warehouse</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>20</th>
+                                                    <td>Dental Assistants· NOHP, NUHM</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>21</th>
+                                                    <td>Dental Hygienist - NOHP</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>22</th>
+                                                    <td>Dental Surgeon • NOHP</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>23</th>
+                                                    <td>Dental Technician</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>24</th>
+                                                    <td>DEO - iDSP</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>25</th>
+                                                    <td>DEO-NVBDCP NPCB/ Drug ware house</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>26</th>
+                                                    <td>District Coordinator</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>27</th>
+                                                    <td>District Dara Manager - IDSP</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>28</th>
+                                                    <td>District Level DEIC Manager</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>29</th>
+                                                    <td>District Program Coordinator</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>30</th>
+                                                    <td>District Consultant - NTCP</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>31</th>
+                                                    <td>District Consultant - QA</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>32</th>
+                                                    <td>District Coordinator - CPHC</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>33</th>
+                                                    <td>District Coordinator - PCPNDT</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>34</th>
+                                                    <td>District DEO - NPCB</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>35</th>
+                                                    <td>District Epidemiologist</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>36</th>
+                                                    <td>District Level Manager • ROSK</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>37</th>
+                                                    <td>District Logistic Manager</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>38</th>
+                                                    <td>District Progmm Officer - ITKSK</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>39</th>
+                                                    <td>District Program Officer- MCH</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>40</th>
+                                                    <td>District Programme Coordinator</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>41</th>
+                                                    <td>Drug W/housing - DEO</td>
+                                                    <td>4</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>42</th>
+                                                    <td>ECG Technician</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>43</th>
+                                                    <td>Field Assistant - Hbpaty</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>44</th>
+                                                    <td>Hospital Quality h1anayer</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>45</th>
+                                                    <td>Insect Collector</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>46</th>
+                                                    <td>Lab Attendant - Free Diagnostic</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>47</th>
+                                                    <td>Lab Tec;hnician - NUHM - new</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>48</th>
+                                                    <td>Lab Tech-IDSP NVHCP Free Daignostie Deic Bood bank</td>
+                                                    <td>6</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>49</th>
+                                                    <td>Lab Technician </td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>50</th>
+                                                    <td>Lab Technician - PHC - HWC</td>
+                                                    <td>9</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>51</th>
+                                                    <td>Lab Technician - IDSP</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>52</th>
+                                                    <td>Laboratory Technicians - Free Diagnostic</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>53</th>
+                                                    <td>Laboratory Technicians (SM-RNTCP)</td>
+                                                    <td>6</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>54</th>
+                                                    <td>Laboratory Technicians (NPCDCS) DH</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>55</th>
+                                                    <td>Lcb Technician - PHC - HWC</td>
+                                                    <td>25</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>56</th>
+                                                    <td>Legal Advisor - Part time</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>57</th>
+                                                    <td>LMO RRSK</td>
+                                                    <td>6</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>58</th>
+                                                    <td>LT</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>59</th>
+                                                    <td>MCTS/ HMIS - DEO</td>
+                                                    <td>4</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>60</th>
+                                                    <td>MO RBSK - AYUSH</td>
+                                                    <td>20</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>61</th>
+                                                    <td>Mulit Rehabilitation Worker</td>
+                                                    <td>37</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>62</th>
+                                                    <td>NUHM Coordinator*</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>63</th>
+                                                    <td>Nursing Tutors - anmtc</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>64</th>
+                                                    <td>Optometrist</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>65</th>
+                                                    <td>OT Technician</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>66</th>
+                                                    <td>Pharmacist</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>67</th>
+                                                    <td>Psychologist - DEIC</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>68</th>
+                                                    <td>Refrigerator Mechanic - Immunization</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>69</th>
+                                                    <td>Regional Program Assistant (Detailed sheet)</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>70</th>
+                                                    <td>Sanitary Attendant</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>71</th>
+                                                    <td>Sanitary Attendant - NPHCE</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>72</th>
+                                                    <td>Senior Treatment Supervisor</td>
+                                                    <td>8</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>73</th>
+                                                    <td>Staff Nurres- MH (22-24)</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>74</th>
+                                                    <td>Staff Nurres- SNCU/NBSU (22-24)</td>
+                                                    <td>6</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>75</th>
+                                                    <td>Staff Nurres-PHC/CHC/DH/FRU/HWC</td>
+                                                    <td>17</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>76</th>
+                                                    <td>Staff Nurse</td>
+                                                    <td>36</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>77</th>
+                                                    <td>Staff Nurser- NCD/NPCDCS/NRCP/ Pentonfeal Dialysit/DEIC</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>78</th>
+                                                    <td>Staff Nurser -RBSK</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>79</th>
+                                                    <td>Staff Nurses - HDU</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>80</th>
+                                                    <td>Staff Nurses - MH (22-24)</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>81</th>
+                                                    <td>Staff Nurses - NBSU/ SNCU</td>
+                                                    <td>24</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>82</th>
+                                                    <td>Staff Nurses - NPCDCS</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>83</th>
+                                                    <td>Staff Nurses - NRCP for DH</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>84</th>
+                                                    <td>Staff Nurses - PHC - HWC</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>85</th>
+                                                    <td>Staff Nurses - PHC/ CHC/ DH/ FRU</td>
+                                                    <td>14</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>86</th>
+                                                    <td>Staff Nurses- NPHCE approved in 17-18</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>87</th>
+                                                    <td>Staff Nurses- nrc (USN is to be adjusted</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>88</th>
+                                                    <td>Staff Nurses- Palliative Care approved in 17-18</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>89</th>
+                                                    <td>StaffNure SNCU/NBSU*</td>
+                                                    <td>41</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>90</th>
+                                                    <td>Staff Nurses-NPCDCD</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>91</th>
+                                                    <td>Staff Nurses-PHC -CHC-DH FUR</td>
+                                                    <td>29</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>92</th>
+                                                    <td>StaffNurses - NPHCE aooroved in 17-18</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>93</th>
+                                                    <td>StafTNurses - NCO Screening approved in 17-18</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>94</th>
+                                                    <td>StaITNurses - NUI IM - OLD</td>
+                                                    <td>6</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>95</th>
+                                                    <td>TBHV - PPP NGO</td>
+                                                    <td>7</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>96</th>
+                                                    <td>Xray Technician • Free Diagnostic</td>
+                                                    <td>4</td>
                                                 </tr>
                                             </tbody>
-
                                         </table>
                                         <div class="table-responsive">
 
