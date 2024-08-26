@@ -125,12 +125,12 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>17</th>
-                                                    <td>Counsellor-npcb-(22-24)</td>
+                                                    <td>Counsellor-npcb-</td>
                                                     <td>2</td>
                                                 </tr>
                                                 <tr>
                                                     <th>18</th>
-                                                    <td>Data Entry Onerators (SNCU) in 22-24</td>
+                                                    <td>Data Entry Onerators (SNCU)</td>
                                                     <td>7</td>
                                                 </tr>
                                                 <tr>
@@ -275,7 +275,7 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>47</th>
-                                                    <td>Lab Tec;hnician - NUHM - new</td>
+                                                    <td>Lab Tec;hnician - NUHM </td>
                                                     <td>2</td>
                                                 </tr>
                                                 <tr>
@@ -330,7 +330,7 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>58</th>
-                                                    <td>LT</td>
+                                                    <td>Lab Technician </td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
@@ -385,7 +385,7 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>69</th>
-                                                    <td>Regional Program Assistant (Detailed sheet)</td>
+                                                    <td>Regional Program Assistant</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
@@ -405,12 +405,12 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>73</th>
-                                                    <td>Staff Nurres- MH (22-24)</td>
+                                                    <td>Staff Nurres- MH </td>
                                                     <td>2</td>
                                                 </tr>
                                                 <tr>
                                                     <th>74</th>
-                                                    <td>Staff Nurres- SNCU/NBSU (22-24)</td>
+                                                    <td>Staff Nurres- SNCU/NBSU </td>
                                                     <td>6</td>
                                                 </tr>
                                                 <tr>
@@ -440,7 +440,7 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>80</th>
-                                                    <td>Staff Nurses - MH (22-24)</td>
+                                                    <td>Staff Nurses - MH </td>
                                                     <td>12</td>
                                                 </tr>
                                                 <tr>
@@ -470,17 +470,17 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>86</th>
-                                                    <td>Staff Nurses- NPHCE approved in 17-18</td>
+                                                    <td>Staff Nurses- NPHCE</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
                                                     <th>87</th>
-                                                    <td>Staff Nurses- nrc (USN is to be adjusted</td>
+                                                    <td>Staff Nurses- nrc</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
                                                     <th>88</th>
-                                                    <td>Staff Nurses- Palliative Care approved in 17-18</td>
+                                                    <td>Staff Nurses- Palliative Care </td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
@@ -500,17 +500,17 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th>92</th>
-                                                    <td>StaffNurses - NPHCE aooroved in 17-18</td>
+                                                    <td>StaffNurses - NPHCE </td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
                                                     <th>93</th>
-                                                    <td>StafTNurses - NCO Screening approved in 17-18</td>
+                                                    <td>StafTNurses - NCO Screening </td>
                                                     <td>2</td>
                                                 </tr>
                                                 <tr>
                                                     <th>94</th>
-                                                    <td>StaITNurses - NUI IM - OLD</td>
+                                                    <td>StaITNurses - NUI IM </td>
                                                     <td>6</td>
                                                 </tr>
                                                 <tr>
