@@ -523,6 +523,10 @@ Job Application
                                                     <td>Xray Technician • Free Diagnostic</td>
                                                     <td>4</td>
                                                 </tr>
+                                                <tr>
+                                                    <th colspan="2">Total</th>
+                                                    <td>647</td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                         <div class="table-responsive">
