@@ -81,7 +81,7 @@ Job Application
                                                 <tr>
                                                     <th style="max-width: 70px;">Sr.No</th>
                                                     <th scope="col">Position Name</th>
-                                                    <th scope="col"> Old Qualifications</th>
+                                                    <th scope="col">Qualifications</th>
                                                     <th scope="col"> Remuneration</th>
                                                     <th scope="col">Action</th>
                                                 </tr>
