@@ -46,20 +46,29 @@ Job Application
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                @foreach ($contents as $content)
+                                                <?php $i = 0;
+                                                $total = 0; ?>
+                                                @foreach ($contents as $key => $content)
                                                 @if($content['status'] ==1)
+                                                <?php
+                                                $vacant = $content['vacant'];
+                                                $total = $total + $vacant;
+                                                $i++; ?>
                                                 <tr>
-                                                    <td>1</td>
+                                                    <td>{{ $i}}</td>
                                                     <td>{{$content['program']}}</td>
                                                     <td>{{$content['name_of_the_post']}}</td>
-                                                    <td>{{$content['vacant']}}</td>
+                                                    <td>{{$vacant}}</td>
                                                     <td>{{$content['location']}}</td>
 
                                                 </tr>
                                                 @endif
                                                 @endforeach
 
-
+                                                <tr>
+                                                    <td colspan="3">Total</td>
+                                                    <td colspan="2"> {{$total}}</td>
+                                                </tr>
 
                                             </tbody>
                                         </table>
