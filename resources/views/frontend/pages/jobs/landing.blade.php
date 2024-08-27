@@ -969,6 +969,12 @@ Job Application
                                                     <td>2</td>
                                                     <td>Dehradun</td>
                                                 </tr>
+                                                <tr>
+                                                    <th>60</th>
+                                                    <td>District Coordinator</td>
+                                                    <td>1</td>
+                                                    <td>ALMORA</td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                         <div class="table-responsive">
