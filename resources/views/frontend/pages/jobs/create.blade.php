@@ -580,8 +580,8 @@ Job Application
                             <div class="mt-3">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <label for="inputState">Registration No. <span class="text-danger">*</span>:</label>
-                                        <input class="form-control" name="registration_number" type="text" placeholder="Registration No" required>
+                                        <label for="inputState">Registration No.:</label>
+                                        <input class="form-control" name="registration_number" type="text" placeholder="Registration No">
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label for="inputState">Date of Registration : </label>

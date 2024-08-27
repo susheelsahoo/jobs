@@ -40,6 +40,7 @@ Job Application
                                             possession of the same does not automatically make the candidates eligible to be
                                             called for the selection process/ interview. </li>
                                         <li>CANVASSING IN ANY FORM WILL RESULT IN DISQUALIFICATION OF APPLICATION. </li>
+                                        <li>Kindly apply on those districts where seats are empty.</li>
                                     </ul>
                                     <p class="mt-3">
                                         It is for the candidate to ensure that he/ she fulfills the eligibility criteria and comply with
