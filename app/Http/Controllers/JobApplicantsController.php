@@ -18,8 +18,9 @@ class JobApplicantsController extends Controller
     }
     public function landing()
     {
-        $jobs = '';
-        return view('frontend.pages.jobs.landing', compact('jobs'));
+        $contents = File::get(base_path('current_opening.json'));
+        $contents = json_decode($contents, true);
+        return view('frontend.pages.jobs.landing', compact('contents'));
     }
     public function career()
     {
