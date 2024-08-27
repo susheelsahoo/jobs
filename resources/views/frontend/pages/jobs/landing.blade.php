@@ -98,7 +98,7 @@ Job Application
                                                 <li>One salary will be deposited as per security deposit in against of any theft or damage. If The contract gets over or any candidate resigns from the company he will get the refund within 72 hrs after depositing the noc from his deployed district.And it will clearly mentioned in offer letter as well.</li>
                                                 <li>Candidate can apply for the post as per their requirement in between 10 am to 6pm from 27 th of August 2024 till 10th sept 2024 after the closing date no further application will be taken and no hard copy will be accepted .
                                                 </li>
-                                                <li>Kindly apply on those districts where seats are empty.</li>
+                                                <li>Kindly apply based on the availability of seats in the district.</li>
                                             </ol>
                                         </div>
 

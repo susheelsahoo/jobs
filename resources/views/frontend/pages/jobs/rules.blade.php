@@ -35,7 +35,7 @@ Job Application
                                         <li>The qualification prescribed only selection criteria & it will not be interpreted automatically selection.</li>
                                         <li>The qualification prescribed may change as per requirement.</li>
                                         <li>Incomplete application or application received without proper information will not be considered.</li>
-                                        <li>Kindly apply on those districts where seats are empty.</li>
+                                        <li>Kindly apply based on the availability of seats in the district.</li>
                                         <li>Before submitting application please study and be ready with below mentioned documents as you have to fill the form at one go.
                                             <ul class="mt-2">
                                                 <li><b>Candidates are required to upload self attested documents.</b></li>
