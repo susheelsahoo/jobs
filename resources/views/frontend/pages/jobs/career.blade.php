@@ -35,41 +35,10 @@ Job Application
     <div class="container">
         <div class="row">
 
-            <!--	Intro section start-->
-            <!-- <div class=" col-md-12 right-section   mb-4 ">
-                <div class="card rounded-0 shadow-sm border-0">
-                    <div class="card-body ">
-                        <div class="clearfix"></div>
-                        <div class="heading2 pb-2 border-bottom mb-4">Filters </div>
-                        <div class="mt-3">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputState">State <span class="text-danger">*</span> :</label>
-                                    <select id="inputState" class="form-control">
-                                        <option>All State</option>
-
-                                        <option>Delhi</option>
-                                    </select>
-
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="inputState">Select Post</label>
-                                    <select id="inputState" class="form-control">
-                                        <option>All Post </option>
-                                        <option>Post 1</option>
-                                    </select>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div> -->
             <div class=" col-md-12 right-section   mb-4 ">
                 <div class="card rounded-0 shadow-sm border-0">
                     <div class="card-body ">
+                        <li><b>Note:</b>Kindly apply based on the availability of seats in the district.</li>
                         <div class="clearfix"></div>
                         <div class="heading2 pb-2 border-bottom mb-4">Select Post </div>
                         <div class="mt-3">
