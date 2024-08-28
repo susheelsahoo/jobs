@@ -141,10 +141,10 @@
     },
     {
       "program": "NTCP",
-      "name_of_the_post": "Districtor Coordinator NTCP",
+      "name_of_the_post": "District Coordinator NTCP",
       "vacant": 1,
       "location": "ALMORA",
-      "status": 1
+      "status": 0
     },
     {
       "program": "QA",
@@ -423,7 +423,7 @@
       "program": "NTEP",
       "name_of_the_post": "District Coordinator ",
       "vacant": 1,
-      "location": "CHAMOL",
+      "location": "CHAMOLI",
       "status": 1
     },
     {
