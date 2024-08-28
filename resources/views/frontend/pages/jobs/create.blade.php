@@ -38,6 +38,8 @@ Job Application
             @csrf
             <div class="row  ">
                 <div class=" col-md-12 right-section   mb-4 ">
+                    <div class="text-right text-danger mb-3">Kindly apply based on the availability of seats in the district.</div>
+                    <div class="text-right text-danger mb-3">Candidates are required to upload self attested documents.</div>
                     <div class="text-right text-danger mb-3"> '<span class="font-weight-bold">*</span>' Fields are Mandatory</div>
                     <div class="card rounded-0 shadow-sm border-0">
                         <div class="card-body ">
@@ -949,9 +951,9 @@ Job Application
     @endsection
 
     @section('scripts')
-    
+
     <script>
-        $('.custom-file-input').on('change',function(){
+        $('.custom-file-input').on('change', function() {
             var fileName = $(this).val();
             $(this).next('.custom-file-label').html(fileName);
         })
