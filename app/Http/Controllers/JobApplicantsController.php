@@ -33,7 +33,7 @@ class JobApplicantsController extends Controller
     {
         // Define the start and end dates
         $startDate = Carbon::create('2024-08-28');
-        $endDate = Carbon::create('2024-09-10');
+        $endDate = Carbon::create('2024-09-11');
 
         $startDateTime = Carbon::create('2024-08-28 10:00:00');
 
