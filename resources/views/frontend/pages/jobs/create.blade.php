@@ -37,11 +37,15 @@ Job Application
         <form action="{{ route('jobs.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="row">
-                <div class="col-md-6">Kindly apply based on the availability of seats in the district.
-                    <br />Candidates are required to upload self attested documents.
-                </div>
-                <div class="col-md-6">
-                    <div class="text-right text-danger mb-3"> '<span class="font-weight-bold">*</span>' Fields are Mandatory</div>
+                <div class="col-md-12">
+                    <div class="alert alert-info">
+                        <strong>Note:</strong>
+                        <ul>
+                            <li> Kindly apply based on the availability of seats in the district.</li>
+                            <li>Candidates are required to upload self attested documents.</li>
+                        </ul>
+                        <div class="text-left text-danger mb-0"> '<span class="font-weight-bold">*</span>' Fields are Mandatory</div>
+                    </div>   
                 </div>
 
                 <div class="col-md-12 mt-2 right-section mb-4">
