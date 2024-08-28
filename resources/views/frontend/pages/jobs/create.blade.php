@@ -949,5 +949,12 @@ Job Application
     @endsection
 
     @section('scripts')
+    
+    <script>
+        $('.custom-file-input').on('change',function(){
+            var fileName = $(this).val();
+            $(this).next('.custom-file-label').html(fileName);
+        })
+    </script>
 
     @endsection
