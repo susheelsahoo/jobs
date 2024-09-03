@@ -20,7 +20,7 @@ class JobApplicationController extends Controller
      */
     public function index()
     {
-        $users = jobApplicants::all();
+        $users = jobApplicants::orderBy('id', 'desc')->get();
         return view('backend.pages.jobsApplication.index', compact('users'));
     }
 
