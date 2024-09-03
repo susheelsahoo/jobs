@@ -18,7 +18,7 @@ Job Application
 
             <div class=" col-md-12 right-section   mb-4 ">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong> Note:</strong> We are live from <strong>27th Aug 2024</strong> to <strong>11 Sep 2024 </strong>
+                    <strong> Note:</strong> We are live from <strong>27th Aug 2024</strong> to <strong>13 Sep 2024 </strong>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>

@@ -652,7 +652,7 @@ Job Application
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">Main Qualification <span class="text-danger">*</span></th>
-                                                    <td><input class="form-control" type="number" name="main_qualification_year" placeholder="Exam Passed"></td>
+                                                    <td><input class="form-control" type="text" name="main_qualification_year" placeholder="Exam Passed"></td>
                                                     <td><input class="form-control" type="text" name="main_qualification_branch" placeholder="Branch"></td>
                                                     <td><input class="form-control" type="number" name="main_qualification_percentage" placeholder="Percentage"></td>
                                                     <td><input class="form-control" type="month" name="main_qualification_date" placeholder="Month & Year"> </td>
@@ -663,7 +663,7 @@ Job Application
 
                                                 <tr>
                                                     <th scope="row">Additional Qualification</th>
-                                                    <td><input class="form-control" type="number" name="additiional_qualification_year" placeholder="Exam Passed"></td>
+                                                    <td><input class="form-control" type="text" name="additiional_qualification_year" placeholder="Exam Passed"></td>
                                                     <td><input class="form-control" type="text" name="additiional_qualification_branch" placeholder="Branch"></td>
                                                     <td><input class="form-control" type="number" name="additiional_qualification_percentage" placeholder="Percentage"></td>
                                                     <td><input class="form-control" type="month" name="additiional_qualification_date" placeholder="Month & Year"> </td>
@@ -673,7 +673,7 @@ Job Application
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">Additional Qualification </th>
-                                                    <td><input class="form-control" type="number" name="additiional1_qualification_year" placeholder="Exam Passed"></td>
+                                                    <td><input class="form-control" type="text" name="additiional1_qualification_year" placeholder="Exam Passed"></td>
                                                     <td><input class="form-control" type="text" name="additiional1_qualification_branch" placeholder="Branch"></td>
                                                     <td><input class="form-control" type="number" name="additiional1_qualification_percentage" placeholder="Percentage"></td>
                                                     <td><input class="form-control" type="month" name="additiional1_qualification_date" placeholder="Month & Year"> </td>
