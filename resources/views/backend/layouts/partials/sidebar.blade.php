@@ -20,7 +20,7 @@
                          <a href="{{ route('admin.dashboard') }}">Dashboard</a>
                      </li>
                      @endif
-                     @if ($usr->can('job_applicant.view'))
+                     @if ($usr->can('dashboard.view'))
                      <li class="{{ Route::is('admin.jobsapplication.index') ? 'active' : '' }}">
                          <a href="{{ route('admin.jobsapplication.index') }}">jobs Applications</a>
                      </li>
