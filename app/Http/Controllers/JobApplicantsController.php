@@ -32,10 +32,16 @@ class JobApplicantsController extends Controller
     public function rules($jobName)
     {
         // Define the start and end dates
-        $startDate = Carbon::create('2024-08-28');
-        $endDate = Carbon::create('2024-09-11');
+        $startDate  = Carbon::create(env("START_DATE"));
+        $startDate  = Carbon::create(env("PAUSE_DATE"));
+        $endDate    = Carbon::create(env("END_DATE"));
 
+<<<<<<< HEAD
         $startDateTime = Carbon::create('2024-09-12 10:00:00');
+=======
+        $pause_date = env("PAUSE_DATE") . '10:00:00';
+        $startDateTime = Carbon::create($pause_date);
+>>>>>>> d9a58519b471e714f2477c4bcc5445024f6eed56
 
         // Get the current date-time
         $current = Carbon::now();
@@ -46,7 +52,7 @@ class JobApplicantsController extends Controller
         if ($current->between($startDate, $endDate)) {
             // Check if the current time is between 10:00 AM and 6:00 PM
             $startTime = Carbon::createFromTime(10, 0); // 10:00 AM
-            $endTime = Carbon::createFromTime(23, 0);   // 6:00 PM
+            $endTime = Carbon::createFromTime(23, 59);   // 6:00 PM
 
             // $startDateTime = Carbon::now()->addDay()->setTime(10, 0, 0);
             if ($current->between($startTime, $endTime)) {

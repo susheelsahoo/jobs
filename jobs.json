@@ -1,423 +1,423 @@
 [
-  {
-    "SNo": "1.",
-    "positionName": "ANM - Sub Centre",
+   {
+    "SNo": 1,
+    "positionName": "ANM - Sub\nCentre",
     "qualifications": "Auxillary Nursing & Midwifery Course and registered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
-    "remuneration": "12000, 14000, 16000 as per Accessible, Difficult and Most Difficult area (average approved is Rs 14,000)"
-  },
-  {
-    "SNo": "2.",
-    "positionName": "Staff Nurses - PHC-CHC-DH",
-    "qualifications": "GNM- B.Sc. Nursing- Post Basic Nursing and Registered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
-    "remuneration": "15000, 17000, 19000 as per Accessible, Difficult and Most Difficult area (average approved is Rs 17,000). NCD Staff Nurses and other program specific Staff Nurses - Rs 15,000"
-  },
-  {
-    "SNo": "3.",
+    "remuneration": "12000, 14000,\n16000 as per Accessible, Difficult and Most Difficult area"
+   },
+   {
+    "SNo": 2,
+    "positionName": "Staff Nurses - PHC\/CHC\/DH",
+    "qualifications": "GNM\/ B.Sc. Nursing\/ Post Basic Nursing and\nRegistered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
+    "remuneration": "15000, 17000,\n19000 as per Accessible, Difficult and Most Difficult area. NCD\nStaff Nurses and other program\nspecific Staff Nurses - Rs 15,000"
+   },
+   {
+    "SNo": 3,
     "positionName": "Community Nurse - NMHP",
     "qualifications": "B. Sc. Nursing from a recognized institution with experience of 02 years of working in a hospital",
-    "remuneration": "17850"
-  },
-  {
-    "SNo": "4.",
-    "positionName": "2nd ANM- Female MPW- Male MPW for HWC",
+    "remuneration": 17850
+   },
+   {
+    "SNo": 4,
+    "positionName": "2nd ANM\/ Female MPW\/ Male MPW for HWC",
     "qualifications": "Auxillary Nursing & Midwifery Course and registered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
-    "remuneration": "12000, 14000, 16000 as per Accessible, Difficult and Most Difficult area (average approved is Rs 14,000)"
-  },
-  {
-    "SNo": "5.",
+    "remuneration": "12000, 14000,\n16000 as per Accessible, Difficult and Most Difficult area"
+   },
+   {
+    "SNo": 5,
     "positionName": "Laboratory Technicians - IDSP",
-    "qualifications": "1. Degree in Medical Laboratory Technology OR 2. Diploma in Medical Lab Technology    Should have completed 10+2 before obtaining diploma or degree    The degree or diploma should be from a university- institution recognized by the Central Govt or State Govt.    Knowledge of Computers    One year experience after degree- diploma.    The candidate should be registered with Uttarakhand Paramedical Medical Council- Faculty, if applicable.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "6.",
+    "qualifications": "1. Degree in Medical Laboratory Technology OR\n2. Diploma in Medical Lab Technology\n   Should have completed 10+2 before obtaining diploma or degree\n   The degree or diploma should be from a university\/ institution recognized by the Central Govt or State Govt.\n   Knowledge of Computers\n   One year experience after degree\/ diploma.\n   The candidate should be registered with Uttarakhand Paramedical Medical Council\/ Faculty, if applicable.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 6,
     "positionName": "Pharmacist cum Store Keeper - RNTCP",
-    "qualifications": "Degree- Diploma in Pharmacy from a recognized university and registered with State Pharmacy Council Preferential Qualification - 2 years experience in managing drug store in a reputed hospital- health centre recognized by govt. Candidate should be well conversant with computer programming including MS Word, Excel and simple statistical packages.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "7.",
-    "positionName": "Others - Xray Technician - Free Diagnostic",
-    "qualifications": "1. Two year diploma in X-Ray Technician having registration in paramedical council of Uttarakhand with one year of experience OR 2. B. Sc. in imaging and registered with paramedical council of Uttarakhand.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "8.",
+    "qualifications": "Degree\/ Diploma in Pharmacy from a recognized university and registered with State Pharmacy Council\nPreferential Qualification - 2 years experience in managing drug store in a reputed hospital\/ health centre recognized by govt. Candidate should be well conversant with computer\nprogramming including MS Word, Excel and simple statistical packages.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 7,
+    "positionName": "Xray Technician",
+    "qualifications": "1. Two year diploma in X-Ray Technician having registration in paramedical council of Uttarakhand with one year of experience\nOR\n2. B. Sc. in imaging and registered with paramedical council of Uttarakhand.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 8,
     "positionName": "Physiotherapist NPCDCS",
-    "qualifications": "Bachelor's degree in Physiotherapy (BPT) with at least 02 years experience of working in a hospital.",
-    "remuneration": "20000"
-  },
-  {
-    "SNo": "9.",
-    "positionName": "Dietician- Nutritionist",
-    "qualifications": "Regular PG diploma- Degree in Nutrition & Dietetics from a recognized institute. Preference will be given to candidate - *having relevant experience in Nutrition and Dietetics * having higher qualification in Nutrition and Dietetics",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "10.",
+    "qualifications": "Bachelor's degree in Physiotherapy (BPT) with 02 years experience of working in a hospital.\nAND\nRegistration in Uttarakhand Paramedical Council\/ Faculty, if applicable in Uttarakhand",
+    "remuneration": 20000
+   },
+   {
+    "SNo": 9,
+    "positionName": "Dietician",
+    "qualifications": "Regular PG diploma\/ Degree in Nutrition & Dietetics from a recognized institute.\nPreference will be given to candidate - *having relevant experience in Nutrition and Dietetics\n* having higher qualification in Nutrition and Dietetics",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 10,
     "positionName": "Dental Surgeon",
-    "qualifications": "MDS from institution recognized by Dental Council of India OR BDS with two years of clinical experience in hospital- institutional set up Note - Preference will be given to MDS",
-    "remuneration": "40000"
-  },
-  {
-    "SNo": "11.",
+    "qualifications": "MDS from institution recognized by Dental Council of India\nOR\nBDS with two years of clinical experience in hospital\/ institutional set up\nNote - Preference will be given to MDS",
+    "remuneration": 40000
+   },
+   {
+    "SNo": 11,
     "positionName": "Dental Hygienist",
-    "qualifications": "10+2 Science from Recognized Board. Diploma in Dental Hygienist Course from a Govt. recognized. Registration with State Dental Council. Experience: Two years of experience in a dental college-clinic",
-    "remuneration": "12000"
-  },
-  {
-    "SNo": "12.",
+    "qualifications": "10+2 Science from Recognized Board. Diploma in Dental Hygienist Course from a Govt. recognized. Registration\nwith State Dental Council. Experience: Two years of experience in a dental college\/clinic",
+    "remuneration": 12000
+   },
+   {
+    "SNo": 12,
     "positionName": "Dental Technician",
-    "qualifications": "10+2 Science from Recognized Board. Diploma in Dental Technician Course from a Govt. recognized. Registration with State Dental Council. Experience: Two years of experience in a dental college-clinic",
-    "remuneration": "12000"
-  },
-  {
-    "SNo": "13.",
-    "positionName": "Staff Nurse - RBSK MHT",
-    "qualifications": "GNM- B.Sc. Nursing- Post Basic Nursing and Registered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "14.",
-    "positionName": "Pharmacists-RBSK MHT",
-    "qualifications": "B. Pharma- D. Pharma from any recognized institute and registered with State Pharmacy Council",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "15.",
+    "qualifications": "10+2 Science from Recognized Board. Diploma in Dental Technician Course from a Govt. recognized. Registration with State Dental Council. Experience: Two years of\nexperience in a dental college\/clinic",
+    "remuneration": 12000
+   },
+   {
+    "SNo": 13,
+    "positionName": "Staff Nurse - RBSK (MHT)",
+    "qualifications": "GNM\/ B.Sc. Nursing\/ Post Basic Nursing and\nRegistered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 14,
+    "positionName": "Pharmacists - RBSK (MHT)",
+    "qualifications": "B. Pharma\/ D. Pharma from any recognized institute and registered with State Pharmacy Council",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 15,
     "positionName": "Staff Nurse  - DEIC",
-    "qualifications": "GNM- B.Sc. Nursing- Post Basic Nursing and Registered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council before joining the post, if selected.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "16.",
+    "qualifications": "GNM\/ B.Sc. Nursing\/ Post Basic Nursing and\nRegistered with any Nursing Council. Candidate has to apply for registration in Uttarakhand Nursing Council\nbefore joining the post, if selected.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 16,
     "positionName": "Physiotherapist",
-    "qualifications": "Bachelor's degree in Physiotherapy (BPT) with 02 years experience of working in a hospital. AND Registration in Uttarakhand Paramedical Council- Faculty, if applicable in Uttarakhand",
-    "remuneration": "20000"
-  },
-  {
-    "SNo": "17.",
+    "qualifications": "Bachelor's degree in Physiotherapy (BPT) with 02 years experience of working in a hospital.\nAND\nRegistration in Uttarakhand Paramedical Council\/ Faculty, if applicable in Uttarakhand",
+    "remuneration": 20000
+   },
+   {
+    "SNo": 17,
     "positionName": "Audiologist & speech therapist",
-    "qualifications": "A bachelor in Audiology & Speech language pathology- B. Sc. in speech & hearing from RCI recognized institute",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "18.",
+    "qualifications": "A bachelor in Audiology & Speech language pathology\/ B. Sc. in speech & hearing from RCI recognized institute",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 18,
     "positionName": "Psychologist",
     "qualifications": "Master's Degree in Child Psychology from any recognized university in India",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "19.",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 19,
     "positionName": "Early interventionist cum special educator",
-    "qualifications": "MSc in Disability studies (Early Intervention) with basic degree in physiotherapy (BPT)- Occupational therapy (BOT)- Speech Language pathologist (ASLP)- MBBS- BAMS-BHMS. OR Post graduate Diploma in Early Intervention (PGDEI) with basic degree in physiotherapy (BPT)- Occupational therapy (BOT)- Speech Language pathologist (ASLP)- MBBS. Essential: B.Ed. in Special Education in the field of Mental Retardation- Diploma in Early Childhood Special Education (Mental Retardation)- B.Ed. Special Education (Locomotor and Neurological Disorder)- P.G. Diploma in Special Education (Mult. Dis.:Physical and Neuro.) recognized by Rehabilitation Council of India.",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "20.",
+    "qualifications": "MSc in Disability studies (Early Intervention) with basic degree in physiotherapy (BPT)\/ Occupational therapy (BOT)\/ Speech Language pathologist (ASLP)\/ MBBS\/ BAMS\/BHMS.\nOR\nPost graduate Diploma in Early Intervention (PGDEI) with basic degree in physiotherapy\n(BPT)\/ Occupational therapy (BOT)\/ Speech Language pathologist (ASLP)\/ MBBS. Essential: B.Ed. in Special Education in the field of Mental Retardation\/ Diploma in Early Childhood Special Education (Mental Retardation)\/ B.Ed. Special Education (Locomotor and Neurological Disorder)\/ P.G. Diploma in Special Education (Mult.\nDis.:Physical and Neuro.) recognized by Rehabilitation Council of India.",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 20,
     "positionName": "Lab technician - DEIC",
-    "qualifications": "Degree in Medical Laboratory Technology OR Diploma in Medical Lab Technology. Should have completed 10+2 before obtaining Degree or Diploma. The degree- diploma should be from recognized university- institution recognized by State Govt- Central Govt. Minimum One year experience after degree- diploma. Knowledge of computers. The candidate should be registered with any Paramedical Medical Council-Faculty, if applicable.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "21.",
+    "qualifications": "Degree in Medical Laboratory Technology OR Diploma in Medical Lab Technology. Should have completed 10+2 before obtaining Degree or Diploma. The degree\/ diploma should be from recognized university\/ institution\nrecognized by State Govt\/ Central Govt. Minimum One year experience after degree\/ diploma. Knowledge of computers.\nThe candidate should be registered with any Paramedical\nMedical Council\/Faculty, if applicable.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 21,
     "positionName": "Dental technician",
     "qualifications": "Passed 1 or 2 years course on Dental technician from a recognized institution. (Ref DEIC Operational Guidelines)",
-    "remuneration": "12000"
-  },
-  {
-    "SNo": "22.",
+    "remuneration": 12000
+   },
+   {
+    "SNo": 22,
     "positionName": "Counsellor - FP",
-    "qualifications": "Bachelors in Social Science- Sociology- Psychology- related disciplines with minimum 2 years of relevant experience (Preference will be given to local candidate)",
-    "remuneration": "11000"
-  },
-  {
-    "SNo": "23.",
+    "qualifications": "Bachelors in Social Science\/ Sociology\/ Psychology\/ related disciplines with minimum 2 years of relevant\nexperience (Preference will be given to local candidate)",
+    "remuneration": 11000
+   },
+   {
+    "SNo": 23,
     "positionName": "Counsellor - RKSK",
-    "qualifications": "Master’s- Bachelor’s degree in Social Work-Psychology-Social Science 1-2 years’ work experience in public health, preferably in counselling Good understanding of issues faced by young people-adolescents Excellent interpersonal communication skills; capable of maintaining privacy and confidentiality; open, compassionate and willing to listen and engage young people; and is non-judgmental, with a progressive attitude Can demonstrate a clear understanding of laws, policies and procedures pertaining to informed consent and confidentiality, contraceptive services, abortion, STI-HIV testing and treatment, substance abuse treatment, management of mental health and sexual abuse-domestic violence cases etc. Fluency in local languages-both writing and speaking. Good data management skills Basic Computer skills, especially those related to MS Office.",
-    "remuneration": "11000"
-  },
-  {
-    "SNo": "24.",
+    "qualifications": "Master’s\/ Bachelor’s degree in Social Work\/Psychology\/Social Science\n1-2 years’ work experience in public health, preferably in counselling\nGood understanding of issues faced by young people\/adolescents\nExcellent interpersonal communication skills; capable of maintaining privacy and confidentiality; open, compassionate and willing to listen and engage young people; and is non-judgmental, with a progressive attitude Can demonstrate a clear understanding of laws, policies and procedures pertaining to informed consent and confidentiality, contraceptive services, abortion, STI\/HIV testing and treatment, substance abuse treatment, management of mental health and sexual abuse\/domestic violence cases etc.\nFluency in local languages-both writing and speaking. Good data management skills\nBasic Computer skills, especially those related to MS\nOffice.",
+    "remuneration": 11000
+   },
+   {
+    "SNo": 24,
     "positionName": "Counsellor - Hbpathy",
-    "qualifications": "MSW from any recognized institution with two year experience in health sector and 6 months certificate course in Computers.",
-    "remuneration": "18000"
-  },
-  {
-    "SNo": "25.",
-    "positionName": "Psychologist- Counsellor",
-    "qualifications": "Post-graduate degree in Psychology-MSW or Graduate in Psychology- trained in counseling with two years of experience in the field of counseling services",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "26.",
-    "positionName": "Microbiologists - IDSP",
-    "qualifications": "Medical Graduate with Post Graduate Degree- Diploma in Microbiology- Virology- Pathology- other Lab Sciences OR M. Sc. in Medical Microbiology Preference will be given to the candidate with relevant experience in Medical Microbiology (Ref of advt for district level dated 07-12-17)",
-    "remuneration": "30000"
-  },
-  {
-    "SNo": "27.",
-    "positionName": "Audiometrician- Audiologist",
-    "qualifications": "A bachelor in Audiology & Speech language pathology- B. Sc. (speech and hearing) from RCI recognized institute",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "28.",
+    "qualifications": "MSW from any recognized institution with two year\nexperience in health sector and 6 months certificate course in Computers.",
+    "remuneration": 18000
+   },
+   {
+    "SNo": 25,
+    "positionName": "Psychologist\/ Counsellor - NTCP",
+    "qualifications": "Post-graduate degree in Psychology\/MSW or Graduate in Psychology\/ trained in counseling with two years of\nexperience in the field of counseling services",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 26,
+    "positionName": "Microbiologists\n- IDSP",
+    "qualifications": "Medical Graduate with Post Graduate Degree\/ Diploma in Microbiology\/ Virology\/ Pathology\/ other Lab Sciences OR\nM. Sc. in Medical Microbiology\nPreference will be given to the candidate with relevant\nexperience in Medical Microbiology (Ref of advt for district level dated 07-12-17)",
+    "remuneration": 30000
+   },
+   {
+    "SNo": 27,
+    "positionName": "Audiometrician\/ Audiologist",
+    "qualifications": "A bachelor in Audiology & Speech language pathology\/ B. Sc. (speech and hearing) from RCI recognized institute",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 28,
     "positionName": "Multi Rehabilitation worker",
-    "qualifications": "10+2 from any recognized Board and One and half year certificate course of Multi Rehabilitation worker from a recognized institute and Registered as Rehabilitation Personnel under Rehabilitation Council of India Act 1992. OR Bachelor's degree in Physiotherapy (BPT) with 02 years of experience of working in a hospital and Registration in Uttarakhand Paramedical Council-Faculty, if applicable in Uttarakhand",
-    "remuneration": "For 10+2 from any recognized Board and One and half year certificate course of Multi Rehabilitation worker – Rs 12,000 OR For BPT Rs 20000"
-  },
-  {
-    "SNo": "29.",
+    "qualifications": "10+2 from any recognized Board and One and half year certificate course of Multi Rehabilitation worker from a recognized institute and Registered as Rehabilitation Personnel under Rehabilitation Council of India Act 1992. OR\nBachelor's degree in Physiotherapy (BPT) with 02 years of experience of working in a hospital and Registration in Uttarakhand Paramedical Council\/Faculty, if applicable in Uttarakhand",
+    "remuneration": "For 10+2 from any recognized Board and One and half year certificate course of Multi Rehabilitation worker – Rs 12,000\nOR\nFor BPT Rs 20000"
+   },
+   {
+    "SNo": 29,
     "positionName": "Social Worker - (Psychiatric)",
     "qualifications": "Post graduate degree awarded after completion of course of study of minimum two years in mental health or psychiatric Social work",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "30.",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 30,
     "positionName": "Social Worker - (NTCP)",
-    "qualifications": "Post-graduate degree in Sociology-Social Work with two years of field experience.",
-    "remuneration": "30000"
-  },
-  {
-    "SNo": "31.",
+    "qualifications": "Post-graduate degree in Sociology\/Social Work with two years of field experience.",
+    "remuneration": 30000
+   },
+   {
+    "SNo": 31,
     "positionName": "TBHV - Medical College",
-    "qualifications": "Graduate in Science OR Intermediate (10 + 2) in Science and experience of working as MPW-LHV- ANM- Health worker - Certificate or higher course in Health Education - Counselling OR Tuberculosis health visitor’s recognized course *Certificate course in computer operations (minimum two months) Preferential Qualification – Training course for MPW or recognized sanitary inspector’s course",
-    "remuneration": "13000"
-  },
-  {
-    "SNo": "32.",
+    "qualifications": "Graduate in Science OR\nIntermediate (10 + 2) in Science and experience of working as MPW\/LHV\/ ANM\/ Health worker \/ Certificate or higher course in Health Education \/ Counselling\nOR\nTuberculosis health visitor’s recognized course\n*Certificate course in computer operations (minimum two months)\nPreferential Qualification – Training course for MPW or recognized sanitary inspector’s course",
+    "remuneration": 13000
+   },
+   {
+    "SNo": 32,
     "positionName": "Audiometric Asstt.",
-    "qualifications": "A Technical person with 1 year diploma in hearing, language and speech (DHLS) from a RCI recognized institute",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "33.",
+    "qualifications": "A Technical person with 1 year diploma in hearing,\nlanguage and speech (DHLS) from a RCI recognized institute",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 33,
     "positionName": "Field Worker - Insect Collectors",
-    "qualifications": "Higher Secondary with Science. One year experience in Medical- Biological Laboratory. Knowledge of computers.",
-    "remuneration": "12000"
-  },
-  {
-    "SNo": "34.",
+    "qualifications": "Higher Secondary with Science. One year experience in Medical\/ Biological Laboratory. Knowledge of computers.",
+    "remuneration": 12000
+   },
+   {
+    "SNo": 34,
     "positionName": "Blood Bank Technician",
-    "qualifications": "1. Degree in Medical Laboratory Technology OR 2. Diploma in Medical Lab Technology    Should have completed 10+2 before obtaining diploma or degree    The degree or diploma should be from a university- institution recognized by the Central Govt or State Govt.    Knowledge of Computers    One year experience after degree- diploma. The candidate should be registered with Uttarakhand Paramedical Medical Council- Faculty, if applicable.",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "35.",
-    "positionName": "Medical Records Asstt.- Case Registry Asstt.",
-    "qualifications": "Higher Secondary and knowledge of window based packages- applications",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "36.",
-    "positionName": "Cold Chain Handler- Refrigerator Mechanic",
-    "qualifications": "Secondary School examination pass Diploma- ITI in Mechanical or refrigeration from a recognized university-institution Having Knowledge of refrigeration & cold chain equipment. Have at least 01 years experience in refrigeration. Working Knowledge of  MS office",
-    "remuneration": "12000"
-  },
-  {
-    "SNo": "37.",
+    "qualifications": "1. Degree in Medical Laboratory Technology OR\n2. Diploma in Medical Lab Technology\n   Should have completed 10+2 before obtaining diploma or degree\n   The degree or diploma should be from a university\/ institution recognized by the Central Govt or State Govt.\n   Knowledge of Computers\n   One year experience after degree\/ diploma.\nThe candidate should be registered with Uttarakhand Paramedical Medical Council\/ Faculty, if applicable.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 35,
+    "positionName": "Medical Records\nAsstt.\/ Case Registry Asstt.",
+    "qualifications": "Higher Secondary and knowledge of window based packages\/ applications",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 36,
+    "positionName": "Cold Chain Handler\/ Refrigerator Mechanic",
+    "qualifications": "Secondary School examination pass\nDiploma\/ ITI in Mechanical or refrigeration from a recognized university\/institution\nHaving Knowledge of refrigeration & cold chain equipment.\nHave at least 01 years experience in refrigeration. Working Knowledge of  MS office",
+    "remuneration": 12000
+   },
+   {
+    "SNo": 37,
     "positionName": "District Programme Manager",
-    "qualifications": "Any Regular Graduate with MPH-MBA-MSW-PGDBM-Masters in Rural Development Experience of working for at least five years at a position in Program Management in NHM at State- District- Block level. Preference will be given to the candidate who has worked as District Program Manager- Block Program Manager",
-    "remuneration": "35000"
-  },
-  {
-    "SNo": "38.",
+    "qualifications": "Any Regular Graduate with MPH\/MBA\/MSW\/PGDBM\/Masters in Rural Development Experience of working for at least five years at a position in Program Management in NHM at State\/ District\/ Block level. Preference will be given to the candidate who has\nworked as District Program Manager\/ Block Program Manager",
+    "remuneration": 35000
+   },
+   {
+    "SNo": 38,
     "positionName": "District Accounts Manager",
-    "qualifications": "Inter CA- MBA (Finance)- Inter - ICWA- M. Com.- CFA with high level of proficiency in application of accounting software packages. Minimum 03 years of working experience in related field of accounts- finance. Preference will be given to the candidate with work experience in National Health Mission- health sector with government- externally funded health projects-Ex-defense personnel with related experience- management capabilities",
-    "remuneration": "30000"
-  },
-  {
-    "SNo": "39.",
+    "qualifications": "Inter CA\/ MBA (Finance)\/ Inter - ICWA\/ M. Com.\/ CFA with high level of proficiency in application of accounting software packages. Minimum 03 years of working experience in related field of accounts\/ finance. Preference will be given to the candidate with work experience in National Health Mission\/ health sector with government\/ externally funded health projects\/Ex-defense personnel\nwith related experience\/ management capabilities",
+    "remuneration": 30000
+   },
+   {
+    "SNo": 39,
     "positionName": "District Data Manager - IDSP",
-    "qualifications": "Science Graduate with M. Tech. (IT-CS) - MCA- MSc. (CS). Working experience of two years of Software Development- MIS- Data Management and Networking. Preference will be give to the candidate having regular- full time degree",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "40.",
+    "qualifications": "Science Graduate with M. Tech. (IT\/CS) \/ MCA\/ MSc. (CS). Working experience of two years of Software Development\/ MIS\/ Data Management and Networking. Preference will be give to the candidate having regular\/\nfull time degree",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 40,
     "positionName": "Hospital Quality Manager",
-    "qualifications": "Science Graduate with PG Degree in Public Health-Health Management-Health & Hospital Administration- Hospital Management OR Science Graduate with two years diploma in Public Health-Health Management-Health & Hospital Administration- Hospital Management Preference will be given to  candidate - - Having Regular PG Degree- Two years Diploma - Having experience in relevant field",
-    "remuneration": "30000"
-  },
-  {
-    "SNo": "41.",
+    "qualifications": "Science Graduate with PG Degree in Public Health\/Health Management\/Health & Hospital Administration\/ Hospital Management\nOR\nScience Graduate with two years diploma in Public Health\/Health Management\/Health & Hospital Administration\/ Hospital Management\nPreference will be given to  candidate -\n- Having Regular PG Degree\/ Two years Diploma\n- Having experience in relevant field",
+    "remuneration": 30000
+   },
+   {
+    "SNo": 41,
     "positionName": "DEIC Manager",
-    "qualifications": "Masters degree or Two year’s diploma in Public Health-Health Management-Health & Hospital Management-Hospital Management- Hospital Administration OR Any MBA with 02 years of working experience in Health Sector",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "42.",
+    "qualifications": "Masters degree or Two year’s diploma in\nPublic Health\/Health Management\/Health & Hospital Management\/Hospital Management\/ Hospital Administration\nOR\nAny MBA with 02 years of working experience in Health Sector",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 42,
     "positionName": "District & Logistic Manager",
-    "qualifications": "Any Graduate with MBA in Supply Chain Mgt- Health Care Mgt- Materials Mgt- Hospital Administration- Health & Hospital Mgt OR Any Graduate with Two year diploma in Supply Chain Mgt- Health Care Mgt- Materials Mgt- Hospital Administration- Health & Hospital Mgt Preference shall be given to candidate - * Having Regular- Full time PG Degree or Diploma * Having experience of working in Program Management- Project implementation and Management- PSU",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "43.",
+    "qualifications": "Any Graduate with MBA in Supply Chain Mgt\/ Health Care Mgt\/ Materials Mgt\/ Hospital Administration\/ Health & Hospital Mgt\nOR\nAny Graduate with Two year diploma in Supply Chain Mgt\/ Health Care Mgt\/ Materials Mgt\/ Hospital Administration\/ Health & Hospital Mgt\nPreference shall be given to candidate -\n* Having Regular\/ Full time PG Degree or Diploma\n* Having experience of working in Program Management\/ Project implementation and Management\/ PSU",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 43,
     "positionName": "District Consultant - QA",
-    "qualifications": "Science Graduate with Post Graduate Degree in Public Health- Health Management- Health and Hospital Administration- Hospital Management OR Science Graduate with Two years diploma in Public Health- Health Management- Health and Hospital Administration- Hospital Management Preference will be given to candidate  - - Having Regular- Full time PG Degree or Diploma - Having experience in relevant field",
-    "remuneration": "35000"
-  },
-  {
-    "SNo": "44.",
-    "positionName": "Program Officer - RKSK",
-    "qualifications": "Any Graduate with MBA in Health Care Management- Hospital Administration- Health & Hospital Management- Public Health OR Any Graduate with Two year’s PG Diploma in Health Care Management- Hospital Administration- Health & Hospital Management- Public Health Preference will be given to candidate  - - Having Regular- Full time PG Degree or Diploma - Having experience of working in Program Management- Projection implementation and Management- PSU",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "45.",
-    "positionName": "Program Officer - MCH",
-    "qualifications": "Any Graduate with MBA in Health Care Management- Hospital Administration- Health & Hospital Management- Public Health OR Any Graduate with Two year’s PG Diploma in Health Care Management- Hospital Administration- Health & Hospital Management- Public Health Preference will be given to candidate  - - Having Regular- Full time PG Degree or Diploma - Having experience of working in Program Management- Projection implementation and Management- PSU",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "46.",
+    "qualifications": "Science Graduate with Post Graduate Degree in\nPublic Health\/ Health Management\/ Health and Hospital Administration\/ Hospital Management\nOR\nScience Graduate with Two years diploma in\nPublic Health\/ Health Management\/ Health and Hospital Administration\/ Hospital Management\nPreference will be given to candidate  -\n- Having Regular\/ Full time PG Degree or Diploma\n- Having experience in relevant field",
+    "remuneration": 35000
+   },
+   {
+    "SNo": 44,
+    "positionName": "Program Officer\n- RKSK",
+    "qualifications": "Any Graduate with MBA in Health Care Management\/ Hospital Administration\/ Health & Hospital Management\/ Public Health\nOR\nAny Graduate with Two year’s PG Diploma in Health Care Management\/ Hospital Administration\/ Health & Hospital Management\/ Public Health\nPreference will be given to candidate  -\n- Having Regular\/ Full time PG Degree or Diploma\n- Having experience of working in Program Management\/ Projection implementation and Management\/ PSU",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 45,
+    "positionName": "Program Officer\n- MCH",
+    "qualifications": "Any Graduate with MBA in Health Care Management\/ Hospital Administration\/ Health & Hospital Management\/ Public Health\nOR Any Graduate with Two year’s PG Diploma in Health Care Management\/ Hospital Administration\/ Health & Hospital Management\/ Public Health\nPreference will be given to candidate  -\n- Having Regular\/ Full time PG Degree or Diploma\n- Having experience of working in Program Management\/ Projection implementation and Management\/ PSU",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 46,
     "positionName": "District Coordinator - PCPNDT",
-    "qualifications": "Any Graduate with MBA Graduate and Post Graduate degree must be regular full time. Proficiency in use of MS - Office Knowledge of written and typing skills in English Candidate should have good managerial and communication skills. Preference shall be given to the candidate - Having experience of working in Program Management- Project Management- PSU Certification in project management",
-    "remuneration": "20000"
-  },
-  {
-    "SNo": "47.",
+    "qualifications": "Any Graduate with MBA\nGraduate and Post Graduate degree must be regular full time.\nProficiency in use of MS - Office\nKnowledge of written and typing skills in English Candidate should have good managerial and communication skills. Preference shall be given to the candidate -\nHaving experience of working in Program Management\/ Project Management\/ PSU\nCertification in project management",
+    "remuneration": 20000
+   },
+   {
+    "SNo": 47,
     "positionName": "Field Supervisor",
-    "qualifications": "i) Graduate preferably in Sociology, Psychology or Social work. ii) Have at least 01 years experience in similar work. iii) Working Knowledge of MS office iv) Should have personal transport with valid driving license. v) Preferred Skills-Experience: Computer, Communication, problem solving, team building, prior work experience in Social work, NGO, community development activities, and health services etc. Prior experience in similar work and experience, if any will be given weightage.",
-    "remuneration": "12000"
-  },
-  {
-    "SNo": "48.",
+    "qualifications": "i) Graduate preferably in Sociology, Psychology or Social work.\nii) Have at least 01 years experience in similar work.\niii) Working Knowledge of MS office\niv) Should have personal transport with valid driving license.\nv) Preferred Skills\/Experience: Computer, Communication, problem solving, team building, prior work experience in Social work, NGO, community development activities, and health services etc. Prior experience in similar work and\nexperience, if any will be given weightage.",
+    "remuneration": 12000
+   },
+   {
+    "SNo": 48,
     "positionName": "District Community Mobilizer - ASHA",
-    "qualifications": "Master’s degree in social work or any of the social sciences. At least 2-3years experience in management-coordination of community health programmes or community mobilization or related field activities with a minimum of 1 years experience in health sector.",
-    "remuneration": "13000"
-  },
-  {
-    "SNo": "49.",
-    "positionName": "IEC - BCC - BCC Facilitator",
-    "qualifications": "Graduate-degree or diploma in mass communication with at least 03 years of experience in the field of communication-community health work. The candidates must have working knowledge of computer software like MS office, Corel Draw & Photoshop etc.",
-    "remuneration": "20000"
-  },
-  {
-    "SNo": "50.",
+    "qualifications": "Master’s degree in social work or any of the social sciences.\nAt least 2-3years experience in management\/coordination of community health programmes or community mobilization or related field activities with a minimum of 1\nyears experience in health sector.",
+    "remuneration": 13000
+   },
+   {
+    "SNo": 49,
+    "positionName": "IEC - BCC -\nBCC Facilitator",
+    "qualifications": "Graduate\/degree or diploma in mass communication with at least 03 years of experience in the field of communication\/community health work.\nThe candidates must have working knowledge of computer software like MS office, Corel Draw & Photoshop etc.",
+    "remuneration": 20000
+   },
+   {
+    "SNo": 50,
     "positionName": "District Epidemiologist",
-    "qualifications": "Science Graduate With Post Graduate Degree in Epidemiology-Public Health-Health Management-Health and Hospital Administration-Hospital Management OR Science Graduate With Two years diploma in Public Health-Health Management-Health and Hospital Administration-Hospital Management -Preference will be given to  candidate- - Having regular-full time Post Graduate Degree or Two year's Diploma -Having experience in relevant field",
-    "remuneration": "35000"
-  },
-  {
-    "SNo": "51.",
+    "qualifications": "Science Graduate With Post Graduate Degree in Epidemiology\/Public Health\/Health Management\/Health and Hospital Administration\/Hospital Management\nOR\nScience Graduate With Two years diploma in Public Health\/\/Health Management\/Health and Hospital Administration\/Hospital Management\n-Preference will be given to  candidate-\n- Having regular\/full time Post Graduate Degree or Two year's Diploma\n-Having experience in relevant field",
+    "remuneration": 35000
+   },
+   {
+    "SNo": 51,
     "positionName": "District Data Manager - IDSP",
-    "qualifications": "Science Graduate With M. Tech (IT- CS)- MCA- M. Sc. (CS) Working experience of two years of software development- MIS- Data Management and networking. Graduate and Post",
-    "remuneration": "20000"
-  },
-  
-  {
-    "SNo": "52.",
+    "qualifications": "Science Graduate With\nM. Tech (IT\/ CS)\/ MCA\/ M. Sc. (CS)\nWorking experience of two years of software development\/ MIS\/ Data Management and networking. Graduate and Post Graduate degree must be regular\/ full time.",
+    "remuneration": 20000
+   },
+   {
+    "SNo": 52,
     "positionName": "District VBD Consultant",
-    "qualifications": "MSC. Zoology- Life Science with Specialization in Entomology Preference will be given to the candidate - Having experience of working in the field of Entomology",
-    "remuneration": "35000"
-  },
-  {
-    "SNo": "53.",
+    "qualifications": "MSC. Zoology\/ Life Science with\nSpecialization in Entomology\nPreference will be given to the candidate -\nHaving experience of working in the field of Entomology",
+    "remuneration": 35000
+   },
+   {
+    "SNo": 53,
     "positionName": "District Program Coordinator - RNTCP",
-    "qualifications": "Any Graduate with MBA in Health Care Management- Hospital Administration- Health & Hospital Management- Public Health OR Any Graduate with Two year PG diploma in Health Care Management- Hospital Administration- Health & Hospital Management- Public Health Preference shall be given to candidate - * Having Regular- Full time Post Graduate Degree or Two year PG Diploma * Having experience of working in Program Management- Project implementation and Management- PSU Year 2018",
-    "remuneration": "22000"
-  },
-  {
-    "SNo": "54.",
-    "positionName": "Sr. DOTS plus TB HIV Supervisor",
-    "qualifications": "As per latest guidelines",
-    "remuneration": "19000"
-  },
-  {
-    "SNo": "55.",
+    "qualifications": "Any Graduate with MBA in Health Care Management\/ Hospital Administration\/ Health & Hospital Management\/ Public Health\nOR\nAny Graduate with Two year PG diploma in Health Care Management\/ Hospital Administration\/ Health & Hospital Management\/ Public Health\nPreference shall be given to candidate -\n* Having Regular\/ Full time Post Graduate Degree or Two year PG Diploma\n* Having experience of working in Program Management\/\nProject implementation and Management\/ PSU Year 2018",
+    "remuneration": 22000
+   },
+   {
+    "SNo": 54,
+    "positionName": "Sr. DOTS plus TB HIV\nSupervisor",
+    "qualifications": "Graduate. Certificate course in Computer operations (minimum of two months). Permanent two wheeler driving licence and should be able to drive two wheeler. Preferential Qualification - At least two years of work experience in NTEP or 05 years of experience in any public health program in supervisory capacity.",
+    "remuneration": 19000
+   },
+   {
+    "SNo": 55,
     "positionName": "STS",
-    "qualifications": "As per latest guidelines",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "56.",
+    "qualifications": "Bachelor's Degree OR Recognized Sanitary Inspector's course\nCertificate course in Computer operations (minimum of two months). Permanent two wheeler driving licence and should be able to drive two wheeler. Preferential Qualification - Tuberculosis Health Visitor's recognized course Govt recognized degree\/ diploma in Social Work or Medical Social Work. Successful completion of basic training course (Govt recognized) for multi purpose health workers.",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 56,
     "positionName": "STLS",
-    "qualifications": "As per latest guidelines",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "57.",
+    "qualifications": "Graduate OR Diploma\nin \nMedical Lab Technology or equivalent from govt recognized institute. Certificate course in Computer operations (minimum of two months). Permanent two wheeler driving licence and should be able to drive two wheeler. Preferential Qualification - Minimum one year of work experience in NTEP",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 57,
     "positionName": "Accountant (RNTCP)",
-    "qualifications": "As per latest guidelines",
-    "remuneration": "10000"
-  },
-  {
-    "SNo": "58.",
+    "qualifications": "Graduate in commerce. Two years of experience of maintenance of accounts on double entry system in recognized society or institution. Experience of working with accounting software for at least two years. Preferential Qualification - Familiarity with audit in a recognized society or institution. MBA\/ PGD in financial management. ",
+    "remuneration": 10000
+   },
+   {
+    "SNo": 58,
     "positionName": "Monitoring & Evaluation Officer",
-    "qualifications": "MBA- PG Diploma in Management- Health Administration- Hospital Administration from a recognized institute- university Preference will be given to the candidate- * Having Regular PG Degree- Diploma * who has worked in the field of development- health sector at district- state level",
-    "remuneration": "25000"
-  },
-  {
-    "SNo": "59.",
+    "qualifications": "MBA\/ PG Diploma in\nManagement\/ Health Administration\/ Hospital Administration from a recognized institute\/ university Preference will be given to the candidate-\n* Having Regular PG Degree\/ Diploma\n* who has worked in the field of development\/ health sector at district\/ state level",
+    "remuneration": 25000
+   },
+   {
+    "SNo": 59,
     "positionName": "District NTCP Consultant",
-    "qualifications": "Science Graduate with Post Graduate Degree in Public Health- Health Management- Health and Hospital Administration- Hospital Management OR Science Graduate with Two years diploma in Public Health- Health Management- Health and Hospital Administration- Hospital Management Preference will be given to candidate  - - Having Regular- Full time PG Degree or Diploma - Having experience in relevant field",
-    "remuneration": "35000"
-  },
-  {
-    "SNo": "60.",
+    "qualifications": "Science Graduate with Post Graduate Degree in\nPublic Health\/ Health Management\/ Health and Hospital Administration\/ Hospital Management\nOR\nScience Graduate with Two years diploma in\nPublic Health\/ Health Management\/ Health and Hospital Administration\/ Hospital Management\nPreference will be given to candidate  -\n- Having Regular\/ Full time PG Degree or Diploma\n- Having experience in relevant field",
+    "remuneration": 35000
+   },
+   {
+    "SNo": 60,
     "positionName": "Finance cum Logistic Consultant",
-    "qualifications": "B. Com with M. Com.- MBA (Finance) from recognized institute or university B. Com. must be Regular- Full time Candidate must have - * At least 04 years of working experience in financial budgeting, accounting, reporting and fund flow management etc. Preference will be given to the candidate who has relevant experience of working in Govt Organization- Govt Projects- PSUs- Govt Programs etc.",
-    "remuneration": "30000"
-  },
-  {
-    "SNo": "61.",
+    "qualifications": "B. Com with\nM. Com.\/ MBA (Finance) from recognized institute or university\nB. Com. must be Regular\/ Full time Candidate must have -\n* At least 04 years of working experience in financial budgeting, accounting, reporting and fund flow management etc.\nPreference will be given to the candidate who has relevant experience of working in Govt Organization\/ Govt Projects\/ PSUs\/ Govt Programs etc.",
+    "remuneration": 30000
+   },
+   {
+    "SNo": 61,
     "positionName": "Block Programme Manager",
-    "qualifications": "Any Graduate with MBA Preference shall be given to candidate - * Having Regular- Full time Post Graduate Degree or Two year's Diploma * Having experience of working in Program Management- Project implementation and Management- PSU",
-    "remuneration": "16000"
-  },
-  {
-    "SNo": "62.",
+    "qualifications": "Any Graduate with MBA\nPreference shall be given to candidate -\n* Having Regular\/ Full time Post Graduate Degree or Two year's Diploma\n* Having experience of working in Program Management\/\nProject implementation and Management\/ PSU",
+    "remuneration": 16000
+   },
+   {
+    "SNo": 62,
     "positionName": "Block Accounts Manager",
-    "qualifications": "Graduation in Commerce Two years of experience in maintenance of accounts on double entry system in a reputed organization. Preference will be given to candidate - * Having Regular- Full time Degree * M. Com. OR MBA (Finance) OR PGDBM (Finance) * Familiarity with audit in a recognized society or institute",
-    "remuneration": "14000"
-  },
-  {
-    "SNo": "63.",
-    "positionName": "Block Coordinator - ASHA",
+    "qualifications": "Graduation in Commerce\nTwo years of experience in maintenance of accounts on double entry system in a reputed organization.\nPreference will be given to candidate -\n* Having Regular\/ Full time Degree\n* M. Com. OR MBA (Finance) OR PGDBM (Finance)\n* Familiarity with audit in a recognized society or institute",
+    "remuneration": 14000
+   },
+   {
+    "SNo": 63,
+    "positionName": "Block Coordinator -\nASHA",
     "qualifications": "Bachelor’s degree in social work or any of the social sciences.",
-    "remuneration": "10000"
-  },
-  {
-    "SNo": "64.",
+    "remuneration": 10000
+   },
+   {
+    "SNo": 64,
     "positionName": "Nurse Trainer - Skill Lab",
-    "qualifications": "M. Sc. (Nursing) OR B. Sc. (Nursing) with at least 03 years of work experience in clinical field in maternal and newborn health or the skills lab with clinical training experience Preference will be given to the candidate having experience of providing technical assistance- consultancy- teaching experience in any of related programs like in Skilled Birth Attendance- Labour Room- Newborn- Child Health- Family Planning- SNCU- Educational or Clinical Training Programs",
-    "remuneration": "18000"
-  },
-  {
-    "SNo": "65.",
+    "qualifications": "M. Sc. (Nursing) OR\nB. Sc. (Nursing) with at least 03 years of work experience in clinical field in maternal and newborn health or the skills lab with clinical training experience\nPreference will be given to the candidate having experience of providing technical assistance\/ consultancy\/ teaching experience in any of related programs like in Skilled Birth Attendance\/ Labour Room\/ Newborn\/ Child Health\/ Family Planning\/ SNCU\/ Educational or Clinical Training\nPrograms",
+    "remuneration": 18000
+   },
+   {
+    "SNo": 65,
     "positionName": "Nursing Tutor",
-    "qualifications": "B.Sc. Nursing (Basic-Post Basic) or GNM with Diploma in Nursing Education & Administration -Diploma in Public Health Nursing Experience: 2 years of clinical working experience Technical knowledge and field experience in Nursing - Midwifery Education focusing on Skilled Birth Attendance, IMNCI and Family Planning from guidelines",
-    "remuneration": "20000"
-  },
-  {
-    "SNo": "66.",
+    "qualifications": "B.Sc. Nursing (Basic\/Post Basic) or GNM with Diploma in Nursing Education & Administration \/Diploma in Public Health Nursing\nExperience: 2 years of clinical working experience Technical knowledge and field experience in Nursing \/ Midwifery Education focusing on Skilled Birth Attendance,\nIMNCI and Family Planning from guidelines",
+    "remuneration": 20000
+   },
+   {
+    "SNo": 66,
     "positionName": "Program Associate",
-    "qualifications": "Graduate in any discipline. 1 year Diploma in Computer Application. Excellent command over MS Office & Internet.  Computer Typing speed of minimum 40 words per minute in English and 30 words per minute in Hindi.  Good communication and writing skill in English & Hindi. Minimum 2 years of relevant experience as Computer-Data Entry Operator. Preference will be given to the female candidates and those who have teaching experience",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "67.",
+    "qualifications": "Graduate in any discipline.\n1 year Diploma in Computer Application.\nExcellent command over MS Office & Internet.  Computer Typing speed of minimum 40 words per minute in English and 30 words per minute in Hindi.  Good communication and writing skill in English & Hindi.\nMinimum 2 years of relevant experience as Computer\/Data Entry Operator.\nPreference will be given to the female candidates and those who have teaching experience",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 67,
     "positionName": "OT Technician",
-    "qualifications": "Diploma in Operation Theatre Technology. Registered with Uttarakhand Paramedical Council, if applicable in the state of Uttarakhand. One year relevant experience",
-    "remuneration": "15000"
-  },
-  {
-    "SNo": "68.",
+    "qualifications": "Diploma in Operation Theatre Technology. Registered with\nUttarakhand Paramedical Council, if applicable in the state of Uttarakhand. One year relevant experience",
+    "remuneration": 15000
+   },
+   {
+    "SNo": 68,
     "positionName": "Sanitary Attendant",
     "qualifications": "Matriculation. At least 2 years experience of working in a hospital",
     "remuneration": "Min Wages"
-  },
-  {
-    "SNo": "69.",
+   },
+   {
+    "SNo": 69,
     "positionName": "Hospital Attendant",
     "qualifications": "Matriculation. At least 2 years experience of working in a hospital",
     "remuneration": "Min Wages"
-  },
-  {
-    "SNo": "70.",
-    "positionName": "DR TB Statistical Assistant",
-    "qualifications": "Graduate in any discipline with diploma in computer applications or equivalent recognized by the council for technical education or DOE ACC. Typing speed of 40 WPM in English and in local language – as per guidelines 2021",
-    "remuneration": "19000"
-  }
-]
+   },
+   {
+    "SNo": 70,
+    "positionName": "DR TB\nStatistical Assistant",
+    "qualifications": "Graduate in any discipline with diploma in computer applications or equivalent recognized by the council for technical education or DOE ACC. Typing speed of 40 WPM in English and in local language – as per guidelines\n2021",
+    "remuneration": 19000
+   }
+  ]
+  
