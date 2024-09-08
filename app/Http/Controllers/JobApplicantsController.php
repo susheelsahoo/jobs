@@ -36,12 +36,8 @@ class JobApplicantsController extends Controller
         $startDate  = Carbon::create(env("PAUSE_DATE"));
         $endDate    = Carbon::create(env("END_DATE"));
 
-<<<<<<< HEAD
-        $startDateTime = Carbon::create('2024-09-12 10:00:00');
-=======
         $pause_date = env("PAUSE_DATE") . '10:00:00';
         $startDateTime = Carbon::create($pause_date);
->>>>>>> d9a58519b471e714f2477c4bcc5445024f6eed56
 
         // Get the current date-time
         $current = Carbon::now();
