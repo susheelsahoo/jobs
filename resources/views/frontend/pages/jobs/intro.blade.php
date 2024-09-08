@@ -18,7 +18,21 @@ Job Application
 
             <div class=" col-md-12 right-section   mb-4 ">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong> Note:</strong> We are live from <strong>27th Aug 2024</strong> to <strong>23 Sep 2024 </strong>
+                    @php
+                    $date = env('START_DATE');
+                    $dateTime = new DateTime($date);
+                    $day = $dateTime->format('jS'); // Adds 'st', 'nd', 'rd', or 'th' to the day
+                    $startDate = $day . ' ' . $dateTime->format('M Y');
+
+
+                    $end_date = env('END_DATE');
+                    $dateTime = new DateTime($end_date);
+                    $day = $dateTime->format('jS'); // Adds 'st', 'nd', 'rd', or 'th' to the day
+                    $endDate = $day . ' ' . $dateTime->format('M Y');
+
+
+                    @endphp
+                    <strong> Note:</strong> We are live from <strong> {{ $startDate }}</strong> to <strong>{{ $endDate }} </strong>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -31,7 +45,6 @@ Job Application
                             <div class="form-row">
                                 <div class=" col-md-12">
                                     <ul class="">
-
                                         <li>M/s M. S. Vigilant Security, Placement and Detective Services Pvt. Ltd is under a
                                             contract to recruit and manage HR for National Health Mission, Uttarakhand.</li>
                                         <li>The posts are temporary and outsourced in nature under National Health Mission
