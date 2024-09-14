@@ -305,7 +305,10 @@ class JobApplicantsController extends Controller
             'subject' => 'New Application received for : ' . $request->position
         ];
 
-        Mail::to('info@vigilantindia.com')->send(new SendEmail($details));
+        // Mail::to('info@vigilantindia.com')->send(new SendEmail($details));
+        Mail::to('info@vigilantindia.com')
+            ->cc($request->email) // Add CC email here
+            ->send(new SendEmail($details));
         session()->flash('success', 'Application has been saved successfully !!');
 
         return redirect()->route('jobs.thankYou');
