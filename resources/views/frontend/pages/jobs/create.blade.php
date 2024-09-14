@@ -10,6 +10,14 @@ Job Application
 
 @section('admin-content')
 
+@php
+$locations = [
+'--Select--', 'UTTARKASHI', 'NAINITAL', 'UDHAM SINGH NAGAR',
+'Champawat', 'CHAMOLI', 'ALMORA', 'BAGESHWAR',
+'DEHRADUN', 'Haridwar', 'Pauri', 'STATE OFFICE DDN'
+];
+
+@endphp
 
 <div class="slider">
     <div class="listing-banner">
@@ -60,18 +68,11 @@ Job Application
                                         <input class="form-control" name="position" type="text" value="{{ $jobName }}" readonly>
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <label for="inputState">Prefered Location 1 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_1" class="form-control" required>
-                                            <option value="--Select--">--Select--</option>
-                                            <option value="UTTARKASHI">UTTARKASHI</option>
-                                            <option value="NAINITAL">NAINITAL</option>
-                                            <option value="UDHAM SINGH NAGAR">UDHAM SINGH NAGAR</option>
-                                            <option value="Champawat">Champawat</option>
-                                            <option value="CHAMOLI">CHAMOLI</option>
-                                            <option value="ALMORA">ALMORA</option>
-                                            <option value="BAGESHWAR">BAGESHWAR</option>
-                                            <option value="DEHRADUN">DEHRADUN</option>
-
+                                        <label for="prefered_location_1">Prefered Location 1 <span class="text-danger">*</span></label>
+                                        <select id="prefered_location_1" name="prefered_location_1" class="form-control" required>
+                                            @foreach ($locations as $location) :
+                                            <option value="<?= htmlspecialchars($location) ?>"><?= htmlspecialchars($location) ?></option>
+                                            @endforeach
                                         </select>
                                     </div>
                                 </div>
@@ -79,40 +80,11 @@ Job Application
                             <div class="mt-3">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <label for="inputState">Prefered Location 2 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_2" class="form-control" required>
-                                            <option value="--Select--">--Select--</option>
-
-
-
-
-
-
-
-
-                                            <option value="UTTARKASHI">UTTARKASHI</option>
-                                            <option value="NAINITAL">NAINITAL</option>
-                                            <option value="UDHAM SINGH NAGAR">UDHAM SINGH NAGAR</option>
-                                            <option value="Champawat">Champawat</option>
-                                            <option value="CHAMOLI">CHAMOLI</option>
-                                            <option value="ALMORA">ALMORA</option>
-                                            <option value="BAGESHWAR">BAGESHWAR</option>
-                                            <option value="DEHRADUN">DEHRADUN</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col-md-6 d-none">
-                                        <label for="inputState">Prefered Location 3 <span class="text-danger">*</span></label>
-                                        <select id="inputState" name="prefered_location_3" class="form-control">
-                                            <option value="--Select--">--Select--</option>
-                                            <option value="UTTARKASHI">UTTARKASHI</option>
-                                            <option value="NAINITAL">NAINITAL</option>
-                                            <option value="UDHAM SINGH NAGAR">UDHAM SINGH NAGAR</option>
-                                            <option value="Champawat">Champawat</option>
-                                            <option value="CHAMOLI">CHAMOLI</option>
-                                            <option value="ALMORA">ALMORA</option>
-                                            <option value="BAGESHWAR">BAGESHWAR</option>
-                                            <option value="DEHRADUN">DEHRADUN</option>
-
+                                        <label for="prefered_location_2">Prefered Location 2 <span class="text-danger">*</span></label>
+                                        <select id="prefered_location_2" name="prefered_location_2" class="form-control" required>
+                                            @foreach ($locations as $location) :
+                                            <option value="<?= htmlspecialchars($location) ?>"><?= htmlspecialchars($location) ?></option>
+                                            @endforeach
                                         </select>
                                     </div>
                                 </div>
