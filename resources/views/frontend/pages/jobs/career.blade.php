@@ -56,22 +56,32 @@ Job Application
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                @foreach ($jobs as $jobs)
+                                                @foreach ($jobs as $job)
+                                                <!-- Fixed variable naming -->
                                                 <?php
-                                                $positionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $jobs['positionName'])
+                                                // Check if positionName is not empty and sanitize it
+                                                if (!empty($job['positionName'])) {
+                                                    $positionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $job['positionName']);
+                                                } else {
+                                                    $positionName = 'N/A'; // Default value if positionName is empty
+                                                }
                                                 ?>
                                                 <tr>
-                                                    <td>{{$jobs['SNo']}}</td>
-                                                    <td>{{$positionName}}</td>
-                                                    <td>{{$jobs['qualifications']}}</td>
-                                                    <td>{{$jobs['remuneration']}}</td>
+                                                    <td>{{ $job['SNo'] }}</td>
+                                                    <td>{{ $positionName }}</td>
+                                                    <td>{{ $job['qualifications'] }}</td>
+                                                    <td>{{ $job['remuneration'] }}</td>
                                                     <td>
+                                                        @if (!empty($job['positionName']))
+                                                        <!-- Ensure the link is only shown if positionName is not empty -->
                                                         <a href="{{ route('jobs.rules', ['job_id' => $positionName]) }}" class="btn btn-primary">Apply</a>
-
+                                                        @else
+                                                        <span class="text-muted">Not Available</span> <!-- Placeholder if no positionName -->
+                                                        @endif
                                                     </td>
-
                                                 </tr>
                                                 @endforeach
+
 
 
 
