@@ -60,21 +60,22 @@ Job Application
                                                 <!-- Fixed variable naming -->
                                                 <?php
                                                 // Check if positionName is not empty and sanitize it
-                                                if (!empty($job['positionName'])) {
-                                                    $positionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $job['positionName']);
+                                                if (!empty($job['PositionName'])) {
+                                                    $PositionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $job['PositionName']);
                                                 } else {
-                                                    $positionName = 'N/A'; // Default value if positionName is empty
+                                                    $PositionName = 'N/A'; // Default value if positionName is empty
                                                 }
                                                 ?>
                                                 <tr>
-                                                    <td>{{ $job['SNo'] }}</td>
-                                                    <td>{{ $positionName }}</td>
-                                                    <td>{{ $job['qualifications'] }}</td>
-                                                    <td>{{ $job['remuneration'] }}</td>
+                                                    <td>{{ $job['Sno'] }}</td>
+
+                                                    <td>{{ $PositionName }}</td>
+                                                    <td>{{ $job['Qualifications'] }}</td>
+                                                    <td>{{ $job['Remuneration'] }}</td>
                                                     <td>
-                                                        @if (!empty($job['positionName']))
+                                                        @if (!empty($job['PositionName']))
                                                         <!-- Ensure the link is only shown if positionName is not empty -->
-                                                        <a href="{{ route('jobs.rules', ['job_id' => $positionName]) }}" class="btn btn-primary">Apply</a>
+                                                        <a href="{{ route('jobs.rules', ['job_id' => $PositionName]) }}" class="btn btn-primary">Apply</a>
                                                         @else
                                                         <span class="text-muted">Not Available</span> <!-- Placeholder if no positionName -->
                                                         @endif
