@@ -1,0 +1,1586 @@
+[
+        {
+            "Sno": "1",
+            "program": "BPMU",
+            "name_of_the_post": "Block Accounts Manager",
+            "vacant": "2",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "2",
+            "program": "NTEP",
+            "name_of_the_post": "Accountants - RNTCP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "3",
+            "program": "CH",
+            "name_of_the_post": "Data Entry Operators (SNCU) ",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "4",
+            "program": "DEIC",
+            "name_of_the_post": "Dental Technician - DEIC",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "5",
+            "program": "PCPNDT",
+            "name_of_the_post": "District Coordinator - PCPNDT",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "6",
+            "program": "NPCB",
+            "name_of_the_post": "District DEO - NPCB",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "7",
+            "program": "QA",
+            "name_of_the_post": "Hospital Quality Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "8",
+            "program": "NTCP",
+            "name_of_the_post": "Districtor Coordinator NTCP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "9",
+            "program": "CPHC",
+            "name_of_the_post": "District Coordinator - CPHC",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "10",
+            "program": "NTEP",
+            "name_of_the_post": "District Program Coordinator - RNTCP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "11",
+            "program": "IDSP",
+            "name_of_the_post": "Lab Technician - IDSP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "12",
+            "program": "RKSK",
+            "name_of_the_post": "District Program Officer - RKSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "13",
+            "program": "FDS",
+            "name_of_the_post": "Laboratory Technicians - Free Diagnostic",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "14",
+            "program": "NTEP",
+            "name_of_the_post": "Laboratory Technicians (SM-RNTCP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "15",
+            "program": "DEIC",
+            "name_of_the_post": "Audiologist & speech therapist - DEIC",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "16",
+            "program": "RKSK",
+            "name_of_the_post": "Counsellor - RKSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "17",
+            "program": "NPPCD",
+            "name_of_the_post": "Audiometrician/ Audiologist - NPPCD",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "18",
+            "program": "NMHP",
+            "name_of_the_post": "Community Nurse - NMHP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "19",
+            "program": "BPMU",
+            "name_of_the_post": "Block Programme Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "20",
+            "program": "HMIS",
+            "name_of_the_post": "MCTS/ HMIS - DEO",
+            "vacant": "2",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "21",
+            "program": "IDSP",
+            "name_of_the_post": "DEO - IDSP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "22",
+            "program": "QA",
+            "name_of_the_post": "District Consultant - QA",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "23",
+            "program": "NTCP",
+            "name_of_the_post": "District Consultant - NTCP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "24",
+            "program": "IDSP",
+            "name_of_the_post": "District Data Manager - IDSP",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "25",
+            "program": "Training",
+            "name_of_the_post": "Nursing Tutors - ANMTC",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "26",
+            "program": "NPHCE",
+            "name_of_the_post": "Multi Rehabilitation Worker ",
+            "vacant": "2",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "27",
+            "program": "MH",
+            "name_of_the_post": "OT Technician ",
+            "vacant": "2",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "28",
+            "program": "DEIC",
+            "name_of_the_post": "Psychologist - DEIC",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "29",
+            "program": "NTEP",
+            "name_of_the_post": "TBHV - PPP/ NGO",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "30",
+            "program": "FDS",
+            "name_of_the_post": "Xray Technician - Free Diagnostic",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "31",
+            "program": "NPHCE",
+            "name_of_the_post": "Multi Rehabilitation Worker",
+            "vacant": "6",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "32",
+            "program": "RKSK",
+            "name_of_the_post": "Counsellor - RKSK ",
+            "vacant": "11",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "33",
+            "program": "NPHCE",
+            "name_of_the_post": "Sanitary Attendant - NPHCE",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "34",
+            "program": "RBSK",
+            "name_of_the_post": "Pharmacist - RBSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "ALMORA"
+        },
+        {
+            "Sno": "35",
+            "program": "",
+            "name_of_the_post": "District Consultant - NTCP",
+            "vacant": "1",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "36",
+            "program": "",
+            "name_of_the_post": "District Consultant - QA",
+            "vacant": "1",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "37",
+            "program": "",
+            "name_of_the_post": "District Logistic Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "38",
+            "program": "",
+            "name_of_the_post": "Lab Technician - PHC - HWC",
+            "vacant": "4",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "39",
+            "program": "",
+            "name_of_the_post": "Audiometric Assistant - NPPCD",
+            "vacant": "1",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "40",
+            "program": "",
+            "name_of_the_post": "Multi Rehabilitation Worker ",
+            "vacant": "2",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "41",
+            "program": "",
+            "name_of_the_post": "Fourth Class",
+            "vacant": "11",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "42",
+            "program": "",
+            "name_of_the_post": "Paryavaran Mitra ( Sweeper)",
+            "vacant": "17",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "43",
+            "program": "",
+            "name_of_the_post": "Community Nurse - NMHP",
+            "vacant": "1",
+            "status": "1",
+            "location": "BAGESHWAR"
+        },
+        {
+            "Sno": "44",
+            "program": "ASHA",
+            "name_of_the_post": "ASHA   Block Level - Coordinator",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "45",
+            "program": "BPMU",
+            "name_of_the_post": "Block Programme Manager",
+            "vacant": "2",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "46",
+            "program": "ASHA",
+            "name_of_the_post": "ASHA - District Level - Mobilizer",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "47",
+            "program": "CH",
+            "name_of_the_post": "Data Entry Operators (SNCU) ",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "48",
+            "program": "IDSP",
+            "name_of_the_post": "District Epidemiologist",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "49",
+            "program": "RNTCP",
+            "name_of_the_post": "Data Entry Operator (RNTCP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "50",
+            "program": "FEDS",
+            "name_of_the_post": "Drug W/housing - DEO",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "51",
+            "program": "FEDS",
+            "name_of_the_post": "District Logistic Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "52",
+            "program": "NTEP",
+            "name_of_the_post": "Senior Treatment Lab Supervisor (STLS)",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "53",
+            "program": "NTEP",
+            "name_of_the_post": "Senior Treatment Supervisor",
+            "vacant": "2",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "54",
+            "program": "NPPCD",
+            "name_of_the_post": "Audiometric Assistant - NPPCD",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "55",
+            "program": "BLOOD BANK",
+            "name_of_the_post": "Blood Bank Technician",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "56",
+            "program": "FP",
+            "name_of_the_post": "Counsellor - Family Planning",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "57",
+            "program": "NOHP",
+            "name_of_the_post": "Dental Hygienist - NOHP",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "58",
+            "program": "NPHCE",
+            "name_of_the_post": "Multi Rehabilitation Worker",
+            "vacant": "6",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "59",
+            "program": "MH",
+            "name_of_the_post": "OT Technician ",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "60",
+            "program": "NTEP",
+            "name_of_the_post": "District Coordinator ",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMOLI"
+        },
+        {
+            "Sno": "61",
+            "program": "",
+            "name_of_the_post": "District Logistic Manager-Drug Ware Housing (Renamed as APMC-DPMU) ",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "62",
+            "program": "",
+            "name_of_the_post": "Multi Rehabilitation Worker",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "63",
+            "program": "",
+            "name_of_the_post": "Audiometric Assistant –NPPCD",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "64",
+            "program": "",
+            "name_of_the_post": "District IEC/BCC Facilitator (Renamed as APMC in IEC & Training Cell in DPMU)",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "65",
+            "program": "",
+            "name_of_the_post": "Block Programme Manager (BPMU)",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "66",
+            "program": "",
+            "name_of_the_post": "Field Supervisor (Immunization)",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "67",
+            "program": "",
+            "name_of_the_post": "Lab Technician –PHC-HWC",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "68",
+            "program": "",
+            "name_of_the_post": "NTEP Lab Technician / Sputum Microscopist ",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "69",
+            "program": "",
+            "name_of_the_post": "District Epidemiologist (CD-IDSP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "CHAMPAWAT"
+        },
+        {
+            "Sno": "70",
+            "program": "ASHA",
+            "name_of_the_post": " BLOCK LEVEL Coordinator",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "71",
+            "program": "BPMU",
+            "name_of_the_post": "Block Accounts Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "72",
+            "program": "RI",
+            "name_of_the_post": "Computer Assistant -RI",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "73",
+            "program": "CH",
+            "name_of_the_post": "Data Entry Operators ( SNCU)",
+            "vacant": "3",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "74",
+            "program": "NVBDCP ",
+            "name_of_the_post": "DEO-NVBDCP NPCB/ Drug ware house",
+            "vacant": "3",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "75",
+            "program": "MH",
+            "name_of_the_post": "District Program Of- MCH",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "76",
+            "program": "NTEP ",
+            "name_of_the_post": "Senior Treatment Lab Supervisor(STLS)",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "77",
+            "program": "NTEP ",
+            "name_of_the_post": "Senior Treatment Supervisor",
+            "vacant": "3",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "78",
+            "program": "IDSP",
+            "name_of_the_post": "Lab Tech-IDSP NVHCP Free Daignostie Deic Bood bank",
+            "vacant": "6",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "79",
+            "program": "NTEP ",
+            "name_of_the_post": "Labortarory Tech (SM-RNTCP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "80",
+            "program": "NMHP",
+            "name_of_the_post": "Community Nurse-nmhp",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "81",
+            "program": "NPCB",
+            "name_of_the_post": "Counsellor-npcb-",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "82",
+            "program": "Hbpathy",
+            "name_of_the_post": "Field Assistant - Hbpaty",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "83",
+            "program": "NVBDCP ",
+            "name_of_the_post": "Insect Collector",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "84",
+            "program": "NPHCE",
+            "name_of_the_post": "Mulit Rehabilitation Worker",
+            "vacant": "6",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "85",
+            "program": "Training",
+            "name_of_the_post": "Nursing Tutor",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "86",
+            "program": "MH",
+            "name_of_the_post": "OT- Technician ",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "87",
+            "program": "NPHCE",
+            "name_of_the_post": "Sanitary Attendant -nphce",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "88",
+            "program": "NTEP ",
+            "name_of_the_post": "TBHV - PPP NGO",
+            "vacant": "3",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "89",
+            "program": "RBSK",
+            "name_of_the_post": "Pharmaciser RBSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "90",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Counsellors",
+            "vacant": "20",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "91",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Senior Consultant",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "92",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Consultant",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "93",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Clinical Psychologist/Psychiatric Social Worker/ Psychiatric Nurse",
+            "vacant": "3",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "94",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Technical Coordinators/Project Coordinators",
+            "vacant": "1",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "95",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Data Entry Operator",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "96",
+            "program": "TELEMANAS",
+            "name_of_the_post": "Attenders",
+            "vacant": "2",
+            "status": "1",
+            "location": "DEHRADUN"
+        },
+        {
+            "Sno": "97",
+            "program": "",
+            "name_of_the_post": "Dist Consultant - Quality Assurance",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "98",
+            "program": "",
+            "name_of_the_post": "Block Program Manger",
+            "vacant": "2",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "99",
+            "program": "",
+            "name_of_the_post": "Program Officer -mother & child care",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "100",
+            "program": "",
+            "name_of_the_post": "IEC/BCC facilator",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "101",
+            "program": "",
+            "name_of_the_post": "Phicology Counsellor",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "102",
+            "program": "",
+            "name_of_the_post": "Counsellor (National Child Health Program)",
+            "vacant": "2",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "103",
+            "program": "",
+            "name_of_the_post": "Date Entry Operator (NVBDP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "104",
+            "program": "",
+            "name_of_the_post": "Dietician",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "105",
+            "program": "",
+            "name_of_the_post": "STS",
+            "vacant": "3",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "106",
+            "program": "",
+            "name_of_the_post": "Lab Technician (SMRNTCP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "107",
+            "program": "",
+            "name_of_the_post": "Pharmacist ( UCHC-Bhupatwala)",
+            "vacant": "2",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "108",
+            "program": "",
+            "name_of_the_post": "DEO ( UCHC-Bhupatwala)",
+            "vacant": "2",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "109",
+            "program": "",
+            "name_of_the_post": "Ward Boy ( UCHC-Bhupatwala)",
+            "vacant": "5",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "110",
+            "program": "",
+            "name_of_the_post": "Sweepar ( UCHC-Bhupatwala)",
+            "vacant": "4",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "111",
+            "program": "",
+            "name_of_the_post": "Watchman ( UCHC-Bhupatwala)",
+            "vacant": "4",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "112",
+            "program": "",
+            "name_of_the_post": "Lab Technicain ( UCHC-Bhupatwala)",
+            "vacant": "2",
+            "status": "1",
+            "location": "HARIDWAR"
+        },
+        {
+            "Sno": "113",
+            "program": "ASHA",
+            "name_of_the_post": "ASHA • Block Level - Coordinator",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "114",
+            "program": "HMIS",
+            "name_of_the_post": "MCTS/ HMIS - DEO",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "115",
+            "program": "CH",
+            "name_of_the_post": "Data Entry Onerators (SNCU) ",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "116",
+            "program": "NTCP",
+            "name_of_the_post": "District Consultant - NTCP",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "117",
+            "program": "CPHC",
+            "name_of_the_post": "District Coordinator - CPHC",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "118",
+            "program": "PCPNDT",
+            "name_of_the_post": "District Coordinator - PCPNDT",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "119",
+            "program": "RBSK",
+            "name_of_the_post": "District Level Manager • RKSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "120",
+            "program": "FEDS",
+            "name_of_the_post": "Drug W/housing - DEO",
+            "vacant": "3",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "121",
+            "program": "PCPNDT",
+            "name_of_the_post": "Legal Advisor - ",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "122",
+            "program": "QA",
+            "name_of_the_post": "Regional Program Assistant",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "123",
+            "program": "NUHM",
+            "name_of_the_post": "Lab Technician - NUHM ",
+            "vacant": "2",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "124",
+            "program": "NUHM",
+            "name_of_the_post": "Lab Technician - NUHM ",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "125",
+            "program": "NTEP",
+            "name_of_the_post": "Lab Technician",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "126",
+            "program": "NPPCD",
+            "name_of_the_post": "Audiometrieian/ Audiologist - NPPCD",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "127",
+            "program": "BLOOD BANK",
+            "name_of_the_post": "Blood Bank Technician",
+            "vacant": "2",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "128",
+            "program": "NOHP",
+            "name_of_the_post": "Dental Assistants· NOHP",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "129",
+            "program": "NOHP",
+            "name_of_the_post": "Dental Hygienist • NOHP",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "130",
+            "program": "HSS",
+            "name_of_the_post": "ECG Technician",
+            "vacant": "2",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "131",
+            "program": "NVBDCP",
+            "name_of_the_post": "Insect Collector",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "132",
+            "program": "FDS",
+            "name_of_the_post": "Lab Attendant - Free Diagnostic",
+            "vacant": "3",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "133",
+            "program": "NPHCE",
+            "name_of_the_post": "Multi Rehabilitation Worker",
+            "vacant": "8",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "134",
+            "program": "NPHCE",
+            "name_of_the_post": "Multi Rehabilitation Worker ",
+            "vacant": "2",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "135",
+            "program": "DEIC",
+            "name_of_the_post": "Psychologist - DEIC",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "136",
+            "program": "RI",
+            "name_of_the_post": "Refrigerator Mechanic - Immunization",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "137",
+            "program": "NTEP",
+            "name_of_the_post": "Tuberculosis Health Visitor ",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "138",
+            "program": "FDS",
+            "name_of_the_post": "Xray Technician • Free Diagnostic",
+            "vacant": "3",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "139",
+            "program": "RBSK",
+            "name_of_the_post": "Pharmacist - RBSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "140",
+            "program": "MH",
+            "name_of_the_post": "Staff Nurses - PHC /CH/DH/FRU",
+            "vacant": "8",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "141",
+            "program": "CH",
+            "name_of_the_post": "Staff Nurses - PHC /SNCU/NBSU",
+            "vacant": "13",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "142",
+            "program": "MH",
+            "name_of_the_post": "Staff Nurses - PHC / MH",
+            "vacant": "5",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "143",
+            "program": "HSS",
+            "name_of_the_post": "Staff Nurses - PHC /MH",
+            "vacant": "7",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "144",
+            "program": "CH",
+            "name_of_the_post": "Staff Nurses - PHC /SNCU/NBSU ",
+            "vacant": "10",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "145",
+            "program": "DHS",
+            "name_of_the_post": "Optomerist ",
+            "vacant": "1",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "146",
+            "program": "NUHM",
+            "name_of_the_post": "MPHW-Support Staff",
+            "vacant": "2",
+            "status": "1",
+            "location": "NAINITAL"
+        },
+        {
+            "Sno": "147",
+            "program": "",
+            "name_of_the_post": "Block Programme Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "148",
+            "program": "",
+            "name_of_the_post": "Pharmacist RBSK",
+            "vacant": "2",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "149",
+            "program": "",
+            "name_of_the_post": "X-ray Technician SDS",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "150",
+            "program": "",
+            "name_of_the_post": "Lab Technician SDS",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "151",
+            "program": "",
+            "name_of_the_post": "Lab Technician HWC",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "152",
+            "program": "",
+            "name_of_the_post": "Lab Techician MS NTEP",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "153",
+            "program": "",
+            "name_of_the_post": "NTEP Accountant",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "154",
+            "program": "",
+            "name_of_the_post": "STS",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "155",
+            "program": "",
+            "name_of_the_post": "DEO",
+            "vacant": "2",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "156",
+            "program": "",
+            "name_of_the_post": "Social Worker",
+            "vacant": "1",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "157",
+            "program": "",
+            "name_of_the_post": "RKSK Counsellor",
+            "vacant": "2",
+            "status": "1",
+            "location": "PAURI"
+        },
+        {
+            "Sno": "158",
+            "program": "",
+            "name_of_the_post": "Data Entry Operator",
+            "vacant": "2",
+            "status": "1",
+            "location": "State Headquater"
+        },
+        {
+            "Sno": "159",
+            "program": "DEIC",
+            "name_of_the_post": "District  Level DEIC Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "160",
+            "program": "PCPNDT",
+            "name_of_the_post": "Legal Advisor - Part time",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "161",
+            "program": "NUHM",
+            "name_of_the_post": "Lab Technician  - NUHM",
+            "vacant": "2",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "162",
+            "program": "CPHC",
+            "name_of_the_post": "Lab Technician  - PHC - HWC",
+            "vacant": "5",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "163",
+            "program": "NPCDCS",
+            "name_of_the_post": "Laboratory Technicians (NPCDCS)   DH",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "164",
+            "program": "",
+            "name_of_the_post": "Blood  Bank Technician",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "165",
+            "program": "RCH",
+            "name_of_the_post": "Counsellor - Family Planning",
+            "vacant": "2",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "166",
+            "program": "FDS",
+            "name_of_the_post": "Lab Attendant - Free Diagnostic",
+            "vacant": "2",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "167",
+            "program": "NPHCE",
+            "name_of_the_post": "Multi  Rehabilitation Worker",
+            "vacant": "5",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "168",
+            "program": "MH",
+            "name_of_the_post": "OT Technician ",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "169",
+            "program": "NMHP",
+            "name_of_the_post": "Community Nurse ",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "170",
+            "program": "NTEP",
+            "name_of_the_post": "Laboratory Technician",
+            "vacant": "2",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "171",
+            "program": "NTEP",
+            "name_of_the_post": "Tuberculosis Health Visitor ",
+            "vacant": "2",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "172",
+            "program": "NUHM",
+            "name_of_the_post": " Coordinator",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "173",
+            "program": "CH",
+            "name_of_the_post": "Data Entry Operator*",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "174",
+            "program": "NTEP",
+            "name_of_the_post": "District Programme Coordinator",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "175",
+            "program": "ANMTC",
+            "name_of_the_post": "Nursing Tutor",
+            "vacant": "4",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "176",
+            "program": "NHM",
+            "name_of_the_post": "Block  Account Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "177",
+            "program": "RBSK",
+            "name_of_the_post": "Pharmacist",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "178",
+            "program": "FDS",
+            "name_of_the_post": "Data Entry Operator Drug Warehouse",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "179",
+            "program": "NHM",
+            "name_of_the_post": "Block  Program  Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "180",
+            "program": "DEIC",
+            "name_of_the_post": "Lab Technician",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "181",
+            "program": "DEIC",
+            "name_of_the_post": "Optometrist",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "182",
+            "program": "DEIC",
+            "name_of_the_post": "Dental Technician",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "183",
+            "program": "DPMU",
+            "name_of_the_post": "District Logistic Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "184",
+            "program": "ASHA",
+            "name_of_the_post": "Data Entry Operator",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "185",
+            "program": "NPCB",
+            "name_of_the_post": "DEO CUM Account Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "UDHAM SINGH NAGAR"
+        },
+        {
+            "Sno": "186",
+            "program": "BPMU",
+            "name_of_the_post": "Block Accounts Manager",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "187",
+            "program": "HMIS",
+            "name_of_the_post": "MCTS/ HMIS - DEO",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "188",
+            "program": "QA",
+            "name_of_the_post": "District Consultant - QA",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "189",
+            "program": "CPHC",
+            "name_of_the_post": "District Coordinator - CPHC",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "190",
+            "program": "IDSP",
+            "name_of_the_post": "District Epidemiologist",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "191",
+            "program": "NTEP",
+            "name_of_the_post": "Laboratory Technicians (SM-RNTCP)",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "192",
+            "program": "NPPCD",
+            "name_of_the_post": "Audiometric Assistant - NPPCD",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "193",
+            "program": "NOHP",
+            "name_of_the_post": "Dental Hygienist - NOHP",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "194",
+            "program": "MH",
+            "name_of_the_post": "OT Technician",
+            "vacant": "2",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "195",
+            "program": "RBSK",
+            "name_of_the_post": "Pharmacist - RBSK",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "196",
+            "program": "ASHA",
+            "name_of_the_post": " Block Level - Coordinator",
+            "vacant": "2",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "197",
+            "program": "FP",
+            "name_of_the_post": "Counsellor - Family Planning ",
+            "vacant": "2",
+            "status": "1",
+            "location": "UTTARKASHI"
+        },
+        {
+            "Sno": "198",
+            "program": "NPHCE",
+            "name_of_the_post": "Sanitary Attendant - NPHCE",
+            "vacant": "1",
+            "status": "1",
+            "location": "UTTARKASHI"
+        }
+    ]
