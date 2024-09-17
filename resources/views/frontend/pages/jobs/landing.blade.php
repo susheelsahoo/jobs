@@ -42,6 +42,7 @@ Job Application
                                                     <th>Name of the post</th>
                                                     <th>Vacant</th>
                                                     <th>Location</th>
+                                                    <th>Status</th>
 
                                                 </tr>
                                             </thead>
@@ -60,6 +61,7 @@ Job Application
                                                     <td>{{$content['name_of_the_post']}}</td>
                                                     <td>{{$vacant}}</td>
                                                     <td>{{$content['location']}}</td>
+                                                    <td>{{$content['current_status']}}</td>
 
                                                 </tr>
                                                 @endif
