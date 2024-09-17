@@ -48,7 +48,7 @@ class JobApplicantsController extends Controller
         if ($current->between($startDate, $endDate)) {
             // Check if the current time is between 10:00 AM and 6:00 PM
             $startTime = Carbon::createFromTime(10, 0); // 10:00 AM
-            $endTime = Carbon::createFromTime(11, 59);   // 6:00 PM
+            $endTime = Carbon::createFromTime(17, 59);   // 6:00 PM
             $startDateTime = Carbon::now()->addDay()->setTime(10, 0, 0);
             if ($current->between($startTime, $endTime)) {
                 // Current time is within 10:00 AM to 6:00 PM
