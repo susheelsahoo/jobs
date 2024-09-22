@@ -132,7 +132,7 @@ Job Application
                                         <div class="text-info">(10:00 AM to 6:00 PM on working days.)</div>
                                         </p>
                                         <p>
-                                            <a href="{{ route('jobs.career') }}" class="btn btn-primary">View Vacancies & Apply</a>
+                                            <a href="{{ route('jobs.career') }}" class="btn btn-primary">View Qualifications & Apply</a>
                                         </p>
 
 
