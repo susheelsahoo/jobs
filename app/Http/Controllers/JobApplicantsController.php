@@ -24,7 +24,7 @@ class JobApplicantsController extends Controller
     }
     public function career()
     {
-        $contents = File::get(base_path('jobs.json'));
+        $contents = File::get(base_path('Qualifications.json'));
         $jobs = json_decode($contents, true);
         return view('frontend.pages.jobs.career', compact('jobs'));
     }
