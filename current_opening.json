@@ -776,7 +776,7 @@
         "vacant": "10",
         "location": "DEHRADUN",
         "current_status": "",
-        "status": "",
+        "status": "1",
         "": ""
     },
     {
@@ -1116,7 +1116,7 @@
         "vacant": "10",
         "location": "HARIDWAR",
         "current_status": "",
-        "status": "",
+        "status": "1",
         "": ""
     },
     {
