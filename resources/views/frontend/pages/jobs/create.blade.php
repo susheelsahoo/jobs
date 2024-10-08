@@ -12,9 +12,8 @@ Job Application
 
 @php
 $locations = [
-'--Select--', 'UTTARKASHI', 'NAINITAL', 'UDHAM SINGH NAGAR',
-'Champawat', 'CHAMOLI', 'ALMORA', 'BAGESHWAR',
-'DEHRADUN', 'Haridwar', 'Pauri','Tehri','Pithoragarh','Rudraprayag', 'STATE OFFICE DDN'
+'--Select--', 'UTTARKASHI', 'NAINITAL', 'CHAMOLI', 'ALMORA',
+'DEHRADUN', 'Haridwar', 'Pauri','Pithoragarh','Rudraprayag', 'STATE OFFICE DDN'
 ];
 
 @endphp
