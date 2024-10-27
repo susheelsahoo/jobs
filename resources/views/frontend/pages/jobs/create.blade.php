@@ -11,10 +11,10 @@ Job Application
 @section('admin-content')
 
 @php
-<!-- Pithoragarh, -->
+<!-- Pithoragarh, Rudraprayag-->
 $locations = [
 '--Select--', 'UTTARKASHI', 'NAINITAL', 'CHAMOLI', 'ALMORA',
-'DEHRADUN', 'Haridwar', 'Pauri','Rudraprayag', 'Udham Singh Nagar', 'STATE OFFICE DDN'
+'DEHRADUN', 'Haridwar', 'Pauri', 'Udham Singh Nagar', 'STATE OFFICE DDN'
 ];
 
 @endphp
