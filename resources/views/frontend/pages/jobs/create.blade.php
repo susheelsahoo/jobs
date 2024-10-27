@@ -11,14 +11,14 @@ Job Application
 @section('admin-content')
 
 @php
-<!-- Pithoragarh, Rudraprayag-->
+
 $locations = [
 '--Select--', 'UTTARKASHI', 'NAINITAL', 'CHAMOLI', 'ALMORA',
 'DEHRADUN', 'Haridwar', 'Pauri', 'Udham Singh Nagar', 'STATE OFFICE DDN'
 ];
 
 @endphp
-
+<!-- Pithoragarh, Rudraprayag-->
 <div class="slider">
     <div class="listing-banner">
         <div class="listing-overlay text-white">
