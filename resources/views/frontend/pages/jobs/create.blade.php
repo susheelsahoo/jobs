@@ -13,12 +13,12 @@ Job Application
 @php
 
 $locations = [
-'--Select--', 'UTTARKASHI', 'NAINITAL', 'CHAMOLI', 'ALMORA',
-'DEHRADUN', 'Haridwar', 'Pauri', 'Udham Singh Nagar', 'STATE OFFICE DDN'
+'--Select--', 'ALMORA', 'Bageshwar', 'Champawat','CHAMOLI', 'DEHRADUN','Haridwar', 'NAINITAL',
+'STATE OFFICE DDN','Udham Singh Nagar', 'UTTARKASHI'
 ];
 
 @endphp
-<!-- Pithoragarh, Rudraprayag-->
+<!-- Pithoragarh, Rudraprayag, Pauri-->
 <div class="slider">
     <div class="listing-banner">
         <div class="listing-overlay text-white">
