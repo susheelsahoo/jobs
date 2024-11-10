@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\State;
 use Spatie\Permission\Models\Permission;
 
 class AdminsController extends Controller
@@ -50,7 +51,8 @@ class AdminsController extends Controller
         }
 
         $roles  = Role::all();
-        return view('backend.pages.admins.create', compact('roles'));
+        $locations  = State::all();
+        return view('backend.pages.admins.create', compact('roles', 'locations'));
     }
 
     /**
@@ -72,12 +74,12 @@ class AdminsController extends Controller
             'username' => 'required|max:100|unique:admins',
             'password' => 'required|min:6|confirmed',
         ]);
-
         // Create New Admin
         $admin = new Admin();
         $admin->name = $request->name;
         $admin->username = $request->username;
         $admin->email = $request->email;
+        $admin->state = $request->states;
         $admin->password = Hash::make($request->password);
         $admin->save();
 

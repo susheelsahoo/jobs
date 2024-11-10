@@ -41,7 +41,7 @@ Route::get('/career', 'JobApplicantsController@career')->name('jobs.career');
 Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jobs.rules');
 // Route::get('/termsCondition', 'JobApplicantsController@termsCondition')->name('jobs.rules');
 Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jobs.applyNow');
-Route::post('/store', 'JobApplicantsController@store')->name('jobs.store');
+Route::post('/store', 'JobApplicantsControlle   r@store')->name('jobs.store');
 Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jobs.thankYou');
 Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('jobs.tempDown');
 /**
@@ -54,7 +54,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::resource('careers', 'Backend\CareersController', ['names' => 'admin.careers']);
     Route::resource('admins', 'Backend\AdminsController', ['names' => 'admin.admins']);
     Route::resource('jobsapplication', 'Backend\JobApplicationController', ['names' => 'admin.jobsapplication']);
-    Route::post('jobsapplication', 'Backend\JobApplicationController@index', ['names' => 'admin.jobsapplication.list']);
+    // Route::post('jobsapplication', 'Backend\JobApplicationController@index', ['names' => 'admin.jobsapplication.list']);
 
 
     // Login Routes

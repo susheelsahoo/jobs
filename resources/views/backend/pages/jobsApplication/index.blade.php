@@ -1,4 +1,3 @@
-
 @extends('backend.layouts.master')
 
 @section('title')
@@ -6,11 +5,11 @@ Job Application Page - Admin Panel
 @endsection
 
 @section('styles')
-    <!-- Start datatable css -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
+<!-- Start datatable css -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
 @endsection
 
 
@@ -41,9 +40,24 @@ Job Application Page - Admin Panel
         <div class="col-12 mt-5">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="header-title float-left">Job Application List</h4>
-                    <p class="float-right mb-2">
+                    <div class="float-left">
+                        <form class="form-inline" action="{{ route ('admin.jobsapplication.index') }}" method="GET">
 
+                            <div class="form-group mb-2">
+                                <label for="sel1">Select Location:</label>
+                                <select class="form-control" id="sel1" name="location">
+                                    <option value="">--Select one--</option>
+                                    @foreach ($locations as $location)
+                                    <option value="{{ $location->name }}">{{ $location->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mb-2">Search</button>
+                        </form>
+                    </div>
+                    <p class="float-right mb-2">
+                        <a herf="#" class="btn btn-primary pr-4 pl-4">Download</a>
                     </p>
                     <div class="clearfix"></div>
 
@@ -76,21 +90,23 @@ Job Application Page - Admin Panel
                                     <th>Applicant Phone</th>
                                     <th>Position</th>
                                     <th>Prefered Location</th>
+                                    <th>Prefered Location</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                               @foreach ($users as $user)
-                               <tr>
+                                @foreach ($users as $user)
+                                <tr>
                                     <td>{{ $loop->index+1 }}</td>
                                     <td>{{ $user->applicant_name }}</td>
                                     <td>{{ $user->email }}</td>
                                     <td>{{ $user->phone_number }}</td>
                                     <td>{{ $user->position }}</td>
                                     <td>{{ $user->prefered_location_1 }}</td>
+                                    <td>{{ $user->prefered_location_2 }}</td>
                                     <td></td>
                                 </tr>
-                               @endforeach
+                                @endforeach
                             </tbody>
                         </table>
                     </div>
@@ -105,22 +121,21 @@ Job Application Page - Admin Panel
 
 
 @section('scripts')
-     <!-- Start datatable js -->
-     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
-     <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
-     <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
-     <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
-     <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+<!-- Start datatable js -->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
 
-     <script>
-         /*================================
+<script>
+    /*================================
         datatable active
         ==================================*/
-        if ($('#dataTable').length) {
-            $('#dataTable').DataTable({
-                responsive: true
-            });
-        }
-
-     </script>
+    if ($('#dataTable').length) {
+        $('#dataTable').DataTable({
+            responsive: true
+        });
+    }
+</script>
 @endsection
