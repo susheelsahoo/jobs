@@ -6,9 +6,11 @@ use App\Http\Controllers\Controller;
 use App\Models\jobApplicants;
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
+use Spatie\Permission\Models\State;
 use Spatie\Permission\Models\Permission;
 
 class JobApplicationController extends Controller
@@ -18,11 +20,33 @@ class JobApplicationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    // public function index()
+    // {
+    //     $users = jobApplicants::orderBy('id', 'desc')->get();
+    //     return view('backend.pages.jobsApplication.index', compact('users'));
+    // }
+    public function index(Request $request)
     {
-        $users = jobApplicants::orderBy('id', 'desc')->get();
-        return view('backend.pages.jobsApplication.index', compact('users'));
+        $inputs = $request->all();
+        $users = jobApplicants::orderBy('id', 'desc')
+            ->when(isset($inputs['location']), function ($q) use ($inputs) {
+                return $q->where('prefered_location_1', 'like', '%' . $inputs['location'] . '%');
+            })
+            ->get();
+
+        // $locations = jobApplicants::select('prefered_location_1')->distinct()->get();
+        $state_id = Auth::guard('admin')->user()->state;
+        if ($state_id) {
+            // If $state_id is not null, fetch the specific state
+            $locations = State::where('id', $state_id)->get();
+        } else {
+            // If $state_id is null, fetch all states
+            $locations = State::all();
+        }
+
+        return view('backend.pages.jobsApplication.index', compact('users', 'locations'));
     }
+
 
     /**
      * Show the form for creating a new resource.
