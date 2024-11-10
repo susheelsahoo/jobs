@@ -46,6 +46,25 @@ Job Application Page - Admin Panel
 
                     </p>
                     <div class="clearfix"></div>
+
+                    <div class="row">
+
+                        <form class="form-inline" action="{{ route ('admin.jobsapplication.list',1) }}">
+                            @csrf
+                            <div class="form-group mb-2">
+                                <label for="sel1">Select Location:</label>
+                                <select class="form-control" id="sel1">
+                                    @foreach ($locations as $location)
+                                        <option value="{{ $location->prefered_location_1 }}">{{ $location->prefered_location_1 }}</option>
+                                    @endforeach
+                                </select>
+                              </div>
+
+                            <button type="submit" class="btn btn-primary mb-2">Search</button>
+                        </form>
+                    </div>
+
+
                     <div class="data-tables">
                         @include('backend.layouts.partials.messages')
                         <table id="dataTable" class="text-center">

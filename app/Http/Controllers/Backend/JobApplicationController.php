@@ -18,10 +18,15 @@ class JobApplicationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $users = jobApplicants::orderBy('id', 'desc')->get();
-        return view('backend.pages.jobsApplication.index', compact('users'));
+        $users = jobApplicants::orderBy('id', 'desc')
+            ->when(request('location') != '', function($q) use($request){
+                return $q->where('prefered_location_1', '%'.request('location').'%');
+            })
+            ->get();
+        $locations = jobApplicants::select('prefered_location_1')->distinct()->get();
+        return view('backend.pages.jobsApplication.index', compact('users','locations'));
     }
 
     /**

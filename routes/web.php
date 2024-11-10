@@ -54,6 +54,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::resource('careers', 'Backend\CareersController', ['names' => 'admin.careers']);
     Route::resource('admins', 'Backend\AdminsController', ['names' => 'admin.admins']);
     Route::resource('jobsapplication', 'Backend\JobApplicationController', ['names' => 'admin.jobsapplication']);
+    Route::post('jobsapplication', 'Backend\JobApplicationController@index', ['names' => 'admin.jobsapplication.list']);
 
 
     // Login Routes
