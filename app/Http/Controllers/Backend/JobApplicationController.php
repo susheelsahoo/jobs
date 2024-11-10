@@ -36,7 +36,7 @@ class JobApplicationController extends Controller
 
         // $locations = jobApplicants::select('prefered_location_1')->distinct()->get();
         $state_id = Auth::guard('admin')->user()->state;
-        if ($state_id) {
+        if ($state_id && $state_id != 9) {
             // If $state_id is not null, fetch the specific state
             $locations = State::where('id', $state_id)->get();
         } else {
