@@ -34,6 +34,10 @@ Job Application Page - Admin Panel
 </div>
 <!-- page title area end -->
 
+@php
+    $getParams = $_GET['location'] ?? '';
+@endphp
+
 <div class="main-content-inner">
     <div class="row">
         <!-- data table start -->
@@ -41,14 +45,13 @@ Job Application Page - Admin Panel
             <div class="card">
                 <div class="card-body">
                     <div class="float-left">
-                        <form class="form-inline" action="{{ route ('admin.jobsapplication.index') }}" method="GET">
-
+                        <form class="form-inline" action="{{ route ('admin.jobsapplication.index') }}" method="GET" id="job_applicant_filter">
                             <div class="form-group mb-2">
                                 <label for="sel1">Select Location:</label>
                                 <select class="form-control" id="sel1" name="location">
-                                    <option value="">--Select one--</option>
+                                    <option value="">--Select location--</option>
                                     @foreach ($locations as $location)
-                                    <option value="{{ $location->name }}">{{ $location->name }}</option>
+                                    <option value="{{ $location->name }}" @if($getParams == $location->name) selected @endif>{{ $location->name }}</option>
                                     @endforeach
                                 </select>
                             </div>
@@ -57,28 +60,9 @@ Job Application Page - Admin Panel
                         </form>
                     </div>
                     <p class="float-right mb-2">
-                        <a herf="#" class="btn btn-primary pr-4 pl-4">Download</a>
+                        <a herf="#" class="btn btn-primary pr-4 pl-4 exportJobApplicant">Download</a>
                     </p>
                     <div class="clearfix"></div>
-
-                    <div class="row">
-
-                        <form class="form-inline" action="{{ route ('admin.jobsapplication.list',1) }}">
-                            @csrf
-                            <div class="form-group mb-2">
-                                <label for="sel1">Select Location:</label>
-                                <select class="form-control" id="sel1">
-                                    @foreach ($locations as $location)
-                                        <option value="{{ $location->prefered_location_1 }}">{{ $location->prefered_location_1 }}</option>
-                                    @endforeach
-                                </select>
-                              </div>
-
-                            <button type="submit" class="btn btn-primary mb-2">Search</button>
-                        </form>
-                    </div>
-
-
                     <div class="data-tables">
                         @include('backend.layouts.partials.messages')
                         <table id="dataTable" class="text-center">
@@ -137,5 +121,56 @@ Job Application Page - Admin Panel
             responsive: true
         });
     }
+
+    $(document).ready(function(){
+        $('.exportJobApplicant').click(function(event){
+            event.preventDefault();
+            const form = document.getElementById("job_applicant_filter");
+            let formData = new FormData(form);
+            formData.append("_token", "{{ csrf_token() }}");
+            $.ajax({
+                url : "{{ route('admin.jobsapplication.download') }}",
+                method : 'POST',
+                data : formData,
+                processData: false,
+                contentType: false,
+                cache: false,
+                xhrFields:{
+                    responseType: 'blob'
+                },
+                success: function(data)
+                {
+                    var link = document.createElement('a');
+                    link.href = window.URL.createObjectURL(data);
+                    link.download = `applicant.xlsx`;
+                    link.click();
+                },
+                // success :function(result, status, xhr){
+                //     //console.log(result);
+                //     var disposition = xhr.getResponseHeader('content-disposition');
+                //     var matches = /"([^"]*)"/.exec(disposition);
+                //     var filename = (matches != null && matches[1] ? matches[1] : 'applicant.xlsx');
+                //     // The actual download
+                //     var blob = new Blob([result], {
+                //         type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                //     });
+                //     var link = document.createElement('a');
+                //     link.href = window.URL.createObjectURL(blob);
+                //     link.download = filename;
+
+                //     document.body.appendChild(link);
+
+                //     link.click();
+                //     document.body.removeChild(link);
+                // },
+                error : function(error){
+                    console.log(error);
+                }
+            });
+        });
+
+    });
+
+
 </script>
 @endsection

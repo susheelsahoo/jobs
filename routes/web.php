@@ -55,6 +55,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::resource('admins', 'Backend\AdminsController', ['names' => 'admin.admins']);
     Route::resource('jobsapplication', 'Backend\JobApplicationController', ['names' => 'admin.jobsapplication']);
     // Route::post('jobsapplication', 'Backend\JobApplicationController@index', ['names' => 'admin.jobsapplication.list']);
+    Route::any('/jobsapplication/download', 'Backend\JobApplicationController@download_jobApplicants')->name('admin.jobsapplication.download');
 
 
     // Login Routes

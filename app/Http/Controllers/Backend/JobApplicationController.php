@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\State;
 use Spatie\Permission\Models\Permission;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Exports\JobApplicantsExport;
 
 class JobApplicationController extends Controller
 {
@@ -27,13 +29,6 @@ class JobApplicationController extends Controller
     // }
     public function index(Request $request)
     {
-        $inputs = $request->all();
-        $users = jobApplicants::orderBy('id', 'desc')
-            ->when(isset($inputs['location']), function ($q) use ($inputs) {
-                return $q->where('prefered_location_1', 'like', '%' . $inputs['location'] . '%');
-            })
-            ->get();
-
         $state_id = Auth::guard('admin')->user()->state;
         if ($state_id && $state_id != 9) {
             // If $state_id is not null, fetch the specific state
@@ -43,7 +38,20 @@ class JobApplicationController extends Controller
             $locations = State::all();
         }
 
+        $inputs = $request->all();
+        $users = jobApplicants::orderBy('id', 'desc')
+            ->when(isset($inputs['location']), function ($q) use ($inputs) {
+                return $q->where('prefered_location_1', 'like', '%' . $inputs['location'] . '%');
+            })
+            ->get();
+
         return view('backend.pages.jobsApplication.index', compact('users', 'locations'));
+    }
+
+    public function download_jobApplicants(Request $request){
+        $inputs = $request->all();
+        $fileName = 'job_applicants_'.time().'.xlsx';
+        return Excel::download(new JobApplicantsExport($inputs), $fileName);
     }
 
 
