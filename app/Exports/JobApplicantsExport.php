@@ -2,7 +2,7 @@
 
 namespace App\Exports;
 
-use App\Models\JobApplicants;
+use App\Models\jobApplicants as JobApplicants;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithStyles;
 use Maatwebsite\Excel\Concerns\WithHeadings;
@@ -10,10 +10,11 @@ use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 use Maatwebsite\Excel\Concerns\WithTitle;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
-class JobApplicantsExport implements FromCollection,WithHeadings,ShouldAutoSize,WithStyles,WithTitle
+class JobApplicantsExport implements FromCollection, WithHeadings, ShouldAutoSize, WithStyles, WithTitle
 {
     protected $condition;
-    public function __construct($condition=null){
+    public function __construct($condition = null)
+    {
         $this->condition = $condition ?? null;
     }
 
@@ -22,9 +23,10 @@ class JobApplicantsExport implements FromCollection,WithHeadings,ShouldAutoSize,
         return 'Job Applicant';
     }
     /**
-    * @return \Illuminate\Support\Collection
-    */
-    public function collection(){
+     * @return \Illuminate\Support\Collection
+     */
+    public function collection()
+    {
         $inputs = $this->condition;
         $users = jobApplicants::orderBy('id', 'desc')
             ->when(isset($inputs['location']), function ($q) use ($inputs) {
@@ -33,75 +35,75 @@ class JobApplicantsExport implements FromCollection,WithHeadings,ShouldAutoSize,
             ->get();
 
         $output = [];
-        if($users){
-            $i=0;
-            foreach($users as $user){
-                $output[$i][]= $user->registration_number ?? '';
-                $output[$i][]= $user->position ?? '';
-                $output[$i][]= $user->prefered_location_1 ?? '';
-                $output[$i][]= $user->prefered_location_2 ?? '';
-                $output[$i][]= $user->prefered_location_3 ?? '';
-                $output[$i][]= $user->applicant_name ?? '';
-                $output[$i][]= $user->aadhaar_card_no ?? '';
-                $output[$i][]= $user->pan_card_no ?? '';
-                $output[$i][]= $user->dob && $user->dob != null  ? date('d-m-Y', strtotime($user->dob)) : '';
-                $output[$i][]= $user->birth_place ?? '';
-                $output[$i][]= $user->birth_state ?? '';
-                $output[$i][]= $user->physically_challenged ?? '';
-                $output[$i][]= $user->physically_challenged_details ?? '';
-                $output[$i][]= $user->religion ?? '';
-                $output[$i][]= $user->religion_details ?? '';
-                $output[$i][]= $user->caste_category ?? '';
-                $output[$i][]= $user->caste_category_other ?? '';
-                $output[$i][]= $user->nationality ?? '';
-                $output[$i][]= $user->address ?? '';
-                $output[$i][]= $user->city ?? '';
-                $output[$i][]= $user->state ?? '';
-                $output[$i][]= $user->marital_status ?? '';
-                $output[$i][]= $user->father_name ?? '';
-                $output[$i][]= $user->husband_wife ?? '';
-                $output[$i][]= $user->phone_number ?? '';
-                $output[$i][]= $user->contact_number1 ?? '';
-                $output[$i][]= $user->contact_number2 ?? '';
-                $output[$i][]= $user->email ?? '';
-                $output[$i][]= $user->uan_number ?? '';
-                $output[$i][]= $user->esi_number ?? '';
-                $output[$i][]= $user->name_of_registered_faculty ?? '';
-                $output[$i][]= $user->degree ?? '';
-                $output[$i][]= $user->registration_certificate ?? '';
-                $output[$i][]= $user->main_qualification_year ?? '';
-                $output[$i][]= $user->main_qualification_branch ?? '';
-                $output[$i][]= $user->main_qualification_percentage ?? '';
-                $output[$i][]= $user->main_qualification_date ?? '';
-                $output[$i][]= $user->main_qualification_college ?? '';
-                $output[$i][]= $user->main_qualification_univercity ?? '';
-                $output[$i][]= $user->additiional_qualification_year ?? '';
-                $output[$i][]= $user->additiional_qualification_branch ?? '';
-                $output[$i][]= $user->additiional_qualification_percentage ?? '';
-                $output[$i][]= $user->additiional_qualification_date && $user->additiional_qualification_date != null  ? date('d-m-Y', strtotime($user->additiional_qualification_date)) : '';
-                $output[$i][]= $user->additiional_qualification_college ?? '';
-                $output[$i][]= $user->additiional_qualification_univercity ?? '';
-                $output[$i][]= $user->additiional1_qualification_year ?? '';
-                $output[$i][]= $user->additiional1_qualification_branch ?? '';
-                $output[$i][]= $user->additiional1_qualification_percentage ?? '';
-                $output[$i][]= $user->additiional1_qualification_date && $user->additiional1_qualification_date != null  ? date('d-m-Y', strtotime($user->additiional1_qualification_date)) : '';
-                $output[$i][]= $user->additiional1_qualification_college ?? '';
-                $output[$i][]= $user->additiional1_qualification_univercity ?? '';
-                $output[$i][]= $user->exp1_start_date && $user->exp1_start_date != null  ? date('d-m-Y', strtotime($user->exp1_start_date)) : '';
-                $output[$i][]= $user->exp1_end_date && $user->exp1_end_date != null  ? date('d-m-Y', strtotime($user->exp1_end_date)) : '';
-                $output[$i][]= $user->exp1_company_name ?? '';
-                $output[$i][]= $user->exp1_location ?? '';
-                $output[$i][]= $user->exp1_post_hold ?? '';
-                $output[$i][]= $user->exp1_job_discription ?? '';
-                $output[$i][]= $user->exp1_relevant ?? '';
-                $output[$i][]= $user->exp2_start_date && $user->exp2_start_date != null  ? date('d-m-Y', strtotime($user->exp2_start_date)) : '';
-                $output[$i][]= $user->exp2_end_date  && $user->exp2_end_date != null  ? date('d-m-Y', strtotime($user->exp2_end_date)) : '';
-                $output[$i][]= $user->exp2_company_name ?? '';
-                $output[$i][]= $user->exp2_location ?? '';
-                $output[$i][]= $user->exp2_post_hold ?? '';
-                $output[$i][]= $user->exp2_job_discription ?? '';
-                $output[$i][]= $user->exp2_relevant ?? '';
-                $output[$i][]= $user->applicent_remark ?? '';
+        if ($users) {
+            $i = 0;
+            foreach ($users as $user) {
+                $output[$i][] = $user->registration_number ?? '';
+                $output[$i][] = $user->position ?? '';
+                $output[$i][] = $user->prefered_location_1 ?? '';
+                $output[$i][] = $user->prefered_location_2 ?? '';
+                $output[$i][] = $user->prefered_location_3 ?? '';
+                $output[$i][] = $user->applicant_name ?? '';
+                $output[$i][] = $user->aadhaar_card_no ?? '';
+                $output[$i][] = $user->pan_card_no ?? '';
+                $output[$i][] = $user->dob && $user->dob != null  ? date('d-m-Y', strtotime($user->dob)) : '';
+                $output[$i][] = $user->birth_place ?? '';
+                $output[$i][] = $user->birth_state ?? '';
+                $output[$i][] = $user->physically_challenged ?? '';
+                $output[$i][] = $user->physically_challenged_details ?? '';
+                $output[$i][] = $user->religion ?? '';
+                $output[$i][] = $user->religion_details ?? '';
+                $output[$i][] = $user->caste_category ?? '';
+                $output[$i][] = $user->caste_category_other ?? '';
+                $output[$i][] = $user->nationality ?? '';
+                $output[$i][] = $user->address ?? '';
+                $output[$i][] = $user->city ?? '';
+                $output[$i][] = $user->state ?? '';
+                $output[$i][] = $user->marital_status ?? '';
+                $output[$i][] = $user->father_name ?? '';
+                $output[$i][] = $user->husband_wife ?? '';
+                $output[$i][] = $user->phone_number ?? '';
+                $output[$i][] = $user->contact_number1 ?? '';
+                $output[$i][] = $user->contact_number2 ?? '';
+                $output[$i][] = $user->email ?? '';
+                $output[$i][] = $user->uan_number ?? '';
+                $output[$i][] = $user->esi_number ?? '';
+                $output[$i][] = $user->name_of_registered_faculty ?? '';
+                $output[$i][] = $user->degree ?? '';
+                $output[$i][] = $user->registration_certificate ?? '';
+                $output[$i][] = $user->main_qualification_year ?? '';
+                $output[$i][] = $user->main_qualification_branch ?? '';
+                $output[$i][] = $user->main_qualification_percentage ?? '';
+                $output[$i][] = $user->main_qualification_date ?? '';
+                $output[$i][] = $user->main_qualification_college ?? '';
+                $output[$i][] = $user->main_qualification_univercity ?? '';
+                $output[$i][] = $user->additiional_qualification_year ?? '';
+                $output[$i][] = $user->additiional_qualification_branch ?? '';
+                $output[$i][] = $user->additiional_qualification_percentage ?? '';
+                $output[$i][] = $user->additiional_qualification_date && $user->additiional_qualification_date != null  ? date('d-m-Y', strtotime($user->additiional_qualification_date)) : '';
+                $output[$i][] = $user->additiional_qualification_college ?? '';
+                $output[$i][] = $user->additiional_qualification_univercity ?? '';
+                $output[$i][] = $user->additiional1_qualification_year ?? '';
+                $output[$i][] = $user->additiional1_qualification_branch ?? '';
+                $output[$i][] = $user->additiional1_qualification_percentage ?? '';
+                $output[$i][] = $user->additiional1_qualification_date && $user->additiional1_qualification_date != null  ? date('d-m-Y', strtotime($user->additiional1_qualification_date)) : '';
+                $output[$i][] = $user->additiional1_qualification_college ?? '';
+                $output[$i][] = $user->additiional1_qualification_univercity ?? '';
+                $output[$i][] = $user->exp1_start_date && $user->exp1_start_date != null  ? date('d-m-Y', strtotime($user->exp1_start_date)) : '';
+                $output[$i][] = $user->exp1_end_date && $user->exp1_end_date != null  ? date('d-m-Y', strtotime($user->exp1_end_date)) : '';
+                $output[$i][] = $user->exp1_company_name ?? '';
+                $output[$i][] = $user->exp1_location ?? '';
+                $output[$i][] = $user->exp1_post_hold ?? '';
+                $output[$i][] = $user->exp1_job_discription ?? '';
+                $output[$i][] = $user->exp1_relevant ?? '';
+                $output[$i][] = $user->exp2_start_date && $user->exp2_start_date != null  ? date('d-m-Y', strtotime($user->exp2_start_date)) : '';
+                $output[$i][] = $user->exp2_end_date  && $user->exp2_end_date != null  ? date('d-m-Y', strtotime($user->exp2_end_date)) : '';
+                $output[$i][] = $user->exp2_company_name ?? '';
+                $output[$i][] = $user->exp2_location ?? '';
+                $output[$i][] = $user->exp2_post_hold ?? '';
+                $output[$i][] = $user->exp2_job_discription ?? '';
+                $output[$i][] = $user->exp2_relevant ?? '';
+                $output[$i][] = $user->applicent_remark ?? '';
                 $i++;
             }
         }
@@ -180,7 +182,8 @@ class JobApplicantsExport implements FromCollection,WithHeadings,ShouldAutoSize,
         ];
     }
 
-    public function styles(Worksheet $sheet){
+    public function styles(Worksheet $sheet)
+    {
         $sheet->getStyle('A1:BN1')->getFont()
             ->setSize(12)
             ->setBold(true)
