@@ -9,6 +9,9 @@ Job Application
 
 
 @section('admin-content')
+@php
+$prefix = Request::segment(1);
+@endphp
 
 
 <div class="mid-bg py-4 main-margin">
@@ -132,7 +135,7 @@ Job Application
                                         <div class="text-info">(10:00 AM to 6:00 PM on working days.)</div>
                                         </p>
                                         <p>
-                                            <a href="{{ route('jobs.career') }}" class="btn btn-primary">View Qualifications & Apply</a>
+                                            <a href="{{ route($prefix . '.career') }}" class="btn btn-primary">View Qualifications & Apply</a>
                                         </p>
 
 

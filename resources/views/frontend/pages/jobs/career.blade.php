@@ -9,6 +9,10 @@ Job Application
 
 
 @section('admin-content')
+@php
+$prefix = Request::segment(1); // Get the prefix dynamically
+@endphp
+
 
 
 <div class="slider">
@@ -75,7 +79,8 @@ Job Application
                                                     <td>
                                                         @if (!empty($job['PositionName']))
                                                         <!-- Ensure the link is only shown if positionName is not empty -->
-                                                        <a href="{{ route('jobs.rules', ['job_id' => $PositionName]) }}" class="btn btn-primary">Apply</a>
+                                                        <a href="{{ route($prefix . '.rules', ['job_id' => $PositionName]) }}" class="btn btn-primary">Apply</a>
+
                                                         @else
                                                         <span class="text-muted">Not Available</span> <!-- Placeholder if no positionName -->
                                                         @endif

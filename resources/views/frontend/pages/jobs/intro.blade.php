@@ -9,7 +9,9 @@ Job Application
 
 
 @section('admin-content')
-
+@php
+$prefix = Request::segment(1);
+@endphp
 
 <div class="mid-bg py-4 main-margin">
     <div class="container">
@@ -74,7 +76,7 @@ Job Application
                                         For any query mail on <a href="mailto:info@vigilantindia.com">info@vigilantindia.com</a>
                                     <div class="text-info">(10:00 AM to 6:00 PM on working days.)</div>
                                     </p>
-                                    <p><a href="{{ route('jobs.landing') }}" class="btn btn-primary">Continue</a></p>
+                                    <a href="{{ route($prefix . '.landing') }}" class="btn btn-primary">Continue</a>
                                 </div>
 
                             </div>

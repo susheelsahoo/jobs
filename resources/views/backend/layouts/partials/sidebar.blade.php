@@ -27,6 +27,11 @@
 
                      @endif
                      @if ($usr->can('careers.create') || $usr->can('careers.view') || $usr->can('careers.edit') || $usr->can('careers.delete'))
+                     <li class="{{ Route::is('admin.jobsapplication.index') ? 'active' : '' }}">
+                         <a href="{{ route('admin.jobsapplication.index') }}">jobs Category</a>
+                     </li>
+                     @endif
+                     @if ($usr->can('careers.create') || $usr->can('careers.view') || $usr->can('careers.edit') || $usr->can('careers.delete'))
                      <li>
                          <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-tasks"></i><span>
                                  Careers

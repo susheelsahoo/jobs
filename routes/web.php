@@ -36,15 +36,27 @@ Route::get('send-mail', function () {
 
 // Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
 Route::get('/', 'JobApplicantsController@index', ['names' => 'index']);
-Route::get('/intro', 'JobApplicantsController@intro', ['names' => 'intro']);
-Route::get('/landing', 'JobApplicantsController@landing')->name('jobs.landing');
-Route::get('/career', 'JobApplicantsController@career')->name('jobs.career');
-Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jobs.rules');
-// Route::get('/termsCondition', 'JobApplicantsController@termsCondition')->name('jobs.rules');
-Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jobs.applyNow');
-Route::post('/store', 'JobApplicantsControlle   r@store')->name('jobs.store');
-Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jobs.thankYou');
-Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('jobs.tempDown');
+Route::group(['prefix' => 'jalagum'], function () {
+    Route::get('/', 'JobApplicantsController@intro')->name('jalagum.intro');
+    Route::get('/landing', 'JobApplicantsController@landing')->name('jalagum.landing');
+    Route::get('/career', 'JobApplicantsController@career')->name('jalagum.career');
+    Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jalagum.rules');
+    Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jalagum.applyNow');
+    Route::post('/store', 'JobApplicantsControlle   r@store')->name('jalagum.store');
+    Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jalagum.thankYou');
+    Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('jalagum.tempDown');
+});
+Route::group(['prefix' => 'nhm'], function () {
+    Route::get('/', 'JobApplicantsController@intro')->name('nhm.intro');
+    Route::get('/landing', 'JobApplicantsController@landing')->name('nhm.landing');
+    Route::get('/career', 'JobApplicantsController@career')->name('nhm.career');
+    Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('nhm.rules');
+    Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('nhm.applyNow');
+    Route::post('/store', 'JobApplicantsControlle   r@store')->name('nhm.store');
+    Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('nhm.thankYou');
+    Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('nhm.tempDown');
+});
+
 /**
  * Admin routes
  */
