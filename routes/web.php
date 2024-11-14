@@ -35,7 +35,8 @@ Route::get('send-mail', function () {
 
 
 // Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
-Route::get('/', 'JobApplicantsController@intro', ['names' => 'intro']);
+Route::get('/', 'JobApplicantsController@index', ['names' => 'index']);
+Route::get('/intro', 'JobApplicantsController@intro', ['names' => 'intro']);
 Route::get('/landing', 'JobApplicantsController@landing')->name('jobs.landing');
 Route::get('/career', 'JobApplicantsController@career')->name('jobs.career');
 Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jobs.rules');
