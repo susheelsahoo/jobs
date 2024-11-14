@@ -38,8 +38,8 @@
          }
 
          function implementAllChecked() {
-             const countPermissions = {{ count($permissions) }};
-             const countPermissionGroups = {{ count($permissions) }};
+             const countPermissions = {{ count($all_permissions) }};
+             const countPermissionGroups = {{ count($permission_groups) }};
 
             //  console.log((countPermissions + countPermissionGroups));
             //  console.log($('input[type="checkbox"]:checked').length);
