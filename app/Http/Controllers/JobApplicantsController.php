@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\jobApplicants;
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request; // remove this and add below because be need job category from url
+use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendEmail;
 use Carbon\Carbon;
@@ -25,19 +26,23 @@ class JobApplicantsController extends Controller
     public function intro()
     {
         $jobs = '';
-        return view('frontend.pages.jobs.intro', compact('jobs'));
+        $prefix = Request::segment(1);
+        return view('frontend.pages.jobs.' . $prefix . '.intro', compact('jobs'));
     }
     public function landing()
     {
-        $contents = File::get(base_path('current_opening.json'));
+        $prefix = Request::segment(1);
+        $contents = File::get(base_path($prefix . '_current_opening.json'));
         $contents = json_decode($contents, true);
-        return view('frontend.pages.jobs.landing', compact('contents'));
+        return view('frontend.pages.jobs.' . $prefix . '.landing', compact('contents'));
     }
     public function career()
     {
-        $contents = File::get(base_path('Qualifications.json'));
+        $prefix = Request::segment(1);
+        $contents = File::get(base_path($prefix . '_Qualifications.json'));
         $jobs = json_decode($contents, true);
-        return view('frontend.pages.jobs.career', compact('jobs'));
+
+        return view('frontend.pages.jobs.' . $prefix . '.career', compact('jobs'));
     }
 
     public function rules($jobName)
@@ -49,7 +54,7 @@ class JobApplicantsController extends Controller
 
         $pause_date = env("PAUSE_DATE") . '9:00:00';
         $startDateTime = Carbon::create($pause_date);
-
+        $prefix = Request::segment(1);
         // Get the current date-time
         $current = Carbon::now();
         // Sanitize the job name for safe output
@@ -63,18 +68,19 @@ class JobApplicantsController extends Controller
             $startDateTime = Carbon::now()->addDay()->setTime(10, 0, 0);
             if ($current->between($startTime, $endTime)) {
                 // Current time is within 10:00 AM to 6:00 PM
-                return view('frontend.pages.jobs.rules', compact('jobName', 'startDateTime'));
+                return view('frontend.pages.jobs.' . $prefix . '.rules', compact('jobName', 'startDateTime'));
             }
         }
         // Default to showing the rules page if the time is outside the specified range
 
-        return view('frontend.pages.jobs.maintenance', compact('jobName', 'startDateTime'));
+        return view('frontend.pages.jobs.' . $prefix . '.maintenance', compact('jobName', 'startDateTime'));
     }
 
     public function applyNow($jobName)
     {
         $jobName = htmlentities($jobName);
-        return view('frontend.pages.jobs.create', compact('jobName'));
+        $prefix = Request::segment(1);
+        return view('frontend.pages.jobs.' . $prefix . '.create', compact('jobName'));
     }
     /**
      * Store a newly created resource in storage.
