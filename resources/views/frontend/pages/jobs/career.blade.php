@@ -60,18 +60,16 @@ $prefix = Request::segment(1); // Get the prefix dynamically
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                @foreach ($jobs as $job)
-                                                <!-- Fixed variable naming -->
-                                                <?php
-                                                // Check if positionName is not empty and sanitize it
-                                                if (!empty($job['PositionName'])) {
-                                                    $PositionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $job['PositionName']);
+                                                @foreach ($jobs as $key as $job)
+
+                                                @if (!empty($job['PositionName'])) {
+                                                $PositionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $job['PositionName']);
                                                 } else {
-                                                    $PositionName = 'N/A'; // Default value if positionName is empty
+                                                $PositionName = 'N/A'; // Default value if positionName is empty
                                                 }
-                                                ?>
+                                                @endif
                                                 <tr>
-                                                    <td>{{ $job['Sno'] }}</td>
+                                                    <td>{{ $key+1 }}</td>
 
                                                     <td>{{ $PositionName }}</td>
                                                     <td>{{ $job['Qualifications'] }}</td>

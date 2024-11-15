@@ -46,7 +46,18 @@ Job Application
 <div class="mid-bg py-4 main-margin">
     <div class="container">
         <div class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <div class="job-block">
+                    <div>
+                        <img src="https://yellowtail.tech/wp-content/uploads/2022/11/job-searching-for-Non-tech-Companies-1024x576.png"
+                            alt="Non-Tech Job Icon">
+                        <h3>JalaGum Job Applications</h3>
+                        <p>Apply here for positions in JalaGum roles.</p>
+                        <a href="{{ route('jalagum.intro') }}" class="btn btn-primary mt-2">Apply for JalaGum Jobs</a>
 
+                    </div>
+                </div>
+            </div>
             <div class="col-md-6 mb-3">
                 <div class="job-block">
                     <div>
@@ -54,18 +65,8 @@ Job Application
                             alt="Tech Job Icon">
                         <h3>NHM Job Applications</h3>
                         <p>Apply here for positions in National Health Mission roles.</p>
-                        <a href="{{ route('nhm.intro') }}" class="btn btn-primary mt-2">Apply for NHM Jobs</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="job-block">
-                    <div>
-                        <img src="https://yellowtail.tech/wp-content/uploads/2022/11/job-searching-for-Non-tech-Companies-1024x576.png"
-                            alt="Non-Tech Job Icon">
-                        <h3>JalaGum Job Applications</h3>
-                        <p>Apply here for positions in management, HR, and other non-technical roles.</p>
-                        <a href="{{ route('jalagum.intro') }}" class="btn btn-primary mt-2">Apply for JalaGum Jobs</a>
+                        <a href="{{ route('nhm.intro') }}" class="btn btn-primary mt-2 disabled" tabindex="-1" aria-disabled="true">Apply for NHM Jobs</a>
+
 
                     </div>
                 </div>

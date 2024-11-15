@@ -33,16 +33,26 @@ class JobApplicantsController extends Controller
     {
         $prefix = Request::segment(1);
         $contents = File::get(base_path($prefix . '_current_opening.json'));
-        $contents = json_decode($contents, true);
-        return view('frontend.pages.jobs.' . $prefix . '.landing', compact('contents'));
+        $jobs = json_decode($contents, true);
+        $uniqueJobs = collect($jobs)->unique('name_of_the_post')->values()->all();
+        $jobs = $uniqueJobs;
+
+        // echo "<pre>";
+        // print_r($jobs);
+        // die();
+        return view('frontend.pages.jobs.' . $prefix . '.landing', compact('jobs'));
     }
     public function career()
     {
+        $jobName = request()->query('job_name');
         $prefix = Request::segment(1);
-        $contents = File::get(base_path($prefix . '_Qualifications.json'));
+        $contents = File::get(base_path($prefix . '_current_opening.json'));
         $jobs = json_decode($contents, true);
-
-        return view('frontend.pages.jobs.' . $prefix . '.career', compact('jobs'));
+        $jobsCollection = collect($jobs);
+        $dataEntryJobs = $jobsCollection->where('name_of_the_post', $jobName);
+        $dataEntryJobsArray = $dataEntryJobs->values()->all();
+        $contents  = $dataEntryJobsArray;
+        return view('frontend.pages.jobs.' . $prefix . '.career', compact('contents'));
     }
 
     public function rules($jobName)

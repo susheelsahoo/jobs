@@ -39,6 +39,7 @@ Route::get('/', 'JobApplicantsController@index', ['names' => 'index']);
 Route::group(['prefix' => 'jalagum'], function () {
     Route::get('/', 'JobApplicantsController@intro')->name('jalagum.intro');
     Route::get('/landing', 'JobApplicantsController@landing')->name('jalagum.landing');
+    // Route::get('/{prefix}/career/{job_name}', [CareerController::class, 'show'])->name('career.show');
     Route::get('/career', 'JobApplicantsController@career')->name('jalagum.career');
     Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jalagum.rules');
     Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jalagum.applyNow');
