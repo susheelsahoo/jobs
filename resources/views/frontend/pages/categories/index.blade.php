@@ -51,9 +51,9 @@ Job Application
                     <div>
                         <img src="https://yellowtail.tech/wp-content/uploads/2022/11/job-searching-for-Non-tech-Companies-1024x576.png"
                             alt="Non-Tech Job Icon">
-                        <h3>JalaGum Job Applications</h3>
-                        <p>Apply here for positions in JalaGum roles.</p>
-                        <a href="{{ route('jalagum.intro') }}" class="btn btn-primary mt-2">Apply for JalaGum Jobs</a>
+                        <h3>UCRRFP Job Applications</h3>
+                        <p>Apply here for positions in Uttarakhand Climate Responsive Rainfed Farming Project roles.</p>
+                        <a href="{{ route('UCRRFP.intro') }}" class="btn btn-primary mt-2">Apply for UCRRFP Jobs</a>
 
                     </div>
                 </div>

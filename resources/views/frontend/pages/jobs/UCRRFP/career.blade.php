@@ -28,13 +28,12 @@ $prefix = Request::segment(1);
 
                                     <div class="table-responsive">
                                         <p>The M.S.Vigilant requires talented candidates to work on CONTRACT BASIS with M.S.
-                                            Vigilant for the various posts across different Districts in UTTARAKHAND STATE for
-                                            National Health Mission - Uttarakhand.
+                                            Vigilant for the various posts across different Districts in Uttarakhand Climate Responsive Rainfed Farming Project (UCRRFP).
                                         </p>
                                         <h3 class="mb-4">District wise details of requirements: -</h3>
 
                                         <p>
-                                            <strong>Requirement in District UTTARKASHI/NAINITAL/UDHAM SINGH NAGAR/BAGESHWAR/DEHRADUN/ALMORA/CHAMOLI/Champawat </strong>
+                                            <strong>Requirement in District Almora,Dehradun,Halwani,Munkirehti,Pauri,Uttarkashi,Tilwada </strong>
                                         </p>
                                         <table class="table table-bordered">
 
@@ -43,27 +42,46 @@ $prefix = Request::segment(1);
                                                     <th>S.N.</th>
                                                     <th>Name of the post</th>
                                                     <th>Vacant</th>
-                                                    <th>Location</th>
+                                                    <th>Salary</th>
                                                     <th>Status</th>
 
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <?php $i = 0;
-                                                $total = 0; ?>
+                                                $total = 0;
+                                                ?>
                                                 @foreach ($contents as $key => $content)
                                                 @if($content['status'] ==1)
                                                 <?php
+                                                // Check if positionName is not empty and sanitize it
+                                                $PositionName = $content['name_of_the_post'];
+                                                if (!empty($PositionName)) {
+                                                    $PositionName = preg_replace('/[^A-Za-z0-9-]+/', '-', $PositionName);
+                                                } else {
+                                                    $PositionName = 'N/A'; // Default value if positionName is empty
+                                                }
+                                                ?>
+
+                                                <?php
+
                                                 $vacant = $content['vacant'];
                                                 $total = $total + $vacant;
                                                 $i++; ?>
                                                 <tr>
                                                     <td>{{ $i}}</td>
-                                                    <td>{{$content['name_of_the_post']}}</td>
+                                                    <td>{{$PositionName}}</td>
                                                     <td>{{$vacant}}</td>
-                                                    <td>{{$content['location']}}</td>
-                                                    <td>{{$content['current_status']}}</td>
+                                                    <td>{{$content['Salary']}}</td>
+                                                    <td>
+                                                        @if (!empty($PositionName))
+                                                        <!-- Ensure the link is only shown if positionName is not empty -->
+                                                        <a href="{{ route($prefix . '.rules', ['job_id' => $PositionName]) }}" class="btn btn-primary">Apply</a>
 
+                                                        @else
+                                                        <span class="text-muted">Not Available</span> <!-- Placeholder if no positionName -->
+                                                        @endif
+                                                    </td>
                                                 </tr>
                                                 @endif
                                                 @endforeach

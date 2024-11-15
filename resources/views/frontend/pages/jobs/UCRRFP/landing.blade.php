@@ -43,7 +43,25 @@ $prefix = Request::segment(1); // Get the prefix dynamically
                 <div class="card rounded-0 shadow-sm border-0">
                     <div class="card-body ">
                         <div class="clearfix"></div>
-                        <div class="heading2 pb-2 border-bottom mb-4">JOB LOCATION :- Different Districts of UTTARAKHAND State </div>
+                        <div class="heading2 pb-2 border-bottom mb-4">Uttarakhand Climate Responsive Rainfed Farming Project </div>
+                        <h5 class="mt-3 mb-2">JOB LOCATION : -</h5>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>Almora</td>
+                                    <td>Dehradun</td>
+                                    <td>Haldwani</td>
+                                    <td>Haridwar</td>
+                                </tr>
+                                <tr>
+                                    <td>Pauri</td>
+                                    <td>Munkirehti</td>
+                                    <td>Tilwada</td>
+                                    <td>Uttarkashi</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                         <div class="mt-3">
                             <div class="form-row">
                                 <div class=" col-md-12">
@@ -111,7 +129,6 @@ $prefix = Request::segment(1); // Get the prefix dynamically
                                                     <th style="width: 18%;">Position Name</th>
                                                     <th style="width: 32%;">Qualifications</th>
                                                     <th style="width: 5%;">Salary</th>
-                                                    <th style="width: 10%;">Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -127,17 +144,13 @@ $prefix = Request::segment(1); // Get the prefix dynamically
                                                     <td>{{ $PositionName }}</td>
                                                     <td>{{ $job['Qualifications'] }}</td>
                                                     <td>{{ $job['Salary'] ?? 'Not Specified' }}</td>
-                                                    <td>
-                                                        @if ($PositionName !== 'N/A')
-                                                        <a href="{{ route($prefix . '.career', ['job_name' => $PositionName]) }}" class="btn btn-primary">View More</a>
-                                                        @else
-                                                        <span class="text-muted">Not Available</span>
-                                                        @endif
-                                                    </td>
                                                 </tr>
                                                 @endforeach
                                             </tbody>
                                         </table>
+                                        <p>
+                                            <a href="{{ route($prefix . '.career') }}" class="btn btn-primary">Continue To Apply</a>
+                                        </p>
 
                                     </div>
                                 </div>

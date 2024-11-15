@@ -21,13 +21,13 @@ $prefix = Request::segment(1);
             <div class=" col-md-12 right-section   mb-4 ">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     @php
-                    $date = env('START_DATE');
+                    $date = '2024-11-18';
                     $dateTime = new DateTime($date);
                     $day = $dateTime->format('jS'); // Adds 'st', 'nd', 'rd', or 'th' to the day
                     $startDate = $day . ' ' . $dateTime->format('M Y');
 
 
-                    $end_date = env('END_DATE');
+                    $end_date = '2024-11-28';
                     $dateTime = new DateTime($end_date);
                     $day = $dateTime->format('jS'); // Adds 'st', 'nd', 'rd', or 'th' to the day
                     $endDate = $day . ' ' . $dateTime->format('M Y');
@@ -48,8 +48,8 @@ $prefix = Request::segment(1);
                                 <div class=" col-md-12">
                                     <ul class="">
                                         <li>M/s M. S. Vigilant Security, Placement and Detective Services Pvt. Ltd is under a
-                                            contract to recruit and manage HR for National Health Mission, Uttarakhand.</li>
-                                        <li>The posts are temporary and outsourced in nature under National Health Mission
+                                            contract to recruit and manage HR for Uttarakhand Climate Responsive Rainfed Farming Project (UCRRFP).</li>
+                                        <li>The posts are temporary and outsourced in nature under Uttarakhand Climate Responsive Rainfed Farming Project (UCRRFP)
                                             – Uttarakhand.
                                         </li>
                                         <li>The number of posts indicated is provisional and can be
@@ -76,7 +76,7 @@ $prefix = Request::segment(1);
                                         For any query mail on <a href="mailto:info@vigilantindia.com">info@vigilantindia.com</a>
                                     <div class="text-info">(10:00 AM to 6:00 PM on working days.)</div>
                                     </p>
-                                    <a href="{{ route($prefix . '.landing') }}" class="btn btn-primary">Continue</a>
+                                    <a href="{{ route($prefix . '.landing') }}" class="btn btn-primary">Continue To View Qualification </a>
                                 </div>
 
                             </div>

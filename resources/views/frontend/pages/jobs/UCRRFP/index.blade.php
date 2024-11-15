@@ -55,7 +55,7 @@ $prefix = Request::segment(1);
                                         For any query mail on <a href="mailto:info@vigilantindia.com">info@vigilantindia.com</a>
                                     <div class="text-info">(10:00 AM to 6:00 PM on working days.)</div>
                                     </p>
-                                    <a href="{{ route('jalagum.intro') }}" class="btn btn-primary">JalGum Continue</a>
+                                    <a href="{{ route('UCRRFP.intro') }}" class="btn btn-primary">JalGum Continue</a>
                                     <a href="{{ route('nhm.intro') }}" class="btn btn-primary">NHM Continue</a>
                                 </div>
 

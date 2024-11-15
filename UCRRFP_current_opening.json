@@ -7,7 +7,7 @@
         "Salary": "30000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "2",
@@ -17,7 +17,7 @@
         "Salary": "25000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "3",
@@ -27,7 +27,7 @@
         "Salary": "40000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "4",
@@ -37,7 +37,7 @@
         "Salary": "35000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "5",
@@ -47,7 +47,7 @@
         "Salary": "16000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "6",
@@ -57,7 +57,7 @@
         "Salary": "30000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "7",
@@ -67,7 +67,7 @@
         "Salary": "40000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     },
     {
         "Sno": "8",
@@ -77,6 +77,6 @@
         "Salary": "25000",
         "location": "",
         "current_status": "Coming Soon",
-        "status": "0"
+        "status": "1"
     }
 ]

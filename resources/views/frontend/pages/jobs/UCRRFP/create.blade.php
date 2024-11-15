@@ -77,18 +77,6 @@ $locations = [
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-3">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="prefered_location_2">Prefered Location 2 <span class="text-danger">*</span></label>
-                                        <select id="prefered_location_2" name="prefered_location_2" class="form-control" required>
-                                            @foreach ($locations as $location) :
-                                            <option value="<?= htmlspecialchars($location) ?>"><?= htmlspecialchars($location) ?></option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -552,59 +540,12 @@ $locations = [
                     </div>
                 </div>
                 <!--	Personal Details  section end-->
-                <!--Other Detail section Start-->
-                <div class=" col-md-12   mb-4 ">
-                    <div class="card rounded-0 shadow-sm border-0">
-                        <div class="card-body ">
-                            <div class="clearfix"></div>
-                            <div class="heading2 pb-2 border-bottom mb-4">Faculty Registration Details :
-                            </div>
-                            <div class="mt-3">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState">Registration No.:</label>
-                                        <input class="form-control" name="registration_number" type="text" placeholder="Registration No">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState">Date of Registration : </label>
-                                        <input class="form-control" type="date" value="<?php echo date('Y-m-d'); ?>" placeholder="Date of Registration ">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-3">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState">Name of registered Faculty/Council : </label>
-                                        <input class="form-control" name="name_of_registered_faculty" type="text" placeholder="Name of registered Faculty/Council">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="inputState">Name of Degree : </label>
-                                        <input class="form-control" name="degree" type="text" placeholder="Name of Degree  ">
-                                    </div>
-                                    <div class="form-group col-md-12 mt-3">
-                                        <label for="inputState">Uttarakhand Medical/Nursing/Paramedical/Pharmacy Council/Faculty Registration Certificate : </label>
-                                        <div class="input-group">
-                                            <div class="custom-file">
-                                                <input type="file" name="registration_certificate" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
-                                                <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
-                                            </div>
-                                            <!-- <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Upload</button>
-                                        </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Other Detaial Section End-->
                 <!--Education section Start-->
                 <div class=" col-md-12   mb-4 ">
                     <div class="card rounded-0 shadow-sm border-0">
                         <div class="card-body ">
                             <div class="clearfix"></div>
-                            <div class="heading2 pb-2 border-bottom mb-4">Uttarakhand Medical/Nursing/Paramedical/Pharmacy Council/Faculty Registration Details :
+                            <div class="heading2 pb-2 border-bottom mb-4">Qualification Details :
                             </div>
                             <div class="mt-3">
                                 <div class="form-row">
@@ -799,7 +740,7 @@ $locations = [
                                                     <tr>
                                                         <td>
                                                             Upload: Photo(Passport Size)<span class="text-danger">*</span>
-                                                            <div class="text-danger font-13">maximum file size 300 KB & Image File Format(.png, .jpg, .jpeg, .bmp, .gif)</div>
+                                                            <div class="text-danger font-13">maximum file size 300 KB & Image File Format(.PDF File Only)</div>
                                                         </td>
                                                         <td>
                                                             <div class="custom-file">
@@ -810,24 +751,9 @@ $locations = [
                                                         </td>
                                                         <!-- <td><img src="../html/images/review1.jpg" alt="..." class="img-thumbnail"></td> -->
                                                     </tr>
-                                                    <tr class="d-none">
-                                                        <td>
-                                                            Upload: Signature<span class="text-danger">*</span>
-                                                            <div class="text-danger font-13">maximum file size 300 KB & Image File Format(.png, .jpg, .jpeg, .bmp, .gif)</div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="custom-file">
-                                                                <input type="file" name="signature" class="custom-file-input" id="signature">
-                                                                <label class="custom-file-label" for="signature">Choose file...</label>
-                                                                <div class="invalid-feedback">Example invalid custom file feedback</div>
-                                                            </div>
-                                                        </td>
-                                                        <!-- <td><img src="../.." alt="..." class="img-thumbnail"></td> -->
-                                                    </tr>
-
                                                     <tr>
                                                         <td>
-                                                            Upload: Detailed Resume(PDF or Word File)<span class="text-danger">*</span>
+                                                            Upload: Detailed Resume(PDF File Only)<span class="text-danger">*</span>
                                                             <div class="text-danger font-13">maximum file size 2MB </div>
                                                         </td>
                                                         <td>
@@ -841,7 +767,7 @@ $locations = [
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            Upload: Highest Qualification Marksheet (PDF File)
+                                                            Upload: Highest Qualification Marksheet (PDF File Only)
                                                             <span class="text-danger">*</span>
                                                             <div class="text-danger font-13">maximum file size 2MB </div>
                                                         </td>
@@ -856,7 +782,7 @@ $locations = [
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            Upload: AADHAR CARD(PDF File)
+                                                            Upload: AADHAR CARD(PDF File Only)
                                                             <span class="text-danger">*</span>
                                                             <div class="text-danger font-13">maximum file size 2MB </div>
                                                         </td>
@@ -871,7 +797,7 @@ $locations = [
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            Upload: PAN CARD(PDF File)
+                                                            Upload: PAN CARD(PDF File Only)
 
                                                             <span class="text-danger">*</span>
                                                             <div class="text-danger font-13">maximum file size 2MB </div>
@@ -887,7 +813,7 @@ $locations = [
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            Upload: Work Experience Letter(PDF File)
+                                                            Upload: Work Experience Letter(PDF File Only)
 
                                                             <span class="text-danger">*</span>
                                                             <div class="text-danger font-13">maximum file size 2MB </div>
@@ -910,6 +836,13 @@ $locations = [
                                             </label>
                                             <textarea class="form-control" name="applicent_remark" id="applicent_remark" rows="3"></textarea>
                                         </div>
+
+                                        <div class="custom-control">
+                                            <p>All seats are temporary and selection base.</p>
+                                            <input type="checkbox" id="term_and_condition" name="term_and_condition" value="1" checked>
+                                            <label for="term_and_condition">I accept the all term and condition of vigilant india</label>
+                                        </div>
+
                                     </div>
 
 

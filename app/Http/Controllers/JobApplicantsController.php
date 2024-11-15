@@ -47,11 +47,12 @@ class JobApplicantsController extends Controller
         $jobName = request()->query('job_name');
         $prefix = Request::segment(1);
         $contents = File::get(base_path($prefix . '_current_opening.json'));
-        $jobs = json_decode($contents, true);
-        $jobsCollection = collect($jobs);
-        $dataEntryJobs = $jobsCollection->where('name_of_the_post', $jobName);
-        $dataEntryJobsArray = $dataEntryJobs->values()->all();
-        $contents  = $dataEntryJobsArray;
+        $contents = json_decode($contents, true);
+
+        // $jobsCollection = collect($jobs);
+        // $dataEntryJobs = $jobsCollection->where('name_of_the_post', $jobName);
+        // $dataEntryJobsArray = $dataEntryJobs->values()->all();
+        // $contents  = $dataEntryJobsArray;
         return view('frontend.pages.jobs.' . $prefix . '.career', compact('contents'));
     }
 

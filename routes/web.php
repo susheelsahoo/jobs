@@ -1,4 +1,5 @@
 <?php
+
 use App\Http\Controllers\Backend\JobCategoriesController;
 
 use Illuminate\Support\Facades\Route;
@@ -37,16 +38,16 @@ Route::get('send-mail', function () {
 
 // Route::resource('/', 'JobApplicantsController', ['names' => 'jobs']);
 Route::get('/', 'JobApplicantsController@index', ['names' => 'index']);
-Route::group(['prefix' => 'jalagum'], function () {
-    Route::get('/', 'JobApplicantsController@intro')->name('jalagum.intro');
-    Route::get('/landing', 'JobApplicantsController@landing')->name('jalagum.landing');
+Route::group(['prefix' => 'UCRRFP'], function () {
+    Route::get('/', 'JobApplicantsController@intro')->name('UCRRFP.intro');
+    Route::get('/landing', 'JobApplicantsController@landing')->name('UCRRFP.landing');
     // Route::get('/{prefix}/career/{job_name}', [CareerController::class, 'show'])->name('career.show');
-    Route::get('/career', 'JobApplicantsController@career')->name('jalagum.career');
-    Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('jalagum.rules');
-    Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('jalagum.applyNow');
-    Route::post('/store', 'JobApplicantsControlle   r@store')->name('jalagum.store');
-    Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('jalagum.thankYou');
-    Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('jalagum.tempDown');
+    Route::get('/career', 'JobApplicantsController@career')->name('UCRRFP.career');
+    Route::get('/rules/{job_id}', 'JobApplicantsController@rules')->name('UCRRFP.rules');
+    Route::get('/apply-now/{job_id}', 'JobApplicantsController@applyNow')->name('UCRRFP.applyNow');
+    Route::post('/store', 'JobApplicantsControlle   r@store')->name('UCRRFP.store');
+    Route::get('/thank-you', 'JobApplicantsController@thankYou')->name('UCRRFP.thankYou');
+    Route::get('/temp-down', 'JobApplicantsController@tempDown ')->name('UCRRFP.tempDown');
 });
 Route::group(['prefix' => 'nhm'], function () {
     Route::get('/', 'JobApplicantsController@intro')->name('nhm.intro');
