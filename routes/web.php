@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\Backend\JobCategoriesController;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
@@ -70,8 +71,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::resource('jobsapplication', 'Backend\JobApplicationController', ['names' => 'admin.jobsapplication']);
     // Route::post('jobsapplication', 'Backend\JobApplicationController@index', ['names' => 'admin.jobsapplication.list']);
     Route::any('/jobsapplication/download', 'Backend\JobApplicationController@download_jobApplicants')->name('admin.jobsapplication.download');
-
-
+    Route::resource('jobCategories', 'Backend\JobCategoriesController', ['names' => 'admin.jobCategories']);
     // Login Routes
     Route::get('/login', 'Backend\Auth\LoginController@showLoginForm')->name('admin.login');
     Route::post('/login/submit', 'Backend\Auth\LoginController@login')->name('admin.login.submit');
