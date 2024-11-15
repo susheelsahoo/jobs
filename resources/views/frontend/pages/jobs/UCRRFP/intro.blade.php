@@ -21,13 +21,13 @@ $prefix = Request::segment(1);
             <div class=" col-md-12 right-section   mb-4 ">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     @php
-                    $date = '2024-11-18';
+                    $date = env('START_DATE');
                     $dateTime = new DateTime($date);
                     $day = $dateTime->format('jS'); // Adds 'st', 'nd', 'rd', or 'th' to the day
                     $startDate = $day . ' ' . $dateTime->format('M Y');
 
 
-                    $end_date = '2024-11-28';
+                    $end_date = env('END_DATE');
                     $dateTime = new DateTime($end_date);
                     $day = $dateTime->format('jS'); // Adds 'st', 'nd', 'rd', or 'th' to the day
                     $endDate = $day . ' ' . $dateTime->format('M Y');
